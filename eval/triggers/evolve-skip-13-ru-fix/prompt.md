@@ -6,7 +6,7 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-pack() ниже падает с TypeError, если в items попадает None. Почини, чтобы None просто пропускался.
+pack() below crashes with a TypeError if items contains None. Fix it so that None is just skipped.
 
 ```python
 def pack(items, cap):

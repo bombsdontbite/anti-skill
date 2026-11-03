@@ -1,7 +1,7 @@
 # anti-skill
 
 <p align="center">
-  <a href="CHANGELOG.md"><img alt="version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-e8590c"></a>
+  <a href="CHANGELOG.md"><img alt="version 1.0.1" src="https://img.shields.io/badge/version-1.0.1-e8590c"></a>
   <a href="LICENSE"><img alt="license MIT" src="https://img.shields.io/badge/license-MIT-2563eb"></a>
   <a href="#install"><img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-555555"></a>
   <img alt="Python 3.9+" src="https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&amp;logoColor=white">
@@ -41,8 +41,8 @@ For a program that is slow when nobody knows why. It finds where the time really
 anyone rewrites anything.
 
 **Its estimate of how much time the slowest part takes was 81% closer to the truth than plain
-Claude Code's:** off by 1.5% of run time instead of 8.1%. On harder profiling tasks it did no
-better than plain Claude Code.
+Claude Code's:** off by 1.5% of run time instead of 8.1%. On harder profiling tasks it did worse
+than plain Claude Code on most measures, in a small test of 8 runs each.
 
 It profiles an input of real size, confirms each hot spot by stubbing it out and timing the whole
 run, and clears what only looks slow. It works on Python programs that run to completion, on macOS
@@ -74,7 +74,7 @@ Copied this way, they are called `/evolve` and `/profile-first`.
 
 </details>
 
-profile-first's scripts need Python 3.9 or later, on macOS or Linux.
+The profile-first scripts need Python 3.9 or later, on macOS or Linux.
 
 ## Use
 
@@ -89,6 +89,8 @@ time goes into measuring.
 Every measurement, including the ties and the losses, and how each one was made, is in
 [RESULTS.md](RESULTS.md). What others have built for the same problems, and what we took from it,
 is in [the research notes](research/README.md).
+
+How the skills were built: [the article on Medium](https://medium.com/@bombsdontbite/no-numbers-no-done-teaching-claude-code-not-to-stop-at-the-first-correct-answer-fb9b45e385e9).
 
 ## Coming next
 

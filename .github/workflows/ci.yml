@@ -26,6 +26,10 @@ jobs:
         run: python3 scripts/check_skills.py
       - name: profile-first's scripts keep their guarantees
         run: python3 scripts/test_profile_first.py
+      - name: RESULTS.md's charts are current and print only numbers RESULTS.md states
+        run: |
+          python3 scripts/results_charts.py --check
+          python3 scripts/test_results_charts.py
       - name: Scan for secrets (gitleaks)
         run: ./scripts/ci-secret-scan.sh
 

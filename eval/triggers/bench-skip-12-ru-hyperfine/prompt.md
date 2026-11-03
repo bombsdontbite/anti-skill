@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Как в hyperfine задать число прогонов и прогрев?
+How do I set the number of runs and the warm-up in hyperfine?

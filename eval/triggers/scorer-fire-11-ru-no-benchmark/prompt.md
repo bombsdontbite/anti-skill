@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Хочу переписать dedup() в report.py, но бенчмарка нет. Как я пойму, что новая версия лучше? Сначала сделай честную проверку.
+I want to rewrite dedup() in report.py, but there's no benchmark. How will I know the new version is better? Build a fair check first.

@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Замени в report.py список на множество в проверке дубликатов, порядок клиентов должен сохраниться.
+In report.py, replace the list with a set in the duplicate check; the order of customers must be kept.

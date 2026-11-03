@@ -1,0 +1,16 @@
+{
+  "description": "One routing line for anti-skill's two skills, added only when a prompt mentions speed or a score",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}\"/hooks/prompt-keywords.sh 2>/dev/null || true",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Найди эвристику получше для упаковки в контейнеры. check.py считает, сколько контейнеров уходит на тестовых наборах; меньше — лучше.
+Find a better heuristic for bin packing. check.py counts how many bins it uses on the test sets; fewer is better.
 
 ```python
 def pack(items, cap):

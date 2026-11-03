@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Почему report.py так медленно работает?
+Why is report.py so slow?

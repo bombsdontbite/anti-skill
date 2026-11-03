@@ -1,9 +1,9 @@
 # Runs archive
 
-`anti-skill-1.0.0-runs.tar.gz` holds the files the agents left in their loop-bench workspaces (candidates, harnesses, profiles, notes and scratch data), which this repository leaves out to stay light; the `final.py`, `calls.log`, `agent.json` and `TASK.md` that the numbers are re-checked from stay here. It is attached to the [GitHub Release v1.0.0](https://github.com/bombsdontbite/anti-skill/releases/tag/v1.0.0), and unpacked at the repository root it puts each file listed below back in its place.
+`anti-skill-1.0.1-runs.tar.gz` holds the files the agents left in their loop-bench workspaces (candidates, harnesses, profiles, notes and scratch data), which this repository leaves out to stay light; the `final.py`, `calls.log`, `agent.json` and `TASK.md` that the numbers are re-checked from stay here. It is attached to the [GitHub Release v1.0.1](https://github.com/bombsdontbite/anti-skill/releases/tag/v1.0.1), and unpacked at the repository root it puts each file listed below back in its place.
 
-- sha256: `9a44688d3b66be95d7ad76105a847bdb846442b6d93209f838e2fc44f9f55d3f`
-- 10221 files, 4828150 bytes compressed
+- sha256: `0d4953db90f5362a308f305184fe3ba68341f5ffd7ff1deec7f260bcd5cefa09`
+- 10221 files, 4828110 bytes compressed
 
 ```
 eval/loop-bench/runs/r1/bon/binpack/candidate_baseline.py

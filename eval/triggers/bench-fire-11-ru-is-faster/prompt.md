@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Правда ли report_v2.py быстрее, чем report.py, или это шум?
+Is report_v2.py really faster than report.py, or is it noise?

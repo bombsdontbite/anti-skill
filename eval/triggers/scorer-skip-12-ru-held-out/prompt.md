@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Что такое отложенная (held-out) выборка и зачем она нужна?
+What is a held-out set and why do you need one?

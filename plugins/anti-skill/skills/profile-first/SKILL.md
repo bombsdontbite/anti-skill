@@ -84,7 +84,7 @@ A share is a lead; the claim is a timing.
 
 4. Verdict `drop` means the drop cleared the noise; that drop is the share you report. `rise`
    means the stubbed run was slower: the stub costs more than what it replaced.
-5. `output differs`: run the base against itself. If that differs too, the output varies between
+5. `output differs`: time the base against a copy of itself. If that differs, output varies between
    runs (see below). If only a file's bytes differ while its content matches (a database, an
    archive), check a dump of it (see below). Otherwise the stub changed the output: fix it.
 6. Go down the table. Stop at the first row whose drop is at least half its `incl` share, or

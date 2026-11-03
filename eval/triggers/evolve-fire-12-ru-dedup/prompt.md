@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Сделай функцию дедупликации в report.py максимально быстрой. bench.py замеряет время и проверяет результат, это и есть оценка. Нужен лучший вариант, а не первый рабочий.
+Make the dedup function in report.py as fast as possible. bench.py times it and checks the result, that's the score. I need the best version, not the first one that works.

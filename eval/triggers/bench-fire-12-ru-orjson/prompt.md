@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Мы заменили json на orjson в export.py. Стало реально быстрее? Старая версия лежит в export_old.py.
+We replaced json with orjson in export.py. Did it actually get faster? The old version is in export_old.py.

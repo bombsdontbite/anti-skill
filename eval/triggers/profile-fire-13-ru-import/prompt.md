@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Ускорь, пожалуйста, наш скрипт импорта import_orders.py: на реальных данных он работает минут двадцать.
+Please speed up our import script import_orders.py: on real data it runs for about twenty minutes.

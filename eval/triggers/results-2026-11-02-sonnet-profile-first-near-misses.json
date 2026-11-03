@@ -845,7 +845,7 @@
      "turns": 1,
      "costUsd": 0,
      "durationSeconds": 1,
-     "error": "exit 1: You've hit your session limit · resets 3:50am (Europe/Warsaw) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "error": "exit 1: You've hit your session limit · resets 3:50am (<timezone>) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
      "graders": {
       "does-not-load-skill": {
        "passed": true,
@@ -863,7 +863,7 @@
      "turns": 1,
      "costUsd": 0,
      "durationSeconds": 1,
-     "error": "exit 1: You've hit your session limit · resets 3:50am (Europe/Warsaw) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "error": "exit 1: You've hit your session limit · resets 3:50am (<timezone>) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
      "graders": {
       "does-not-load-skill": {
        "passed": true,
@@ -898,7 +898,7 @@
      "turns": 1,
      "costUsd": 0,
      "durationSeconds": 1,
-     "error": "exit 1: You've hit your session limit · resets 3:50am (Europe/Warsaw) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "error": "exit 1: You've hit your session limit · resets 3:50am (<timezone>) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
      "graders": {
       "does-not-load-skill": {
        "passed": true,
@@ -916,7 +916,7 @@
      "turns": 1,
      "costUsd": 0,
      "durationSeconds": 1,
-     "error": "exit 1: You've hit your session limit · resets 3:50am (Europe/Warsaw) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "error": "exit 1: You've hit your session limit · resets 3:50am (<timezone>) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
      "graders": {
       "does-not-load-skill": {
        "passed": true,
@@ -934,7 +934,7 @@
      "turns": 1,
      "costUsd": 0,
      "durationSeconds": 1,
-     "error": "exit 1: You've hit your session limit · resets 3:50am (Europe/Warsaw) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "error": "exit 1: You've hit your session limit · resets 3:50am (<timezone>) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
      "graders": {
       "does-not-load-skill": {
        "passed": true,

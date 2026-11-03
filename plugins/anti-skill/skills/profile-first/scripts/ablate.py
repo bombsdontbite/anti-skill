@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """Time a command against a variant of it, interleaved in fresh processes, and report the drop.
 
-  python3 ablate.py --name NAME --base "CMD" --variant "CMD" --base-cwd DIR [--variant-cwd DIR]
+  python3 ablate.py --name NAME --base "CMD" --variant "CMD" --base-cwd DIR --variant-cwd DIR
                     [--check PATH ...] [--repeats 7] [--stdin FILE] [--out profile/ablate]
 
 For an ablation the variant runs a copy with one component stubbed out, and the drop,
 1 - T(variant)/T(base), is that component's measured share of wall time. Any command works, on
-macOS and Linux. The base runs in a copy too: --base-cwd may not be the working directory, inside
-it or around it, since every run repeats the command's writes.
+macOS and Linux. Each arm runs in its own copy: --base-cwd and --variant-cwd may not be the working
+directory, inside it or around it, nor overlap each other, since every run repeats its writes.
 Both arms run with PYTHONHASHSEED=0 unless it is set, so a replay by call order holds.
-Pairs alternate which arm runs first, after one untimed warm-up of each. The warm-ups' stdout and
-each --check file (relative to that arm's cwd, and rewritten by the warm-up) must match, or nothing
-is timed and the verdict is "output differs". The noise floor is the widest of the two arms'
-ranges and the pairs' spread; the verdict is "drop" only when the lowest pair's drop clears it,
+Pairs alternate which arm runs first, after one untimed warm-up of each. Every run's stdout and each
+--check file (relative to that arm's cwd, and rewritten by each run) must match the base warm-up's,
+or timing stops, the verdict is "output differs" and the exit status is 3. The noise floor is the
+widest of the two arms' ranges and the pairs' spread; the verdict is "drop" only when the lowest pair's drop clears it,
 "rise" when the highest pair's is below minus it. The commands run without a shell: wrap a pipe or
 a redirect in sh -c '...'. The result goes to OUT/NAME.json, every character of NAME outside
 A-Za-z0-9._- as _; the line "written PATH" names it, and the last line printed is its JSON.
@@ -97,7 +97,7 @@ def main():
     ap.add_argument("--base", required=True, help=shell)
     ap.add_argument("--variant", required=True, help=shell)
     ap.add_argument("--base-cwd", required=True, help="a copy of the project, outside it")
-    ap.add_argument("--variant-cwd")
+    ap.add_argument("--variant-cwd", required=True, help="another copy, outside the project and apart from --base-cwd")
     ap.add_argument("--check", action="append", default=[], metavar="PATH",
                     help="a file the command writes, compared between the arms; repeatable")
     ap.add_argument("--repeats", type=int, default=7, help="interleaved pairs, at least 5 (21 for runs under 0.5 s)")
@@ -107,10 +107,16 @@ def main():
     a = ap.parse_args()
     if a.repeats < 5:
         sys.exit("ablate: --repeats must be at least 5")
-    here, base_dir = Path.cwd().resolve(), Path(a.base_cwd).resolve()
-    if here.is_relative_to(base_dir) or base_dir.is_relative_to(here):
-        sys.exit(f"ablate: --base-cwd {a.base_cwd} is the project or overlaps it; run the base in a copy outside it, "
-                 "since it runs 1 + --repeats times and its writes would land in the project")
+    here = Path.cwd().resolve()
+    base_dir, variant_dir = Path(a.base_cwd).resolve(), Path(a.variant_cwd).resolve()
+    for flag, arm, raw, d in (("--base-cwd", "base", a.base_cwd, base_dir),
+                              ("--variant-cwd", "variant", a.variant_cwd, variant_dir)):
+        if here.is_relative_to(d) or d.is_relative_to(here):
+            sys.exit(f"ablate: {flag} {raw} is the project or overlaps it; run the {arm} in a copy outside it, "
+                     "since it runs 1 + --repeats times and its writes would land in the project")
+    if base_dir.is_relative_to(variant_dir) or variant_dir.is_relative_to(base_dir):
+        sys.exit(f"ablate: --base-cwd {a.base_cwd} and --variant-cwd {a.variant_cwd} are one folder or overlap; "
+                 "run each arm in its own copy, since each repeats its writes and they would land in the other's")
     arms = {"base": (shlex.split(a.base), a.base_cwd), "variant": (shlex.split(a.variant), a.variant_cwd)}
     load = [os.getloadavg()[0]]
     warm = {k: run(*arms[k], a.stdin, a.timeout, a.check) for k in arms}
@@ -119,18 +125,19 @@ def main():
         sys.exit(f"ablate: the base did not write {', '.join(missing)} (a --check path is relative to the arm's cwd)")
     differs = [k for k in warm["base"][2] if warm["base"][2][k] != warm["variant"][2][k]]
     line = {"name": a.name, "base": a.base, "variant": a.variant, "variant_cwd": a.variant_cwd,
-            "checks": a.check, "same_output": not differs, "differs": differs, "repeats": a.repeats}
+            "checks": a.check, "same_output": not differs, "differs": differs,
+            "differs_at": "warm-up" if differs else None, "repeats": a.repeats}
+    if not differs:
+        if warm["base"][0] < 0.5 and a.repeats < 21:
+            print(f"WARNING  base ran {warm['base'][0]:.3f} s: pass --repeats 21 for runs under 0.5 s")
+        t = timed(a, arms, warm["base"][2], line)
+        differs = line["differs"]
     if differs:
-        line.update(base_s=None, variant_s=None, drop=None, interval=None, cpu_drop=None, noise_floor=None,
-                    verdict="output differs", load=load)
-        print(f"ablate   {a.name}: output DIFFERS from the base ({', '.join(differs)}); no drop is claimed")
+        line.update(same_output=False, base_s=None, variant_s=None, drop=None, interval=None, cpu_drop=None,
+                    noise_floor=None, verdict="output differs", load=load)
+        print(f"ablate   {a.name}: output DIFFERS from the base ({', '.join(differs)}) at {line['differs_at']}; "
+              "no drop is claimed")
         return write(a, line)
-    if warm["base"][0] < 0.5 and a.repeats < 21:
-        print(f"WARNING  base ran {warm['base'][0]:.3f} s: pass --repeats 21 for runs under 0.5 s")
-    t = {"base": [], "variant": []}
-    for i in range(a.repeats):
-        for k in ("base", "variant") if i % 2 == 0 else ("variant", "base"):
-            t[k].append(run(*arms[k], a.stdin, a.timeout)[:2])
     load.append(os.getloadavg()[0])
 
     bw, vw = [w for w, _ in t["base"]], [w for w, _ in t["variant"]]
@@ -154,6 +161,20 @@ def main():
     write(a, line)
 
 
+def timed(a, arms, want, line):
+    """The interleaved pairs; stops at the first run whose output differs from the base warm-up's."""
+    t = {"base": [], "variant": []}
+    for i in range(a.repeats):
+        for k in ("base", "variant") if i % 2 == 0 else ("variant", "base"):
+            wall, cpu, got = run(*arms[k], a.stdin, a.timeout, a.check)
+            bad = [c for c in want if got[c] != want[c]]
+            if bad:
+                line.update(differs=bad, differs_at=f"{k}, repeat {i + 1}")
+                return t
+            t[k].append((wall, cpu))
+    return t
+
+
 def write(a, line):
     print(f"verdict  {line['verdict']}")
     out = Path(a.out)
@@ -162,6 +183,8 @@ def write(a, line):
     path.write_text(json.dumps(line) + "\n")
     print(f"written  {path}")
     print(json.dumps(line))
+    if line["verdict"] == "output differs":
+        sys.exit(3)
 
 
 if __name__ == "__main__":

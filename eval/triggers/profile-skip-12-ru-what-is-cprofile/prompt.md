@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Что такое cProfile и как им пользоваться?
+What is cProfile and how do I use it?

@@ -7,7 +7,7 @@ plain Claude Code with Claude Code using the skill, on the same task with the sa
 
 | What was measured | Plain Claude Code | With the skill | Difference | Runs | Evidence |
 |---|---|---|---|---|---|
-| **Speed of the code it writes: near-duplicate finder** | 71.4× faster than the starting code (each run 65.6–74.5×) | 88.1× faster (each run 77.8–96.7×) | **+23.4%**; every evolve run beat every plain one | 8 vs 8 | [run 29](eval/loop-bench/runs/r29/README.md) |
+| **Speed of the code it writes: near-duplicate finder** | 71.3× faster than the starting code (each run 65.6–74.5×) | 88.1× faster (each run 77.8–96.7×) | **+23.4%**; every evolve run beat every plain one | 8 vs 8 | [run 29](eval/loop-bench/runs/r29/README.md) |
 | **Same task, against plain told "do not stop at the first answer that works"** | 80.7× faster (each run 75.0–90.0×) | 88.1× faster | **+9.1%**, beats it | 4 vs 8 | [run 29](eval/loop-bench/runs/r29/README.md) |
 | Requests served from cache: cache policy | 54.4% (each run 53.5–55.3%) | 55.1% (each run 53.8–56.2%) | +1.5% | 8 vs 8 | [run 29](eval/loop-bench/runs/r29/README.md) |
 | Same task, against plain told "do not stop at the first answer that works" | 55.0% (each run 54.1–55.9%) | 55.1% | +0.2%, about the same | 4 vs 8 | [run 29](eval/loop-bench/runs/r29/README.md) |
@@ -31,6 +31,10 @@ plain Claude Code with Claude Code using the skill, on the same task with the sa
 | Colours used for a graph, against a simple greedy colouring | 71.69% of greedy's | 71.90% | −0.3%, about the same | 1 vs 1 | [early run](eval/loop-bench/runs/r2/README.md) |
 | Lateness of a job schedule, against a simple earliest-deadline rule | 25.41% of the rule's | 26.20% | **−3.1%, worse** | 1 vs 1 | [early run](eval/loop-bench/runs/r2/README.md) |
 | The very first version, six tasks | best on 4 of 6 | best on 2 of 6 | lost on 4 of 6 | 1 vs 1 | [first run](eval/loop-bench/runs/r1/README.md) |
+
+![Gain over plain Claude Code: on the near-duplicate finder evolve gains far more than plain told to keep going; on the cache policy both gain little](assets/results/evolve-run29.svg)
+
+*Gain over plain Claude Code, mean per group, secret test set.*
 
 The bold rows are the claim. They were measured on Opus 5.5, with 15 minutes per run and the same
 limit of 24 scorer calls for every arm, chosen by a rule written down before the run, and scored
@@ -72,7 +76,8 @@ good as it gets, evolve gains little.
 Measured on Opus 5.5. The plain runs come from two rounds of 40 runs each, half of them plain and
 half with the skill; the first round's skill runs used an earlier text and are left out. On the ten tasks one quick profile already finds the
 top hot spot 9 times in 10 ([scripted profilers](eval/profile-first-bench/README.md)), so the tie
-there says little. On harder tasks the skill did not beat plain Claude Code. The text measured is
+there says little. On harder tasks the skill did worse than plain Claude Code on four of the six
+measures and tied on two, in 8 runs each, too few to say how much worse. The text measured is
 not word for word the one that ships: a rule for pasted code and three reworded passages came
 later.
 
@@ -84,27 +89,21 @@ each run 3 times, with the plugin installed.
 
 | Model | evolve loads when it should | profile-first loads when it should | Loads when it should not |
 |---|---|---|---|
-| Opus 5.5 | 100% (42 of 42) | 98% (41 of 42) | 0% (evolve 0 of 39, profile-first 0 of 39) |
-| Fable 5.1 | 95% (40 of 42) | 98% (41 of 42) | 0% (evolve 0 of 39, profile-first 0 of 39) |
-| Sonnet 5.5 | 7% (3 of 42) | 97% (38 of 39) | evolve 0% (0 of 39); profile-first 3% (1 of 34) |
+| Opus 5.5 | 100% (42 of 42) | 95% (40 of 42) | 0% (evolve 0 of 39, profile-first 0 of 39) |
+| Fable 5.1 | 95% (40 of 42) | 100% (42 of 42) | 0% (evolve 0 of 39, profile-first 0 of 39) |
+| Sonnet 5.5 | 74% (31 of 42) | 93% (39 of 42) | 0% (evolve 0 of 39, profile-first 0 of 39) |
 
-On Sonnet, name the skill: `/anti-skill:evolve`.
+Measured on 2026-11-03 with Claude Code 2.1.317, the skills' descriptions as released in 1.0.0,
+every request in English. No request loaded the other skill. Most misses are requests with code
+pasted into the message: on Sonnet, 8 of evolve's 11 misses are on three of its four pasted-code
+requests, and profile-first's misses on Sonnet and Opus are all on one pasted function with an
+obvious fix.
 
-Opus was measured on 2026-11-01, Fable and Sonnet on 2026-11-02; the near misses on Fable, and
-profile-first's on Sonnet, were completed that night. Sonnet's one load on a near miss was a
-question about JVM garbage-collection pauses; 5 of its 39 runs were cut by a plan limit and are
-not counted. On Sonnet most of evolve's requests load nothing
-(30 of 42) and the speed requests load profile-first instead (9 of 42); a reworded description
-did not change that (3 of 42 either way). An earlier profile-first description turned away pasted
-code and loaded on 86% (36 of 42) on Opus; the current one takes it and then names no hot spot. In
-the one run kept in full, it loaded on 5 of the 6 pasted-code runs and named no hot spot in any of
-them, but in 2 it did not say what to measure.
+An earlier count on Sonnet, evolve on 7% (3 of 42) on 2026-11-02, was taken with Claude Code
+2.1.280, which logged an unrecognised-model error in 17 of the 39 Sonnet 5.5 runs whose output was
+kept; it is replaced by the row above, and the advice to name evolve on Sonnet is withdrawn. All six
+counts above have their raw output committed.
 
-Four of the table's twelve counts have their raw output committed: profile-first's requests on
-Fable, the near misses of both skills on Fable, and profile-first's near misses on Sonnet. The
-other eight (every Opus count, evolve's requests on Fable, and on Sonnet evolve's requests and
-near misses and profile-first's requests) were written down when each run finished; their raw
-output was not kept. So were the Sonnet breakdown above and the reworded description's result.
 Every count, its source, and how to run the check yourself: [trigger results](eval/triggers/RESULTS.md).
 
 ## How it was measured

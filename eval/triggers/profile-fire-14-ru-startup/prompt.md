@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Разберись, куда уходит время при запуске нашего CLI: `python -m mytool --help` думает почти три секунды.
+Figure out where the time goes when our CLI starts: `python -m mytool --help` takes almost three seconds.

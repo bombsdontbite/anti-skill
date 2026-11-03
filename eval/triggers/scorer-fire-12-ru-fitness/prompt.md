@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Напиши функцию оценки для нашей эвристики раскраски графа, чтобы на неё можно было натравить цикл оптимизации. Сейчас есть только сама color() в coloring.py и пара тестов.
+Write a scoring function for our graph colouring heuristic, so we can point an optimisation loop at it. Right now there's only color() itself in coloring.py and a couple of tests.

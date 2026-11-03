@@ -1,0 +1,1685 @@
+{
+ "note": "Compact copy of claude plugin eval's aggregate-result.json: counts, graders and cost per run; prompts are in each case folder, local paths and trace paths are cut.",
+ "claudeVersion": "2.1.317",
+ "startedAt": "2026-11-03T14:49:46.204Z",
+ "durationSeconds": 357,
+ "costUsd": 12.2776,
+ "partial": false,
+ "suite": {
+  "ablation": "none",
+  "modelOverride": "claude-fable-5-1",
+  "caseFilter": "evolve-*",
+  "threshold": 1,
+  "concurrency": 2,
+  "plugins": [
+   {
+    "name": "anti-skill",
+    "version": "1.0.0"
+   }
+  ]
+ },
+ "aggregates": {
+  "casesTotal": 27,
+  "casesPassed": 15,
+  "overallScore": 0.6173086173086172,
+  "overallPassRate": 0.617283950617284
+ },
+ "cases": [
+  {
+   "name": "evolve-fire-01-dedup-bench",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2706,
+     "durationSeconds": 18,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2289,
+     "durationSeconds": 12,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2326,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-02-scheduler-score",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2317,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2255,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2322,
+     "durationSeconds": 11,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-03-packing-heuristic",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2299,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2345,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2337,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-04-alphaevolve",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2222,
+     "durationSeconds": 11,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2225,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2238,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-05-funsearch",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2278,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2283,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2296,
+     "durationSeconds": 11,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-06-parse-bench",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2408,
+     "durationSeconds": 11,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": false,
+     "score": 0.0009990009990009992,
+     "turns": 4,
+     "costUsd": 0.2292,
+     "durationSeconds": 14,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": false,
+       "explanation": "Skill called 0x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2383,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-07-test-pass-count",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0.0009990009990009992,
+     "turns": 4,
+     "costUsd": 0.2251,
+     "durationSeconds": 23,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": false,
+       "explanation": "Skill called 0x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2283,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2307,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-08-compression-ratio",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2289,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.235,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2269,
+     "durationSeconds": 7,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-09-quick-pass",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2271,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2237,
+     "durationSeconds": 15,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2274,
+     "durationSeconds": 16,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-10-graph-colouring",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2346,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2289,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2305,
+     "durationSeconds": 18,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-11-autoresearch",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2224,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2239,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.246,
+     "durationSeconds": 13,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-12-ru-dedup",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2682,
+     "durationSeconds": 17,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2696,
+     "durationSeconds": 15,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2703,
+     "durationSeconds": 21,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-13-ru-scheduler",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2232,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2235,
+     "durationSeconds": 17,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2204,
+     "durationSeconds": 15,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-fire-14-ru-packing",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    },
+    "loads-skill": {
+     "type": "tool_used",
+     "weight": 1
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2259,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2281,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2257,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      },
+      "loads-skill": {
+       "passed": true,
+       "explanation": "Skill called 1x (expected 1..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-01-explain",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.2222,
+     "durationSeconds": 20,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.2254,
+     "durationSeconds": 20,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1898,
+     "durationSeconds": 22,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-02-fix-bug",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1642,
+     "durationSeconds": 4,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1708,
+     "durationSeconds": 6,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1674,
+     "durationSeconds": 5,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-03-write-tests",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.629,
+     "durationSeconds": 66,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2632,
+     "durationSeconds": 21,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 3,
+     "costUsd": 0.2914,
+     "durationSeconds": 30,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-04-one-off-timing",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.178,
+     "durationSeconds": 9,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-profile-first": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..\u221e)"
+      }
+     }
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-05-what-is-alphaevolve",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-06-readability",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-07-architecture",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-08-any-working-answer",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-09-review",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-10-lr-question",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-11-write-benchmark",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-12-ru-explain",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    }
+   ]
+  },
+  {
+   "name": "evolve-skip-13-ru-fix",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-profile-first": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    },
+    {
+     "passed": false,
+     "score": 0,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your 5-hour limit \u00b7 resets 7pm (Europe/Warsaw)",
+     "graders": {}
+    }
+   ]
+  }
+ ]
+}

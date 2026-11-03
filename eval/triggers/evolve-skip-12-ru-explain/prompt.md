@@ -6,7 +6,7 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Объясни, как работает эта эвристика раскраски графа и почему она идёт по убыванию степени.
+Explain how this graph colouring heuristic works and why it goes in decreasing order of degree.
 
 ```python
 def color(graph):

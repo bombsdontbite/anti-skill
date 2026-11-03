@@ -1,7 +1,37 @@
 # Trigger results
 
 The source of each row in the "Does it load when it should?" table of [RESULTS.md](../../RESULTS.md).
-`claude plugin eval` writes its runs to `results/`, which is not committed. Four runs' raw output
+
+## The counts in RESULTS.md (2026-11-03)
+
+Claude Code 2.1.317, the skills' descriptions as released in 1.0.0, every request in English, 3
+runs per case, `--ablation none --scaffold -j 2`, one model per run. Each count has its raw output
+committed, as a compact copy of `claude plugin eval`'s result (every run of every case with its
+graders, turns and cost; prompts are in the case folders, local paths are cut):
+
+| Model | Skill | Its requests | Near misses | Cost | Raw output |
+|---|---|---|---|---|---|
+| Opus 5.5 | evolve | 42 of 42 (100%) | 0 of 39 | $5.92 | [`results-2026-11-03-opus-evolve.json`](results-2026-11-03-opus-evolve.json) |
+| Opus 5.5 | profile-first | 40 of 42 (95%) | 0 of 39 | $7.84 | [`results-2026-11-03-opus-profile-first.json`](results-2026-11-03-opus-profile-first.json) |
+| Fable 5.1 | evolve | 40 of 42 (95%) | 0 of 39 | $12.28 | [`results-2026-11-03-fable-evolve.json`](results-2026-11-03-fable-evolve.json) |
+| Fable 5.1 | profile-first | 42 of 42 (100%) | 0 of 39 | $19.67 | [`results-2026-11-03-fable-profile-first.json`](results-2026-11-03-fable-profile-first.json) |
+| Sonnet 5.5 | evolve | 31 of 42 (74%) | 0 of 39 | $2.88 | [`results-2026-11-03-sonnet-evolve.json`](results-2026-11-03-sonnet-evolve.json) |
+| Sonnet 5.5 | profile-first | 39 of 42 (93%) | 0 of 39 | $3.25 | [`results-2026-11-03-sonnet-profile-first.json`](results-2026-11-03-sonnet-profile-first.json) |
+
+No run loaded the other skill. The misses: on Sonnet, evolve missed `evolve-fire-06-parse-bench`
+and `evolve-fire-14-ru-packing` 3 of 3, `evolve-fire-03-packing-heuristic` 2 of 3, and four other
+requests once each; profile-first missed `profile-fire-10-feature-extractor` 3 of 3 on Sonnet and
+2 of 3 on Opus, a pasted function whose slow line can be seen by eye.
+
+## Earlier counts (2026-11-01 and 2026-11-02, Claude Code 2.1.280)
+
+These were the table's rows until 2026-11-03. Opus and Fable came out within 1 to 3 points of the
+rerun above. Sonnet's evolve count did not: 3 of 42 then, 31 of 42 on the newer Claude Code. The
+older Claude Code logged `unrecognized_model` for `claude-sonnet-5-5` in 17 of the 39 runs of the
+one Sonnet run whose output was kept, so its Sonnet counts are not comparable, and the advice built
+on them (name evolve on Sonnet; a reworded description "did not help") is withdrawn. The rows are
+kept as they were recorded.
+
 was kept, and a compact copy of each is committed (every run of every case with its graders, turns
 and cost; prompts are in the case folders, local paths and trace paths are cut):
 
@@ -27,7 +57,7 @@ misses give 39, unless the run stopped at its cost cap.
 | Sonnet 5.5 | evolve | 3 of 42 (7%) | 0 of 39 (0%) | 2026-11-02 | The Sonnet and Fable run of 2026-11-02. |
 | Sonnet 5.5 | profile-first | 38 of 39 (97%) | 1 of 34 (3%) | 2026-11-02 | Its requests: the same Sonnet run, stopped at its cost cap. Near misses: a run of profile-first's 13 near misses alone the night of 2026-11-02 ($3.30); 5 of its 39 runs were cut by a plan limit and are not counted. The one load was `profile-skip-09-jvm-gc`, a question about JVM garbage-collection pauses. |
 
-## Sonnet and evolve
+### Sonnet and evolve on 2026-11-02 (withdrawn, see above)
 
 Which skill loaded on evolve's 14 requests, 3 runs each, on Sonnet 5.5, 2026-11-02, once the
 `fired-*` graders recorded which skill loaded when the expected one did not:
@@ -59,9 +89,13 @@ that grader failed none of these replies.
 
 This folder holds 54 requests, written as a user would: for each skill, 14 that should load it and
 13 near misses that should not (explain this code, fix this bug, write tests, a question about
-profilers, a refactor for readability); 10 of the 54 are in Russian. Each case passes when the
-`Skill` tool is called with that skill's name within the first 3 turns, or, for a near miss, is
-not.
+profilers, a refactor for readability). Each case passes when the `Skill` tool is called with
+that skill's name within the first 3 turns, or, for a near miss, is not.
+
+The cases whose names contain `-ru-` (10 of the 54, and 6 of the draft skills' cases) were written
+in Russian, and every count on this page was measured with them in Russian. They were translated
+to English on 2026-11-03, keeping their meaning and code; their names are kept so that the raw
+results still match.
 
 It also holds 48 cases for the draft skills make-scorer and bench-fairly (tags `make-scorer` and
 `bench-fairly`); they run only with those skills merged into the plugin, and have no numbers here

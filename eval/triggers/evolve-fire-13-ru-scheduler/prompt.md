@@ -6,4 +6,4 @@ timeout_seconds: 180
 allowed_tools: [Skill, Read, Glob, Grep]
 ---
 
-Подними скор нашей эвристики расписания: score.py печатает одно число, чем больше, тем лучше. Попробуй несколько принципиально разных подходов и оставь лучший.
+Get our scheduling heuristic's score up: score.py prints one number, higher is better. Try a few fundamentally different approaches and keep the best one.

@@ -196,12 +196,77 @@ class BaseRunsInACopy(Case):
     def test_base_in_the_project_is_refused(self):
         before = tree(self.proj)
         for cwd in (".", str(self.proj), str(self.tmp), str(self.proj / "sub")):
-            r = self.ablate("--base-cwd", cwd)
+            r = self.ablate("--base-cwd", cwd, "--variant-cwd", str(self.tmp / "ablate"))
             self.assertNotEqual(r.returncode, 0, cwd)
+            self.assertIn("--base-cwd", r.stderr, cwd)
             self.assertIn("overlaps it", r.stderr, cwd)
         r = self.ablate()
         self.assertNotEqual(r.returncode, 0)
         self.assertEqual(tree(self.proj), before)
+
+    def test_variant_missing_or_in_the_project_is_refused(self):
+        before = tree(self.proj)
+        base = self.tmp / "base"
+        r = self.ablate("--base-cwd", str(base))
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("--variant-cwd", r.stderr)
+        for cwd in (".", str(self.proj), str(self.tmp), str(self.proj / "sub")):
+            r = self.ablate("--base-cwd", str(base), "--variant-cwd", cwd)
+            self.assertNotEqual(r.returncode, 0, cwd)
+            self.assertIn("--variant-cwd", r.stderr, cwd)
+            self.assertIn("overlaps it", r.stderr, cwd)
+        self.assertEqual(tree(self.proj), before)
+
+    def test_base_and_variant_in_one_folder_are_refused(self):
+        outer = self.tmp / "copies"
+        base = outer / "base"
+        for variant in (base, base / "sub", outer):
+            r = self.ablate("--base-cwd", str(base), "--variant-cwd", str(variant))
+            self.assertNotEqual(r.returncode, 0, variant)
+            self.assertIn("one folder or overlap", r.stderr, variant)
+
+
+# Counts its runs; run 4 is the variant's third timed repeat (after its warm-up and two pairs)
+DRIFT = """from pathlib import Path
+p = Path('n.txt')
+n = int(p.read_text()) + 1 if p.exists() else 1
+p.write_text(str(n))
+open('out.txt', 'w').write('drift' if n == 4 and {file} else 'done')
+print('drift' if n == 4 and not {file} else 'ok')
+"""
+
+
+class OutputCheckedOnEveryRun(Case):
+    def arms(self, variant_program):
+        base, variant = self.tmp / "base", self.tmp / "ablate"
+        for d, program in ((base, BaseRunsInACopy.PROGRAM), (variant, variant_program)):
+            shutil.rmtree(d, True)  # a fresh run count for each call
+            d.mkdir()
+            (d / "app.py").write_text(program)
+        r = self.run_script(ABLATE, "--name", "app.py:f", "--base", f"{sys.executable} app.py",
+                            "--variant", f"{sys.executable} app.py", "--check", "out.txt", "--repeats", "5",
+                            "--base-cwd", str(base), "--variant-cwd", str(variant))
+        return r, json.loads(r.stdout.splitlines()[-1])
+
+    def test_drift_on_the_third_repeat_is_caught(self):
+        for file, output in ((False, "stdout"), (True, "out.txt")):
+            with self.subTest(output=output):
+                r, doc = self.arms(DRIFT.format(file=file))
+                self.assertEqual(r.returncode, 3, r.stdout + r.stderr)
+                self.assertEqual(doc["verdict"], "output differs")
+                self.assertEqual(doc["differs"], [output])
+                self.assertEqual(doc["differs_at"], "variant, repeat 3")
+                self.assertIsNone(doc["drop"])
+
+    def test_exit_status_is_3_on_output_differs_and_0_otherwise(self):
+        r, doc = self.arms("open('out.txt', 'w').write('other')\nprint('ok')\n")
+        self.assertEqual(r.returncode, 3, r.stdout + r.stderr)
+        self.assertEqual((doc["verdict"], doc["differs"], doc["differs_at"]),
+                         ("output differs", ["out.txt"], "warm-up"))
+        r, doc = self.arms(BaseRunsInACopy.PROGRAM)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertNotEqual(doc["verdict"], "output differs")
+        self.assertIsNone(doc["differs_at"])
 
 
 if __name__ == "__main__":
