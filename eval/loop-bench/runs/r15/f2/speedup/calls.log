@@ -1,0 +1,4 @@
+1793239851 c1.py {"valid": true, "score": 33.097301, "detail": {"split": "train", "reference_cpu_s": 0.4476, "candidate_cpu_s": 0.013525, "runs": 3}}
+1793239852 c4.py {"valid": true, "score": 51.845322, "detail": {"split": "train", "reference_cpu_s": 0.4505, "candidate_cpu_s": 0.008689, "runs": 3}}
+1793239956 c5.py {"valid": true, "score": 53.003587, "detail": {"split": "train", "reference_cpu_s": 0.4433, "candidate_cpu_s": 0.008363, "runs": 3}}
+1793239988 c9.py {"valid": true, "score": 55.05081, "detail": {"split": "train", "reference_cpu_s": 0.4453, "candidate_cpu_s": 0.008089, "runs": 3}}

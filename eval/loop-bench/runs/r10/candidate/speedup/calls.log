@@ -1,0 +1,7 @@
+1793194881 c1_bisect.py {"valid": true, "score": 34.769654, "detail": {"split": "train", "reference_cpu_s": 0.778, "candidate_cpu_s": 0.022375, "runs": 3}}
+1793194886 candidate_baseline.py {"valid": true, "score": 0.998406, "detail": {"split": "train", "reference_cpu_s": 0.7809, "candidate_cpu_s": 0.782137, "runs": 3}}
+1793194999 c5_bucket.py {"valid": true, "score": 39.151926, "detail": {"split": "train", "reference_cpu_s": 0.7796, "candidate_cpu_s": 0.019911, "runs": 3}}
+1793195002 c2_cols.py {"valid": true, "score": 33.494474, "detail": {"split": "train", "reference_cpu_s": 0.7788, "candidate_cpu_s": 0.023253, "runs": 3}}
+1793195044 c7_bcount.py {"valid": true, "score": 49.863552, "detail": {"split": "train", "reference_cpu_s": 0.7802, "candidate_cpu_s": 0.015647, "runs": 3}}
+1793195083 c10.py {"valid": true, "score": 55.588353, "detail": {"split": "train", "reference_cpu_s": 0.7808, "candidate_cpu_s": 0.014046, "runs": 3}}
+1793195104 c12.py {"valid": true, "score": 70.61802, "detail": {"split": "train", "reference_cpu_s": 0.8081, "candidate_cpu_s": 0.011443, "runs": 3}}

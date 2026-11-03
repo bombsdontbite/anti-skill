@@ -1,0 +1,13 @@
+candidate/tsp eval/loop-bench/runs/r9/candidate/SKILL.md
+sonnet/dedup eval/loop-bench/runs/r9/sonnet/SKILL.md claude-sonnet-5-5
+candidate/dedup eval/loop-bench/runs/r9/candidate/SKILL.md
+sonnet/speedup eval/loop-bench/runs/r9/sonnet/SKILL.md claude-sonnet-5-5
+candidate/speedup eval/loop-bench/runs/r9/candidate/SKILL.md
+candidate2/tsp eval/loop-bench/runs/r9/candidate/SKILL.md
+sonnet/cache eval/loop-bench/runs/r9/sonnet/SKILL.md claude-sonnet-5-5
+candidate/cache eval/loop-bench/runs/r9/candidate/SKILL.md
+candidate2/dedup eval/loop-bench/runs/r9/candidate/SKILL.md
+sonnet/tsp eval/loop-bench/runs/r9/sonnet/SKILL.md claude-sonnet-5-5
+candidate2/speedup eval/loop-bench/runs/r9/candidate/SKILL.md
+candidate3/dedup eval/loop-bench/runs/r9/candidate/SKILL.md
+candidate3/cache eval/loop-bench/runs/r9/candidate/SKILL.md

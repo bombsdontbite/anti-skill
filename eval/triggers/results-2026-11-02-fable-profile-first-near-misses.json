@@ -1,0 +1,952 @@
+{
+ "note": "Compact copy of claude plugin eval's --json output: counts, graders and cost per run; prompts are in each case folder, local paths and trace paths are cut.",
+ "claudeVersion": "2.1.280",
+ "startedAt": "2026-11-02T22:07:36.416Z",
+ "durationSeconds": 1210,
+ "costUsd": 11.3,
+ "partial": false,
+ "suite": {
+  "ablation": "none",
+  "modelOverride": "claude-fable-5-1",
+  "caseFilter": "profile-skip-*",
+  "threshold": 1,
+  "concurrency": 1,
+  "plugins": [
+   {
+    "name": "anti-skill",
+    "version": "0.5.3"
+   }
+  ]
+ },
+ "aggregates": {
+  "casesTotal": 13,
+  "casesPassed": 13,
+  "overallScore": 1,
+  "overallPassRate": 1
+ },
+ "cases": [
+  {
+   "name": "profile-skip-01-profiler-question",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1917,
+     "durationSeconds": 17,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1856,
+     "durationSeconds": 21,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1834,
+     "durationSeconds": 15,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-02-time-one-call",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1678,
+     "durationSeconds": 10,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.166,
+     "durationSeconds": 8,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1723,
+     "durationSeconds": 14,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-03-explain",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 3,
+     "costUsd": 0.194,
+     "durationSeconds": 11,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 3,
+     "costUsd": 0.1952,
+     "durationSeconds": 32,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 3,
+     "costUsd": 0.1994,
+     "durationSeconds": 13,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-04-fix-order",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.8184,
+     "durationSeconds": 78,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1902,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1875,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-05-write-tests",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.2026,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 1.1597,
+     "durationSeconds": 169,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 1.1035,
+     "durationSeconds": 117,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-06-named-change",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1794,
+     "durationSeconds": 6,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.9097,
+     "durationSeconds": 127,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 7,
+     "costUsd": 0.2628,
+     "durationSeconds": 180,
+     "error": "timed out after 180s",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-07-big-o",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1646,
+     "durationSeconds": 8,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1604,
+     "durationSeconds": 9,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1628,
+     "durationSeconds": 8,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-08-flame-graph",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1845,
+     "durationSeconds": 15,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1936,
+     "durationSeconds": 19,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1876,
+     "durationSeconds": 17,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-09-jvm-gc",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 2,
+     "costUsd": 0.2627,
+     "durationSeconds": 35,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 3,
+     "costUsd": 0.2544,
+     "durationSeconds": 30,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 2,
+     "costUsd": 0.2331,
+     "durationSeconds": 27,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-10-add-timing-logs",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1936,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1851,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1899,
+     "durationSeconds": 11,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-11-sql-query",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.181,
+     "durationSeconds": 13,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1811,
+     "durationSeconds": 13,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1842,
+     "durationSeconds": 13,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-12-what-is-cprofile",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.197,
+     "durationSeconds": 16,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.2036,
+     "durationSeconds": 16,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1971,
+     "durationSeconds": 16,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-13-named-change",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1823,
+     "durationSeconds": 7,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.7522,
+     "durationSeconds": 69,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1821,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3)",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

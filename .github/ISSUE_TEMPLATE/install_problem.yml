@@ -1,0 +1,22 @@
+name: Install problem
+description: The plugin does not install, or its skills do not show up
+labels: [bug]
+body:
+  - type: input
+    attributes:
+      label: Claude Code version and model
+      description: "`claude --version`, and the model you used"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Install command
+      description: What you ran, exactly
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What happened
+      description: The error or output. Remove paths, keys and anything private first.
+    validations:
+      required: true

@@ -1,0 +1,153 @@
+{
+ "task": "cache",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 1,
+ "finals": {
+  "r30e1": "runs/r30/e1/cache/final.py",
+  "r30e2": "runs/r30/e2/cache/final.py",
+  "r30e3": "runs/r30/e3/cache/final.py",
+  "r30e4": "runs/r30/e4/cache/final.py",
+  "r30e5": "runs/r30/e5/cache/final.py",
+  "r30e6": "runs/r30/e6/cache/final.py",
+  "r30p1": "runs/r30/p1/cache/final.py",
+  "r30p2": "runs/r30/p2/cache/final.py",
+  "r30p3": "runs/r30/p3/cache/final.py",
+  "r30p4": "runs/r30/p4/cache/final.py",
+  "r30p5": "runs/r30/p5/cache/final.py",
+  "r30p6": "runs/r30/p6/cache/final.py",
+  "r30ss1": "runs/r30s/s1/cache/final.py",
+  "r30ss2": "runs/r30s/s2/cache/final.py",
+  "r30ss3": "runs/r30s/s3/cache/final.py",
+  "r30ss4": "runs/r30s/s4/cache/final.py",
+  "r30ss5": "runs/r30s/s5/cache/final.py",
+  "r30ss6": "runs/r30s/s6/cache/final.py"
+ },
+ "results": {
+  "r30e1": {
+   "runs": [
+    0.564061
+   ],
+   "median": 0.564061,
+   "invalid": 0
+  },
+  "r30e2": {
+   "runs": [
+    0.561006
+   ],
+   "median": 0.561006,
+   "invalid": 0
+  },
+  "r30e3": {
+   "runs": [
+    0.549961
+   ],
+   "median": 0.549961,
+   "invalid": 0
+  },
+  "r30e4": {
+   "runs": [
+    0.536083
+   ],
+   "median": 0.536083,
+   "invalid": 0
+  },
+  "r30e5": {
+   "runs": [
+    0.545672
+   ],
+   "median": 0.545672,
+   "invalid": 0
+  },
+  "r30e6": {
+   "runs": [
+    0.554406
+   ],
+   "median": 0.554406,
+   "invalid": 0
+  },
+  "r30p1": {
+   "runs": [
+    0.521167
+   ],
+   "median": 0.521167,
+   "invalid": 0
+  },
+  "r30p2": {
+   "runs": [
+    0.516494
+   ],
+   "median": 0.516494,
+   "invalid": 0
+  },
+  "r30p3": {
+   "runs": [
+    0.560739
+   ],
+   "median": 0.560739,
+   "invalid": 0
+  },
+  "r30p4": {
+   "runs": [
+    0.52065
+   ],
+   "median": 0.52065,
+   "invalid": 0
+  },
+  "r30p5": {
+   "runs": [
+    0.405911
+   ],
+   "median": 0.405911,
+   "invalid": 0
+  },
+  "r30p6": {
+   "runs": [
+    0.549944
+   ],
+   "median": 0.549944,
+   "invalid": 0
+  },
+  "r30ss1": {
+   "runs": [
+    0.555017
+   ],
+   "median": 0.555017,
+   "invalid": 0
+  },
+  "r30ss2": {
+   "runs": [
+    0.543217
+   ],
+   "median": 0.543217,
+   "invalid": 0
+  },
+  "r30ss3": {
+   "runs": [
+    0.546311
+   ],
+   "median": 0.546311,
+   "invalid": 0
+  },
+  "r30ss4": {
+   "runs": [
+    0.554961
+   ],
+   "median": 0.554961,
+   "invalid": 0
+  },
+  "r30ss5": {
+   "runs": [
+    0.537094
+   ],
+   "median": 0.537094,
+   "invalid": 0
+  },
+  "r30ss6": {
+   "runs": [
+    0.528894
+   ],
+   "median": 0.528894,
+   "invalid": 0
+  }
+ }
+}

@@ -1,0 +1,3 @@
+1793103732 c01_champ.py {"valid": true, "score": 0.918, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 82, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793103946 c10_no31.py {"valid": true, "score": 0.935, "detail": {"split": "train", "accuracy": 0.995, "pattern_length": 60, "positives_matched": "198/200", "negatives_rejected": "200/200"}}
+1793104025 c20_year4ascii.py {"valid": true, "score": 0.936, "detail": {"split": "train", "accuracy": 0.995, "pattern_length": 59, "positives_matched": "198/200", "negatives_rejected": "200/200"}}

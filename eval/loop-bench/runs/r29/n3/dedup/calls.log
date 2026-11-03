@@ -1,0 +1,8 @@
+1793642395 c1.py {"valid": true, "score": 70.347253, "detail": {"split": "train", "reference_cpu_s": 1.3225, "candidate_cpu_s": 0.018799, "runs": 3, "pairs": [866, 545]}}
+1793642539 c4.py {"valid": true, "score": 82.16065, "detail": {"split": "train", "reference_cpu_s": 1.3338, "candidate_cpu_s": 0.016234, "runs": 3, "pairs": [866, 545]}}
+1793642685 c8.py {"valid": true, "score": 98.366701, "detail": {"split": "train", "reference_cpu_s": 1.3423, "candidate_cpu_s": 0.013646, "runs": 3, "pairs": [866, 545]}}
+1793642842 c10.py {"valid": true, "score": 95.263026, "detail": {"split": "train", "reference_cpu_s": 1.3346, "candidate_cpu_s": 0.01401, "runs": 3, "pairs": [866, 545]}}
+1793642857 c9.py {"valid": true, "score": 95.635658, "detail": {"split": "train", "reference_cpu_s": 1.3303, "candidate_cpu_s": 0.01391, "runs": 3, "pairs": [866, 545]}}
+1793642898 c11.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 2: from _operator import is not allowed"]}}
+1793642924 c12.py {"valid": true, "score": 94.795597, "detail": {"split": "train", "reference_cpu_s": 1.3306, "candidate_cpu_s": 0.014036, "runs": 3, "pairs": [866, 545]}}
+1793642966 final.py {"valid": true, "score": 95.734607, "detail": {"split": "train", "reference_cpu_s": 1.3278, "candidate_cpu_s": 0.01387, "runs": 3, "pairs": [866, 545]}}

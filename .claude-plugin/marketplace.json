@@ -1,0 +1,15 @@
+{
+  "name": "anti-skill",
+  "owner": {
+    "name": "Kirill Ushkalov"
+  },
+  "description": "Claude Code skills against the lazy agent, measured against plain Claude Code.",
+  "plugins": [
+    {
+      "name": "anti-skill",
+      "source": "./plugins/anti-skill",
+      "description": "The measured set: evolve and profile-first, with make-scorer and bench-fairly to follow as each beats plain Claude Code.",
+      "version": "1.0.1"
+    }
+  ]
+}

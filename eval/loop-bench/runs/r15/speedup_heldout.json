@@ -1,0 +1,153 @@
+{
+ "task": "speedup",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 5,
+ "finals": {
+  "plain": "runs/r2/iter/speedup/final.py",
+  "v2r2": "runs/r2/evolve/speedup/final.py",
+  "r15plain1": "runs/r15/plain1/speedup/final.py",
+  "r15plain2": "runs/r15/plain2/speedup/final.py",
+  "r15nudge1": "runs/r15/nudge1/speedup/final.py",
+  "r15nudge2": "runs/r15/nudge2/speedup/final.py",
+  "r15v2a": "runs/r15/v2a/speedup/final.py",
+  "r15v2b": "runs/r15/v2b/speedup/final.py",
+  "r15e1": "runs/r15/e1/speedup/final.py",
+  "r15e2": "runs/r15/e2/speedup/final.py",
+  "r15f1": "runs/r15/f1/speedup/final.py",
+  "r15f2": "runs/r15/f2/speedup/final.py"
+ },
+ "results": {
+  "plain": {
+   "runs": [
+    53.369782,
+    53.37543,
+    53.628065,
+    53.499167,
+    53.418818
+   ],
+   "median": 53.418818,
+   "invalid": 0
+  },
+  "v2r2": {
+   "runs": [
+    55.759643,
+    55.55716,
+    55.574802,
+    55.763285,
+    55.815522
+   ],
+   "median": 55.759643,
+   "invalid": 0
+  },
+  "r15plain1": {
+   "runs": [
+    30.297593,
+    30.257178,
+    30.389302,
+    30.232012,
+    30.313227
+   ],
+   "median": 30.297593,
+   "invalid": 0
+  },
+  "r15plain2": {
+   "runs": [
+    30.222976,
+    30.407227,
+    30.320022,
+    30.255922,
+    30.092981
+   ],
+   "median": 30.255922,
+   "invalid": 0
+  },
+  "r15nudge1": {
+   "runs": [
+    57.909255,
+    57.831725,
+    58.033582,
+    58.006839,
+    57.87339
+   ],
+   "median": 57.909255,
+   "invalid": 0
+  },
+  "r15nudge2": {
+   "runs": [
+    32.534643,
+    32.351415,
+    32.430635,
+    32.542343,
+    32.708679
+   ],
+   "median": 32.534643,
+   "invalid": 0
+  },
+  "r15v2a": {
+   "runs": [
+    59.046279,
+    59.63581,
+    59.312104,
+    58.977868,
+    59.391867
+   ],
+   "median": 59.312104,
+   "invalid": 0
+  },
+  "r15v2b": {
+   "runs": [
+    48.098983,
+    48.193918,
+    48.307403,
+    48.286174,
+    48.121001
+   ],
+   "median": 48.193918,
+   "invalid": 0
+  },
+  "r15e1": {
+   "runs": [
+    55.046472,
+    55.05723,
+    55.058975,
+    54.770338,
+    54.810256
+   ],
+   "median": 55.046472,
+   "invalid": 0
+  },
+  "r15e2": {
+   "runs": [
+    58.358549,
+    58.42193,
+    58.184394,
+    58.522973,
+    58.280176
+   ],
+   "median": 58.358549,
+   "invalid": 0
+  },
+  "r15f1": {
+   "runs": [
+    60.110325,
+    60.374145,
+    60.096451,
+    60.081875,
+    60.012412
+   ],
+   "median": 60.096451,
+   "invalid": 0
+  },
+  "r15f2": {
+   "runs": [
+    54.40505,
+    54.484117,
+    54.61101,
+    54.441419,
+    54.355623
+   ],
+   "median": 54.441419,
+   "invalid": 0
+  }
+ }
+}

@@ -1,0 +1,10 @@
+1793136827 b_moments.py {"valid": true, "score": 40.498223, "detail": {"split": "train", "reference_cpu_s": 0.4558, "candidate_cpu_s": 0.011256, "runs": 3}}
+1793136829 b_moments.py {"valid": true, "score": 41.795616, "detail": {"split": "train", "reference_cpu_s": 0.4577, "candidate_cpu_s": 0.01095, "runs": 3}}
+1793136831 a_bisect.py {"valid": true, "score": 30.273649, "detail": {"split": "train", "reference_cpu_s": 0.4567, "candidate_cpu_s": 0.015085, "runs": 3}}
+1793136969 e_cols.py {"valid": true, "score": 54.489495, "detail": {"split": "train", "reference_cpu_s": 0.4538, "candidate_cpu_s": 0.008329, "runs": 3}}
+1793136980 h3_locals.py {"valid": true, "score": 54.460002, "detail": {"split": "train", "reference_cpu_s": 0.4527, "candidate_cpu_s": 0.008313, "runs": 3}}
+1793136981 i3_tuples.py {"valid": true, "score": 59.008301, "detail": {"split": "train", "reference_cpu_s": 0.455, "candidate_cpu_s": 0.00771, "runs": 3}}
+1793136983 e_cols.py {"valid": true, "score": 54.073762, "detail": {"split": "train", "reference_cpu_s": 0.4552, "candidate_cpu_s": 0.008419, "runs": 3}}
+1793137015 j8_endfirst.py {"valid": true, "score": 58.39418, "detail": {"split": "train", "reference_cpu_s": 0.4776, "candidate_cpu_s": 0.008179, "runs": 3}}
+1793137018 i3_tuples.py {"valid": true, "score": 58.177282, "detail": {"split": "train", "reference_cpu_s": 0.4768, "candidate_cpu_s": 0.008196, "runs": 3}}
+1793137053 k12_compr.py {"valid": true, "score": 58.635426, "detail": {"split": "train", "reference_cpu_s": 0.4492, "candidate_cpu_s": 0.007661, "runs": 3}}

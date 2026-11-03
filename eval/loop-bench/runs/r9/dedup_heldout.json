@@ -1,0 +1,105 @@
+{
+ "task": "dedup",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 5,
+ "finals": {
+  "v24a": "runs/r9/candidate/dedup/final.py",
+  "v24b": "runs/r9/candidate2/dedup/final.py",
+  "sonnet": "runs/r9/sonnet/dedup/final.py",
+  "v2a": "runs/r2/evolve/dedup/final.py",
+  "v2b": "runs/r5/evolve2rep/dedup/final.py",
+  "v23a": "runs/r8/candidate/dedup/final.py",
+  "v23b": "runs/r8/candidate2/dedup/final.py",
+  "plain": "runs/r2/iter/dedup/final.py"
+ },
+ "results": {
+  "v24a": {
+   "runs": [
+    87.892658,
+    87.311285,
+    91.004671,
+    90.664336,
+    86.188592
+   ],
+   "median": 87.892658,
+   "invalid": 0
+  },
+  "v24b": {
+   "runs": [
+    75.368618,
+    76.146885,
+    75.790371,
+    75.979788,
+    76.159781
+   ],
+   "median": 75.979788,
+   "invalid": 0
+  },
+  "sonnet": {
+   "runs": [
+    75.880308,
+    75.169844,
+    75.860365,
+    75.698214,
+    75.605931
+   ],
+   "median": 75.698214,
+   "invalid": 0
+  },
+  "v2a": {
+   "runs": [
+    96.107239,
+    96.604044,
+    95.092876,
+    94.687554,
+    96.423158
+   ],
+   "median": 96.107239,
+   "invalid": 0
+  },
+  "v2b": {
+   "runs": [
+    94.50535,
+    96.889571,
+    97.495955,
+    95.58568,
+    95.450907
+   ],
+   "median": 95.58568,
+   "invalid": 0
+  },
+  "v23a": {
+   "runs": [
+    97.414847,
+    94.673539,
+    97.256179,
+    97.23339,
+    96.312974
+   ],
+   "median": 97.23339,
+   "invalid": 0
+  },
+  "v23b": {
+   "runs": [
+    97.726655,
+    97.989126,
+    97.876542,
+    97.666494,
+    98.018534
+   ],
+   "median": 97.876542,
+   "invalid": 0
+  },
+  "plain": {
+   "runs": [
+    79.024541,
+    78.90716,
+    79.046134,
+    79.0654,
+    78.236906
+   ],
+   "median": 79.024541,
+   "invalid": 0
+  }
+ }
+}

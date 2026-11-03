@@ -1,0 +1,10 @@
+1793254803 cand_a.py {"valid": true, "score": 67.31892, "detail": {"split": "train", "reference_cpu_s": 1.3186, "candidate_cpu_s": 0.019588, "runs": 3, "pairs": [866, 545]}}
+1793254849 cand_b.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from _collections import is not allowed", "line 1: importing _count_elements is not allowed"]}}
+1793254915 cand_d.py {"valid": true, "score": 67.811284, "detail": {"split": "train", "reference_cpu_s": 1.3173, "candidate_cpu_s": 0.019426, "runs": 3, "pairs": [866, 545]}}
+1793255062 cand_g.py {"valid": true, "score": 73.486093, "detail": {"split": "train", "reference_cpu_s": 1.3131, "candidate_cpu_s": 0.017869, "runs": 3, "pairs": [866, 545]}}
+1793255169 cand_j.py {"valid": true, "score": 77.416208, "detail": {"split": "train", "reference_cpu_s": 1.3212, "candidate_cpu_s": 0.017066, "runs": 3, "pairs": [866, 545]}}
+1793255227 cand_k.py {"valid": true, "score": 77.121495, "detail": {"split": "train", "reference_cpu_s": 1.3146, "candidate_cpu_s": 0.017046, "runs": 3, "pairs": [866, 545]}}
+1793255337 cand_n6.py {"valid": true, "score": 77.464795, "detail": {"split": "train", "reference_cpu_s": 1.3213, "candidate_cpu_s": 0.017057, "runs": 3, "pairs": [866, 545]}}
+1793255372 cand_o.py {"valid": true, "score": 77.93881, "detail": {"split": "train", "reference_cpu_s": 1.3272, "candidate_cpu_s": 0.017029, "runs": 3, "pairs": [866, 545]}}
+1793255408 cand_p.py {"valid": true, "score": 76.995866, "detail": {"split": "train", "reference_cpu_s": 1.3224, "candidate_cpu_s": 0.017175, "runs": 3, "pairs": [866, 545]}}
+1793255573 final.py {"valid": true, "score": 79.196478, "detail": {"split": "train", "reference_cpu_s": 1.3221, "candidate_cpu_s": 0.016694, "runs": 3, "pairs": [866, 545]}}

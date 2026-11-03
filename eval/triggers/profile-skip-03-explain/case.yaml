@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: profile-skip-03-explain
+context:
+  scaffold_script: scaffold.sh

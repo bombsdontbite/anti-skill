@@ -1,0 +1,13 @@
+candidate/dedup eval/loop-bench/runs/r8/candidate/SKILL.md
+candidate/speedup eval/loop-bench/runs/r8/candidate/SKILL.md
+shipped2/speedup eval/loop-bench/runs/r8/shipped2/SKILL.md
+candidate/schedule eval/loop-bench/runs/r8/candidate/SKILL.md
+shipped2/schedule eval/loop-bench/runs/r8/shipped2/SKILL.md
+candidate/cache eval/loop-bench/runs/r8/candidate/SKILL.md
+shipped2/cache eval/loop-bench/runs/r8/shipped2/SKILL.md
+candidate2/dedup eval/loop-bench/runs/r8/candidate/SKILL.md
+candidate2/speedup eval/loop-bench/runs/r8/candidate/SKILL.md
+candidate2/schedule eval/loop-bench/runs/r8/candidate/SKILL.md
+candidate2/cache eval/loop-bench/runs/r8/candidate/SKILL.md
+candidate/tsp eval/loop-bench/runs/r8/candidate/SKILL.md
+candidate/knapsack eval/loop-bench/runs/r8/candidate/SKILL.md

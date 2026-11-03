@@ -1,0 +1,5 @@
+1793176811 c1_atc.py {"valid": true, "score": -0.319425, "detail": {"split": "train", "mean_tardiness_over_edf": 0.319425, "ratios": [0.2698, 0.3395, 0.4023, 0.3048, 0.2601, 0.2931, 0.2806, 0.4053], "max_time_s": 0.0278}}
+1793176811 c2_ls.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 2: from c1_atc import is not allowed", "line 2: importing _dispatch is not allowed"]}}
+1793177012 c5b.py {"valid": true, "score": -0.293788, "detail": {"split": "train", "mean_tardiness_over_edf": 0.293788, "ratios": [0.2608, 0.3315, 0.3856, 0.2532, 0.2547, 0.2795, 0.2575, 0.3275], "max_time_s": 0.7505}}
+1793177468 c13_fast.py {"valid": true, "score": -0.293781, "detail": {"split": "train", "mean_tardiness_over_edf": 0.293781, "ratios": [0.2594, 0.3315, 0.3872, 0.2598, 0.2527, 0.2835, 0.2577, 0.3185], "max_time_s": 0.7546}}
+1793177641 final.py {"valid": true, "score": -0.292868, "detail": {"split": "train", "mean_tardiness_over_edf": 0.292868, "ratios": [0.2581, 0.3315, 0.3853, 0.2567, 0.2527, 0.2833, 0.2575, 0.3179], "max_time_s": 0.8538}}

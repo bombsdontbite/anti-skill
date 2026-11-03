@@ -1,0 +1,6 @@
+1793120295 cand_a.py {"valid": true, "score": 61.866842, "detail": {"split": "train", "reference_cpu_s": 1.3376, "candidate_cpu_s": 0.021621, "runs": 3, "pairs": [866, 545]}}
+1793120557 cand_e2.py {"valid": true, "score": 79.42105, "detail": {"split": "train", "reference_cpu_s": 1.3364, "candidate_cpu_s": 0.016827, "runs": 3, "pairs": [866, 545]}}
+1793120559 cand_h3.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: import gc is not allowed", "line 3: from _collections import is not allowed", "line 3: importing _count_elements is not allowed"]}}
+1793120560 cand_h2.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: import gc is not allowed"]}}
+1793120603 cand_i2.py {"valid": true, "score": 81.667947, "detail": {"split": "train", "reference_cpu_s": 1.3394, "candidate_cpu_s": 0.016401, "runs": 3, "pairs": [866, 545]}}
+1793120607 cand_e2.py {"valid": true, "score": 79.165961, "detail": {"split": "train", "reference_cpu_s": 1.3466, "candidate_cpu_s": 0.01701, "runs": 3, "pairs": [866, 545]}}

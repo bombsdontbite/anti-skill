@@ -1,0 +1,12 @@
+1793240544 c1.py {"valid": true, "score": 71.04569, "detail": {"split": "train", "reference_cpu_s": 1.331, "candidate_cpu_s": 0.018735, "runs": 3, "pairs": [866, 545]}}
+1793240713 c4.py {"valid": true, "score": 68.742064, "detail": {"split": "train", "reference_cpu_s": 1.3253, "candidate_cpu_s": 0.01928, "runs": 3, "pairs": [866, 545]}}
+1793240772 c5.py {"valid": true, "score": 80.109996, "detail": {"split": "train", "reference_cpu_s": 1.3175, "candidate_cpu_s": 0.016446, "runs": 3, "pairs": [866, 545]}}
+1793240882 c7.py {"valid": true, "score": 83.089351, "detail": {"split": "train", "reference_cpu_s": 1.3233, "candidate_cpu_s": 0.015926, "runs": 3, "pairs": [866, 545]}}
+1793240960 c11.py {"valid": true, "score": 87.708168, "detail": {"split": "train", "reference_cpu_s": 1.3293, "candidate_cpu_s": 0.015156, "runs": 3, "pairs": [866, 545]}}
+1793241062 c13.py {"valid": true, "score": 95.336152, "detail": {"split": "train", "reference_cpu_s": 1.3191, "candidate_cpu_s": 0.013836, "runs": 3, "pairs": [866, 545]}}
+1793241156 c15.py {"valid": true, "score": 94.314839, "detail": {"split": "train", "reference_cpu_s": 1.3208, "candidate_cpu_s": 0.014004, "runs": 3, "pairs": [866, 545]}}
+1793241183 c16.py {"valid": true, "score": 91.781904, "detail": {"split": "train", "reference_cpu_s": 1.3197, "candidate_cpu_s": 0.014379, "runs": 3, "pairs": [866, 545]}}
+1793241254 c17.py {"valid": true, "score": 96.436114, "detail": {"split": "train", "reference_cpu_s": 1.3223, "candidate_cpu_s": 0.013712, "runs": 3, "pairs": [866, 545]}}
+1793241387 c19.py {"valid": true, "score": 99.678946, "detail": {"split": "train", "reference_cpu_s": 1.3204, "candidate_cpu_s": 0.013247, "runs": 3, "pairs": [866, 545]}}
+1793241486 c22.py {"valid": true, "score": 95.805801, "detail": {"split": "train", "reference_cpu_s": 1.3212, "candidate_cpu_s": 0.01379, "runs": 3, "pairs": [866, 545]}}
+1793241535 final.py {"valid": true, "score": 99.033438, "detail": {"split": "train", "reference_cpu_s": 1.3209, "candidate_cpu_s": 0.013338, "runs": 3, "pairs": [866, 545]}}

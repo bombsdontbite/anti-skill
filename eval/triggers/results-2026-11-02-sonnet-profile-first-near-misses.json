@@ -1,0 +1,952 @@
+{
+ "note": "Compact copy of claude plugin eval's --json output: counts, graders and cost per run; prompts are in each case folder, local paths and trace paths are cut.",
+ "claudeVersion": "2.1.280",
+ "startedAt": "2026-11-02T22:27:47.473Z",
+ "durationSeconds": 319,
+ "costUsd": 3.3,
+ "partial": false,
+ "suite": {
+  "ablation": "none",
+  "modelOverride": "claude-sonnet-5-5",
+  "caseFilter": "profile-skip-*",
+  "threshold": 1,
+  "concurrency": 1,
+  "plugins": [
+   {
+    "name": "anti-skill",
+    "version": "0.5.3"
+   }
+  ]
+ },
+ "aggregates": {
+  "casesTotal": 13,
+  "casesPassed": 12,
+  "overallScore": 0.9743845897692052,
+  "overallPassRate": 0.9743589743589743
+ },
+ "cases": [
+  {
+   "name": "profile-skip-01-profiler-question",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1683,
+     "durationSeconds": 9,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0861,
+     "durationSeconds": 15,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0881,
+     "durationSeconds": 9,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-02-time-one-call",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0795,
+     "durationSeconds": 4,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0832,
+     "durationSeconds": 6,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0811,
+     "durationSeconds": 10,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-03-explain",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 3,
+     "costUsd": 0.0964,
+     "durationSeconds": 9,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 3,
+     "costUsd": 0.0965,
+     "durationSeconds": 8,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 3,
+     "costUsd": 0.0989,
+     "durationSeconds": 9,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-04-fix-order",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.0899,
+     "durationSeconds": 5,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.0899,
+     "durationSeconds": 5,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.0899,
+     "durationSeconds": 5,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-05-write-tests",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1217,
+     "durationSeconds": 14,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1181,
+     "durationSeconds": 12,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.119,
+     "durationSeconds": 12,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-06-named-change",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.0952,
+     "durationSeconds": 6,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.0913,
+     "durationSeconds": 5,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.0945,
+     "durationSeconds": 6,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-07-big-o",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0749,
+     "durationSeconds": 4,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.075,
+     "durationSeconds": 5,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0761,
+     "durationSeconds": 4,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-08-flame-graph",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0875,
+     "durationSeconds": 9,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0892,
+     "durationSeconds": 10,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0885,
+     "durationSeconds": 9,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-09-jvm-gc",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": false,
+     "score": 0.0009990009990009992,
+     "turns": 3,
+     "costUsd": 0.1456,
+     "durationSeconds": 17,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": false,
+       "explanation": "Skill called 1x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1023,
+     "durationSeconds": 13,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.1023,
+     "durationSeconds": 14,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-10-add-timing-logs",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1047,
+     "durationSeconds": 9,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.1032,
+     "durationSeconds": 10,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 4,
+     "costUsd": 0.103,
+     "durationSeconds": 8,
+     "error": "exit 1: Reached maximum number of turns (3) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-11-sql-query",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0861,
+     "durationSeconds": 7,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0889,
+     "durationSeconds": 26,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0908,
+     "durationSeconds": 9,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-12-what-is-cprofile",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0.0967,
+     "durationSeconds": 11,
+     "error": null,
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your session limit · resets 3:50am (<timezone>) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your session limit · resets 3:50am (<timezone>) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "profile-skip-13-named-change",
+   "runsPerCase": 3,
+   "maxTurns": 3,
+   "graders": {
+    "does-not-load-skill": {
+     "type": "tool_used",
+     "weight": 1
+    },
+    "fired-evolve": {
+     "type": "tool_used",
+     "weight": 0.001
+    }
+   },
+   "runs": [
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your session limit · resets 3:50am (<timezone>) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your session limit · resets 3:50am (<timezone>) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    },
+    {
+     "passed": true,
+     "score": 1,
+     "turns": 1,
+     "costUsd": 0,
+     "durationSeconds": 1,
+     "error": "exit 1: You've hit your session limit · resets 3:50am (<timezone>) · stderr: [claude-code:unrecognized_model] {\"model\":\"claude-sonnet-5-5\",\"query_source\":\"sdk\"} ",
+     "graders": {
+      "does-not-load-skill": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..0)"
+      },
+      "fired-evolve": {
+       "passed": true,
+       "explanation": "Skill called 0x (expected 0..∞)"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

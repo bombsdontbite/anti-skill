@@ -1,0 +1,69 @@
+{
+ "task": "speedup",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 5,
+ "finals": {
+  "v23a": "runs/r8/candidate/speedup/final.py",
+  "v23b": "runs/r8/candidate2/speedup/final.py",
+  "v2a": "runs/r2/evolve/speedup/final.py",
+  "v2b": "runs/r8/shipped2/speedup/final.py",
+  "plain": "runs/r2/iter/speedup/final.py"
+ },
+ "results": {
+  "v23a": {
+   "runs": [
+    53.894999,
+    52.746834,
+    52.755265,
+    53.344164,
+    53.364799
+   ],
+   "median": 53.344164,
+   "invalid": 0
+  },
+  "v23b": {
+   "runs": [
+    55.078701,
+    56.482327,
+    55.437661,
+    55.02986,
+    56.066974
+   ],
+   "median": 55.437661,
+   "invalid": 0
+  },
+  "v2a": {
+   "runs": [
+    53.400071,
+    54.440294,
+    54.473853,
+    54.604754,
+    54.010113
+   ],
+   "median": 54.440294,
+   "invalid": 0
+  },
+  "v2b": {
+   "runs": [
+    52.44022,
+    51.970242,
+    51.921483,
+    48.624439,
+    50.966988
+   ],
+   "median": 51.921483,
+   "invalid": 0
+  },
+  "plain": {
+   "runs": [
+    52.421424,
+    52.70449,
+    51.148344,
+    49.994812,
+    52.09012
+   ],
+   "median": 52.09012,
+   "invalid": 0
+  }
+ }
+}

@@ -1,0 +1,10 @@
+00:19:32 start m11/cache on claude-opus-5-5 ({ 1.62 1.96 2.03 })
+00:27:45 done m11/cache exit=0 final=yes
+00:27:45 start n11/cache on claude-opus-5-5 ({ 1.30 1.76 1.95 })
+00:37:36 done n11/cache exit=0 final=yes
+00:37:36 start m12/cache on claude-opus-5-5 ({ 2.02 2.06 2.02 })
+00:48:59 done m12/cache exit=0 final=yes
+00:48:59 start n12/cache on claude-opus-5-5 ({ 1.83 2.03 2.00 })
+00:59:20 done n12/cache exit=0 final=yes
+00:59:20 queue finished
+00:59:20 audit: 3 flags in 8 agent sessions over 2 run folders

@@ -1,0 +1,17 @@
+1793243453 c1.py {"valid": true, "score": 68.987596, "detail": {"split": "train", "reference_cpu_s": 1.3237, "candidate_cpu_s": 0.019187, "runs": 3, "pairs": [866, 545]}}
+1793243651 c5.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from _collections import is not allowed", "line 1: importing _count_elements is not allowed"]}}
+1793243673 c6.py {"valid": true, "score": 77.715451, "detail": {"split": "train", "reference_cpu_s": 1.3238, "candidate_cpu_s": 0.017034, "runs": 3, "pairs": [866, 545]}}
+1793243762 c8.py {"valid": true, "score": 84.685556, "detail": {"split": "train", "reference_cpu_s": 1.3151, "candidate_cpu_s": 0.015529, "runs": 3, "pairs": [866, 545]}}
+1793243804 c9.py {"valid": true, "score": 94.189376, "detail": {"split": "train", "reference_cpu_s": 1.321, "candidate_cpu_s": 0.014025, "runs": 3, "pairs": [866, 545]}}
+1793243885 c12.py {"valid": true, "score": 93.945686, "detail": {"split": "train", "reference_cpu_s": 1.3163, "candidate_cpu_s": 0.014011, "runs": 3, "pairs": [866, 545]}}
+1793243995 c14.py {"valid": true, "score": 99.333911, "detail": {"split": "train", "reference_cpu_s": 1.3188, "candidate_cpu_s": 0.013276, "runs": 3, "pairs": [866, 545]}}
+1793244090 c16.py {"valid": true, "score": 99.735066, "detail": {"split": "train", "reference_cpu_s": 1.3123, "candidate_cpu_s": 0.013158, "runs": 3, "pairs": [866, 545]}}
+1793244135 c17.py {"valid": true, "score": 102.137377, "detail": {"split": "train", "reference_cpu_s": 1.3234, "candidate_cpu_s": 0.012957, "runs": 3, "pairs": [866, 545]}}
+1793244304 c18.py {"valid": true, "score": 102.644936, "detail": {"split": "train", "reference_cpu_s": 1.3226, "candidate_cpu_s": 0.012885, "runs": 3, "pairs": [866, 545]}}
+1793244340 c21.py {"valid": true, "score": 103.464143, "detail": {"split": "train", "reference_cpu_s": 1.323, "candidate_cpu_s": 0.012787, "runs": 3, "pairs": [866, 545]}}
+1793244436 c22.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from gc import is not allowed"]}}
+1793244499 c23.py {"valid": true, "score": 105.93122, "detail": {"split": "train", "reference_cpu_s": 1.3199, "candidate_cpu_s": 0.01246, "runs": 3, "pairs": [866, 545]}}
+1793244509 c24.py {"valid": true, "score": 108.297375, "detail": {"split": "train", "reference_cpu_s": 1.3161, "candidate_cpu_s": 0.012153, "runs": 3, "pairs": [866, 545]}}
+1793244535 c24.py {"valid": true, "score": 107.790522, "detail": {"split": "train", "reference_cpu_s": 1.3147, "candidate_cpu_s": 0.012197, "runs": 3, "pairs": [866, 545]}}
+1793244588 c26.py {"valid": true, "score": 107.280616, "detail": {"split": "train", "reference_cpu_s": 1.3105, "candidate_cpu_s": 0.012216, "runs": 3, "pairs": [866, 545]}}
+1793244651 final.py {"valid": true, "score": 108.281073, "detail": {"split": "train", "reference_cpu_s": 1.3164, "candidate_cpu_s": 0.012157, "runs": 3, "pairs": [866, 545]}}

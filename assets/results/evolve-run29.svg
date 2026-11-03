@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="426" viewBox="0 0 800 426" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">evolve against plain Claude Code, on a secret test set</title>
+<desc id="d">Bar charts of each group's gain over plain Claude Code's mean on a secret test set. Near-duplicate finder: evolve gains far more than plain told to keep going. Cache policy: both gain little, and about the same.</desc>
+<rect x="0.5" y="0.5" width="799" height="425" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+<text x="24.00" y="36.00" font-size="16" fill="#1f2328" font-weight="600">evolve against plain Claude Code, on a secret test set</text>
+<text x="24.00" y="58.00" font-size="13" fill="#57606a">Gain over plain Claude Code (plain = 0), mean per group. Higher is better.</text>
+<text x="24.00" y="98.00" font-size="14" fill="#1f2328" font-weight="600">Near-duplicate finder</text>
+<line x1="68.00" y1="370.00" x2="388.00" y2="370.00" stroke="#57606a" stroke-width="1"/>
+<text x="60.00" y="374.00" font-size="12" fill="#57606a" text-anchor="end">0%</text>
+<line x1="68.00" y1="322.00" x2="388.00" y2="322.00" stroke="#eaeef2" stroke-width="1"/>
+<text x="60.00" y="326.00" font-size="12" fill="#57606a" text-anchor="end">5%</text>
+<line x1="68.00" y1="274.00" x2="388.00" y2="274.00" stroke="#eaeef2" stroke-width="1"/>
+<text x="60.00" y="278.00" font-size="12" fill="#57606a" text-anchor="end">10%</text>
+<line x1="68.00" y1="226.00" x2="388.00" y2="226.00" stroke="#eaeef2" stroke-width="1"/>
+<text x="60.00" y="230.00" font-size="12" fill="#57606a" text-anchor="end">15%</text>
+<line x1="68.00" y1="178.00" x2="388.00" y2="178.00" stroke="#eaeef2" stroke-width="1"/>
+<text x="60.00" y="182.00" font-size="12" fill="#57606a" text-anchor="end">20%</text>
+<line x1="68.00" y1="130.00" x2="388.00" y2="130.00" stroke="#eaeef2" stroke-width="1"/>
+<text x="60.00" y="134.00" font-size="12" fill="#57606a" text-anchor="end">25%</text>
+<rect x="108.00" y="145.16" width="80.00" height="224.84" fill="#e8590c"/>
+<text x="148.00" y="137.16" font-size="13" fill="#1f2328" text-anchor="middle" font-weight="600">+23.4%</text>
+<text x="148.00" y="390.00" font-size="12" fill="#1f2328" text-anchor="middle">Claude Code</text>
+<text x="148.00" y="406.00" font-size="12" fill="#1f2328" text-anchor="middle">with evolve</text>
+<rect x="268.00" y="244.09" width="80.00" height="125.91" fill="#8c959f"/>
+<text x="308.00" y="236.09" font-size="13" fill="#1f2328" text-anchor="middle" font-weight="600">+13.1%</text>
+<text x="308.00" y="390.00" font-size="12" fill="#1f2328" text-anchor="middle">Plain, told to</text>
+<text x="308.00" y="406.00" font-size="12" fill="#1f2328" text-anchor="middle">keep going</text>
+<text x="412.00" y="98.00" font-size="14" fill="#1f2328" font-weight="600">Cache policy</text>
+<line x1="456.00" y1="370.00" x2="776.00" y2="370.00" stroke="#57606a" stroke-width="1"/>
+<text x="448.00" y="374.00" font-size="12" fill="#57606a" text-anchor="end">0%</text>
+<line x1="456.00" y1="322.00" x2="776.00" y2="322.00" stroke="#eaeef2" stroke-width="1"/>
+<text x="448.00" y="326.00" font-size="12" fill="#57606a" text-anchor="end">5%</text>
+<line x1="456.00" y1="274.00" x2="776.00" y2="274.00" stroke="#eaeef2" stroke-width="1"/>
+<text x="448.00" y="278.00" font-size="12" fill="#57606a" text-anchor="end">10%</text>
+<line x1="456.00" y1="226.00" x2="776.00" y2="226.00" stroke="#eaeef2" stroke-width="1"/>
+<text x="448.00" y="230.00" font-size="12" fill="#57606a" text-anchor="end">15%</text>
+<line x1="456.00" y1="178.00" x2="776.00" y2="178.00" stroke="#eaeef2" stroke-width="1"/>
+<text x="448.00" y="182.00" font-size="12" fill="#57606a" text-anchor="end">20%</text>
+<line x1="456.00" y1="130.00" x2="776.00" y2="130.00" stroke="#eaeef2" stroke-width="1"/>
+<text x="448.00" y="134.00" font-size="12" fill="#57606a" text-anchor="end">25%</text>
+<rect x="496.00" y="356.07" width="80.00" height="13.93" fill="#e8590c"/>
+<text x="536.00" y="348.07" font-size="13" fill="#1f2328" text-anchor="middle" font-weight="600">+1.5%</text>
+<text x="536.00" y="390.00" font-size="12" fill="#1f2328" text-anchor="middle">Claude Code</text>
+<text x="536.00" y="406.00" font-size="12" fill="#1f2328" text-anchor="middle">with evolve</text>
+<rect x="656.00" y="358.30" width="80.00" height="11.70" fill="#8c959f"/>
+<text x="696.00" y="350.30" font-size="13" fill="#1f2328" text-anchor="middle" font-weight="600">+1.2%</text>
+<text x="696.00" y="390.00" font-size="12" fill="#1f2328" text-anchor="middle">Plain, told to</text>
+<text x="696.00" y="406.00" font-size="12" fill="#1f2328" text-anchor="middle">keep going</text>
+</svg>

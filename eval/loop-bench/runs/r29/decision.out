@@ -1,0 +1,14 @@
+== 1. Choice on the dev seed: S replaces N2 only if every condition holds
+dedup: S 86.14 vs N2 86.51 (-0.4%), p=0.538 (needs S ahead, p <= 0.1): no
+cache: S 0.5679 vs N2 0.5625 (+0.54 points; S may trail by 0.4 at most): yes
+DECISION: N2 stays
+
+== 2. Report on the test seed (read once, after the decision above)
+dedup: s 87.86 (n=8) vs plain 71.35 (n=8): +23.1%, p=0.000
+dedup: n2 88.06 (n=8) vs plain 71.35 (n=8): +23.4%, p=0.000
+dedup: nudge 80.71 (n=4) vs plain 71.35 (n=8): +13.1%, p=0.002
+dedup: shipped arm vs nudge: +9.1%, p=0.063: beats the nudge
+cache: s 0.5565 (n=8) vs plain 0.5436 (n=8): +2.4%, p=0.002
+cache: n2 0.5514 (n=8) vs plain 0.5436 (n=8): +1.5%, p=0.022
+cache: nudge 0.5502 (n=4) vs plain 0.5436 (n=8): +1.2%, p=0.075
+cache: shipped arm vs nudge: +0.2%, p=0.398: not separated from the nudge

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: evolve-fire-12-dedup
+context:
+  scaffold_script: scaffold.sh

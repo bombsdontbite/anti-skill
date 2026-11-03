@@ -1,0 +1,2 @@
+1793120159 final.py {"valid": true, "score": 1.009536, "detail": {"split": "train", "mean_value_over_greedy": 1.009536, "ratios": [1.0001, 1.0046, 1.0019, 1.0036, 1.0105, 1.0046, 1.0225, 1.0286], "max_time_s": 0.6006}}
+1793120163 cand_a.py {"valid": true, "score": 1.008811, "detail": {"split": "train", "mean_value_over_greedy": 1.008811, "ratios": [1.0001, 1.0038, 1.0008, 1.0033, 1.0098, 1.0046, 1.0222, 1.026], "max_time_s": 0.0834}}

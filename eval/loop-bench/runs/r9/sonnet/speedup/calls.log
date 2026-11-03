@@ -1,0 +1,2 @@
+1793186360 cand1.py {"valid": true, "score": 31.498917, "detail": {"split": "train", "reference_cpu_s": 2.079, "candidate_cpu_s": 0.066003, "runs": 3}}
+1793186403 cand2.py {"valid": true, "score": 37.756388, "detail": {"split": "train", "reference_cpu_s": 2.1087, "candidate_cpu_s": 0.055851, "runs": 3}}

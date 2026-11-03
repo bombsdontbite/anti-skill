@@ -1,0 +1,13 @@
+1793236649 c1.py {"valid": true, "score": 59.774154, "detail": {"split": "train", "reference_cpu_s": 1.3196, "candidate_cpu_s": 0.022077, "runs": 3, "pairs": [866, 545]}}
+1793236824 c4.py {"valid": true, "score": 73.161887, "detail": {"split": "train", "reference_cpu_s": 1.3242, "candidate_cpu_s": 0.018099, "runs": 3, "pairs": [866, 545]}}
+1793236828 c6.py {"valid": true, "score": 58.042334, "detail": {"split": "train", "reference_cpu_s": 1.3258, "candidate_cpu_s": 0.022842, "runs": 3, "pairs": [866, 545]}}
+1793236964 c9.py {"valid": true, "score": 75.514762, "detail": {"split": "train", "reference_cpu_s": 1.3275, "candidate_cpu_s": 0.017579, "runs": 3, "pairs": [866, 545]}}
+1793237034 c10.py {"valid": true, "score": 77.91487, "detail": {"split": "train", "reference_cpu_s": 1.3262, "candidate_cpu_s": 0.017021, "runs": 3, "pairs": [866, 545]}}
+1793237144 c13.py {"valid": true, "score": 80.471836, "detail": {"split": "train", "reference_cpu_s": 1.3243, "candidate_cpu_s": 0.016457, "runs": 3, "pairs": [866, 545]}}
+1793237225 c15.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from _collections import is not allowed", "line 1: importing _count_elements is not allowed", "line 2: from gc import is not allowed"]}}
+1793237295 c16.py {"valid": true, "score": 89.479832, "detail": {"split": "train", "reference_cpu_s": 1.3222, "candidate_cpu_s": 0.014776, "runs": 3, "pairs": [866, 545]}}
+1793237388 c20.py {"valid": true, "score": 90.64155, "detail": {"split": "train", "reference_cpu_s": 1.322, "candidate_cpu_s": 0.014585, "runs": 3, "pairs": [866, 545]}}
+1793237450 c22.py {"valid": true, "score": 91.239884, "detail": {"split": "train", "reference_cpu_s": 1.3191, "candidate_cpu_s": 0.014457, "runs": 3, "pairs": [866, 545]}}
+1793237508 c23.py {"valid": true, "score": 94.507136, "detail": {"split": "train", "reference_cpu_s": 1.3244, "candidate_cpu_s": 0.014014, "runs": 3, "pairs": [866, 545]}}
+1793237561 c24.py {"valid": true, "score": 91.922217, "detail": {"split": "train", "reference_cpu_s": 1.3236, "candidate_cpu_s": 0.014399, "runs": 3, "pairs": [866, 545]}}
+1793237666 final.py {"valid": true, "score": 93.065465, "detail": {"split": "train", "reference_cpu_s": 1.3164, "candidate_cpu_s": 0.014145, "runs": 3, "pairs": [866, 545]}}

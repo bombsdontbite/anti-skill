@@ -1,0 +1,6 @@
+1793585767 c1.py {"valid": true, "score": 67.79383, "detail": {"split": "train", "reference_cpu_s": 1.3186, "candidate_cpu_s": 0.01945, "runs": 3, "pairs": [866, 545]}}
+1793585822 c3.py {"valid": true, "score": 81.206455, "detail": {"split": "train", "reference_cpu_s": 1.3311, "candidate_cpu_s": 0.016391, "runs": 3, "pairs": [866, 545]}}
+1793585944 c4.py {"valid": true, "score": 80.795562, "detail": {"split": "train", "reference_cpu_s": 1.3362, "candidate_cpu_s": 0.016538, "runs": 3, "pairs": [866, 545]}}
+1793585948 c5.py {"valid": true, "score": 81.708369, "detail": {"split": "train", "reference_cpu_s": 1.3278, "candidate_cpu_s": 0.01625, "runs": 3, "pairs": [866, 545]}}
+1793585957 probe_empty.py {"valid": false, "score": -1000000000.0, "detail": {"error": "wrong pairs on correctness test 4"}}
+1793586050 final.py {"valid": true, "score": 81.655575, "detail": {"split": "train", "reference_cpu_s": 1.3276, "candidate_cpu_s": 0.016259, "runs": 3, "pairs": [866, 545]}}

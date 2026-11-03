@@ -1,0 +1,6 @@
+1793100963 c1_atc.py {"valid": true, "score": -0.319425, "detail": {"split": "train", "mean_tardiness_over_edf": 0.319425, "ratios": [0.2698, 0.3395, 0.4023, 0.3048, 0.2601, 0.2931, 0.2806, 0.4053], "max_time_s": 0.0372}}
+1793101017 c2_ls.py {"valid": true, "score": -0.313394, "detail": {"split": "train", "mean_tardiness_over_edf": 0.313394, "ratios": [0.2698, 0.3395, 0.4023, 0.2867, 0.2601, 0.2931, 0.2715, 0.3842], "max_time_s": 0.6061}}
+1793101504 c6_fast.py {"valid": true, "score": -0.295901, "detail": {"split": "train", "mean_tardiness_over_edf": 0.295901, "ratios": [0.2615, 0.3348, 0.3905, 0.2576, 0.2555, 0.2811, 0.2611, 0.3252], "max_time_s": 0.602}}
+1793102563 r1d_block.py {"valid": true, "score": -0.300931, "detail": {"split": "train", "mean_tardiness_over_edf": 0.300931, "ratios": [0.2627, 0.3341, 0.3907, 0.2772, 0.2556, 0.2817, 0.2659, 0.3395], "max_time_s": 0.6013}}
+1793102574 c6_fast.py {"valid": true, "score": -0.30001, "detail": {"split": "train", "mean_tardiness_over_edf": 0.30001, "ratios": [0.2637, 0.3348, 0.3898, 0.2667, 0.2556, 0.2816, 0.264, 0.3438], "max_time_s": 0.6016}}
+1793102726 final.py {"valid": true, "score": -0.294496, "detail": {"split": "train", "mean_tardiness_over_edf": 0.294496, "ratios": [0.263, 0.3343, 0.389, 0.2665, 0.2554, 0.283, 0.2598, 0.3049], "max_time_s": 0.7512}}

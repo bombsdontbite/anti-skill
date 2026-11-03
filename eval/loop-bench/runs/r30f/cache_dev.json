@@ -1,0 +1,105 @@
+{
+ "task": "cache",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 1,
+ "finals": {
+  "r30fe1": "runs/r30f/e1/cache/final.py",
+  "r30fe2": "runs/r30f/e2/cache/final.py",
+  "r30fe3": "runs/r30f/e3/cache/final.py",
+  "r30fe4": "runs/r30f/e4/cache/final.py",
+  "r30fe5": "runs/r30f/e5/cache/final.py",
+  "r30fe6": "runs/r30f/e6/cache/final.py",
+  "r30fp1": "runs/r30f/p1/cache/final.py",
+  "r30fp2": "runs/r30f/p2/cache/final.py",
+  "r30fp3": "runs/r30f/p3/cache/final.py",
+  "r30fp4": "runs/r30f/p4/cache/final.py",
+  "r30fp5": "runs/r30f/p5/cache/final.py",
+  "r30fp6": "runs/r30f/p6/cache/final.py"
+ },
+ "results": {
+  "r30fe1": {
+   "runs": [
+    0.55915
+   ],
+   "median": 0.55915,
+   "invalid": 0
+  },
+  "r30fe2": {
+   "runs": [
+    0.550644
+   ],
+   "median": 0.550644,
+   "invalid": 0
+  },
+  "r30fe3": {
+   "runs": [
+    0.551894
+   ],
+   "median": 0.551894,
+   "invalid": 0
+  },
+  "r30fe4": {
+   "runs": [
+    0.551
+   ],
+   "median": 0.551,
+   "invalid": 0
+  },
+  "r30fe5": {
+   "runs": [
+    0.55605
+   ],
+   "median": 0.55605,
+   "invalid": 0
+  },
+  "r30fe6": {
+   "runs": [
+    0.55935
+   ],
+   "median": 0.55935,
+   "invalid": 0
+  },
+  "r30fp1": {
+   "runs": [
+    0.562728
+   ],
+   "median": 0.562728,
+   "invalid": 0
+  },
+  "r30fp2": {
+   "runs": [
+    0.561533
+   ],
+   "median": 0.561533,
+   "invalid": 0
+  },
+  "r30fp3": {
+   "runs": [
+    0.562733
+   ],
+   "median": 0.562733,
+   "invalid": 0
+  },
+  "r30fp4": {
+   "runs": [
+    0.552028
+   ],
+   "median": 0.552028,
+   "invalid": 0
+  },
+  "r30fp5": {
+   "runs": [
+    0.562978
+   ],
+   "median": 0.562978,
+   "invalid": 0
+  },
+  "r30fp6": {
+   "runs": [
+    0.539578
+   ],
+   "median": 0.539578,
+   "invalid": 0
+  }
+ }
+}

@@ -1,0 +1,11 @@
+1793266567 c1.py {"valid": true, "score": 66.876716, "detail": {"split": "train", "reference_cpu_s": 1.3296, "candidate_cpu_s": 0.019881, "runs": 3, "pairs": [866, 545]}}
+1793266647 c4.py {"valid": true, "score": 71.893425, "detail": {"split": "train", "reference_cpu_s": 1.3242, "candidate_cpu_s": 0.018419, "runs": 3, "pairs": [866, 545]}}
+1793266708 c6.py {"valid": true, "score": 69.979706, "detail": {"split": "train", "reference_cpu_s": 1.3345, "candidate_cpu_s": 0.01907, "runs": 3, "pairs": [866, 545]}}
+1793266720 c4.py {"valid": true, "score": 72.359389, "detail": {"split": "train", "reference_cpu_s": 1.3274, "candidate_cpu_s": 0.018345, "runs": 3, "pairs": [866, 545]}}
+1793266724 c6.py {"valid": true, "score": 70.53866, "detail": {"split": "train", "reference_cpu_s": 1.3666, "candidate_cpu_s": 0.019374, "runs": 3, "pairs": [866, 545]}}
+1793266773 c5.py {"valid": true, "score": 66.421511, "detail": {"split": "train", "reference_cpu_s": 1.3358, "candidate_cpu_s": 0.020111, "runs": 3, "pairs": [866, 545]}}
+1793266858 c7.py {"valid": true, "score": 82.439002, "detail": {"split": "train", "reference_cpu_s": 1.3312, "candidate_cpu_s": 0.016148, "runs": 3, "pairs": [866, 545]}}
+1793266945 c9.py {"valid": true, "score": 93.70702, "detail": {"split": "train", "reference_cpu_s": 1.3229, "candidate_cpu_s": 0.014117, "runs": 3, "pairs": [866, 545]}}
+1793267002 c11.py {"valid": true, "score": 92.433044, "detail": {"split": "train", "reference_cpu_s": 1.3198, "candidate_cpu_s": 0.014278, "runs": 3, "pairs": [866, 545]}}
+1793267060 c12.py {"valid": true, "score": 95.085637, "detail": {"split": "train", "reference_cpu_s": 1.328, "candidate_cpu_s": 0.013966, "runs": 3, "pairs": [866, 545]}}
+1793267084 final.py {"valid": true, "score": 94.976308, "detail": {"split": "train", "reference_cpu_s": 1.3269, "candidate_cpu_s": 0.013971, "runs": 3, "pairs": [866, 545]}}

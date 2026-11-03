@@ -1,0 +1,15 @@
+1793094929 cand_01.py {"valid": true, "score": 0.887, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 113, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793094929 cand_02.py {"valid": true, "score": 0.829, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 171, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793094929 cand_03.py {"valid": true, "score": 0.89, "detail": {"split": "train", "accuracy": 0.955, "pattern_length": 65, "positives_matched": "200/200", "negatives_rejected": "182/200"}}
+1793094929 cand_04.py {"valid": true, "score": 0.91, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 90, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793094929 cand_05.py {"valid": true, "score": 0.8735, "detail": {"split": "train", "accuracy": 0.9575, "pattern_length": 84, "positives_matched": "200/200", "negatives_rejected": "183/200"}}
+1793094929 cand_06.py {"valid": true, "score": 0.859, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 141, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793095060 cand_07.py {"valid": true, "score": 0.918, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 82, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793095060 cand_08.py {"valid": true, "score": 0.918, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 82, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793095060 cand_09.py {"valid": true, "score": 0.9105, "detail": {"split": "train", "accuracy": 0.9875, "pattern_length": 77, "positives_matched": "200/200", "negatives_rejected": "195/200"}}
+1793095060 cand_10.py {"valid": true, "score": 0.916, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 84, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793095060 cand_11.py {"valid": true, "score": 0.876, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 124, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793095060 cand_12.py {"valid": true, "score": 0.9005, "detail": {"split": "train", "accuracy": 0.9675, "pattern_length": 67, "positives_matched": "200/200", "negatives_rejected": "187/200"}}
+1793095148 cand_13.py {"valid": true, "score": 0.919, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 81, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793095190 cand_14.py {"valid": true, "score": 0.919, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 81, "positives_matched": "200/200", "negatives_rejected": "200/200"}}
+1793095191 cand_15.py {"valid": true, "score": 0.913, "detail": {"split": "train", "accuracy": 1.0, "pattern_length": 87, "positives_matched": "200/200", "negatives_rejected": "200/200"}}

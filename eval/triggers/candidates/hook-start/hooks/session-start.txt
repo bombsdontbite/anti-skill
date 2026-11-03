@@ -1,0 +1,1 @@
+anti-skill is installed. Before you change code to make it faster or to raise a score that a benchmark, test suite or metric already measures, load its evolve skill; if the code is slow and nothing measures it yet, load profile-first instead.

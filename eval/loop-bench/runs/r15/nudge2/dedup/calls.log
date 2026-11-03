@@ -1,0 +1,6 @@
+1793234649 c1.py {"valid": true, "score": 67.322332, "detail": {"split": "train", "reference_cpu_s": 1.3198, "candidate_cpu_s": 0.019604, "runs": 3, "pairs": [866, 545]}}
+1793234834 c4.py {"valid": true, "score": 72.793887, "detail": {"split": "train", "reference_cpu_s": 1.317, "candidate_cpu_s": 0.018092, "runs": 3, "pairs": [866, 545]}}
+1793234838 c5.py {"valid": true, "score": 66.968259, "detail": {"split": "train", "reference_cpu_s": 1.3292, "candidate_cpu_s": 0.019848, "runs": 3, "pairs": [866, 545]}}
+1793234949 c7.py {"valid": true, "score": 77.441515, "detail": {"split": "train", "reference_cpu_s": 1.3188, "candidate_cpu_s": 0.01703, "runs": 3, "pairs": [866, 545]}}
+1793235026 c9.py {"valid": true, "score": 77.763302, "detail": {"split": "train", "reference_cpu_s": 1.3168, "candidate_cpu_s": 0.016933, "runs": 3, "pairs": [866, 545]}}
+1793235087 final.py {"valid": true, "score": 75.267538, "detail": {"split": "train", "reference_cpu_s": 1.324, "candidate_cpu_s": 0.01759, "runs": 3, "pairs": [866, 545]}}

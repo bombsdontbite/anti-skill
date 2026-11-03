@@ -1,0 +1,7 @@
+1793185609 c1_prefix.py {"valid": true, "score": 59.232781, "detail": {"split": "train", "reference_cpu_s": 1.3295, "candidate_cpu_s": 0.022446, "runs": 3, "pairs": [866, 545]}}
+1793185732 c2_midprefix.py {"valid": true, "score": 62.655739, "detail": {"split": "train", "reference_cpu_s": 5.7068, "candidate_cpu_s": 0.091082, "runs": 3, "pairs": [866, 545]}}
+1793185751 c5_micro.py {"valid": true, "score": 77.667525, "detail": {"split": "train", "reference_cpu_s": 5.5196, "candidate_cpu_s": 0.071067, "runs": 3, "pairs": [866, 545]}}
+1793185957 c6_listcomp.py {"valid": true, "score": 71.137715, "detail": {"split": "train", "reference_cpu_s": 6.3671, "candidate_cpu_s": 0.089504, "runs": 3, "pairs": [866, 545]}}
+1793185979 c9_hybrid.py {"valid": true, "score": 89.412139, "detail": {"split": "train", "reference_cpu_s": 6.3771, "candidate_cpu_s": 0.071323, "runs": 3, "pairs": [866, 545]}}
+1793186091 c10_twoshared.py {"valid": true, "score": 86.703161, "detail": {"split": "train", "reference_cpu_s": 6.5089, "candidate_cpu_s": 0.075071, "runs": 3, "pairs": [866, 545]}}
+1793186281 c13_small.py {"valid": true, "score": 93.778457, "detail": {"split": "train", "reference_cpu_s": 5.3716, "candidate_cpu_s": 0.05728, "runs": 3, "pairs": [866, 545]}}

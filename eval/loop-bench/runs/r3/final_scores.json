@@ -1,0 +1,65 @@
+{
+ "binpack": {
+  "v3_train": -1.013316,
+  "v3_test": -1.011288,
+  "v3_calls": 4,
+  "evolve_r2_test_now": -1.011234,
+  "iter_r2_test_now": -1.010495
+ },
+ "tsp": {
+  "v3_train": -0.779105,
+  "v3_test": -0.803088,
+  "v3_calls": 3,
+  "evolve_r2_test_now": -0.798012,
+  "iter_r2_test_now": -0.797421
+ },
+ "cache": {
+  "v3_train": 0.580289,
+  "v3_test": 0.567028,
+  "v3_calls": 6,
+  "evolve_r2_test_now": 0.567983,
+  "iter_r2_test_now": 0.561533
+ },
+ "speedup": {
+  "v3_train": 56.277764,
+  "v3_test": 56.669916,
+  "v3_calls": 4,
+  "evolve_r2_test_now": 54.51331,
+  "iter_r2_test_now": 52.398062
+ },
+ "schedule": {
+  "v3_train": -0.288971,
+  "v3_test": -0.255723,
+  "v3_calls": 8,
+  "evolve_r2_test_now": -0.265669,
+  "iter_r2_test_now": -0.254901
+ },
+ "regex": {
+  "v3_train": 0.919,
+  "v3_test": 0.919,
+  "v3_calls": 1,
+  "evolve_r2_test_now": 0.9285,
+  "iter_r2_test_now": 0.918
+ },
+ "knapsack": {
+  "v3_train": 1.009378,
+  "v3_test": 1.026763,
+  "v3_calls": 2,
+  "evolve_r2_test_now": 1.026988,
+  "iter_r2_test_now": 1.02679
+ },
+ "coloring": {
+  "v3_train": -0.677527,
+  "v3_test": -0.725586,
+  "v3_calls": 5,
+  "evolve_r2_test_now": -0.719007,
+  "iter_r2_test_now": -0.716888
+ },
+ "dedup": {
+  "v3_train": 77.007654,
+  "v3_test": 77.603321,
+  "v3_calls": 6,
+  "evolve_r2_test_now": 46.326507,
+  "iter_r2_test_now": 70.212744
+ }
+}

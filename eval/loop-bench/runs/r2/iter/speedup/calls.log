@@ -1,0 +1,2 @@
+1793103686 final.py {"valid": true, "score": 47.719711, "detail": {"split": "train", "reference_cpu_s": 0.4687, "candidate_cpu_s": 0.009822, "runs": 3}}
+1793103756 final.py {"valid": true, "score": 55.453349, "detail": {"split": "train", "reference_cpu_s": 0.4677, "candidate_cpu_s": 0.008435, "runs": 3}}

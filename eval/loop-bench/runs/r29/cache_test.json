@@ -1,0 +1,233 @@
+{
+ "task": "cache",
+ "seed": "secret:123c8b89de4e",
+ "reps": 1,
+ "finals": {
+  "r29n1": "runs/r29/n1/cache/final.py",
+  "r29n2": "runs/r29/n2/cache/final.py",
+  "r29n3": "runs/r29/n3/cache/final.py",
+  "r29n4": "runs/r29/n4/cache/final.py",
+  "r29n5": "runs/r29/n5/cache/final.py",
+  "r29n6": "runs/r29/n6/cache/final.py",
+  "r29n7": "runs/r29/n7/cache/final.py",
+  "r29n8": "runs/r29/n8/cache/final.py",
+  "r29s1": "runs/r29/s1/cache/final.py",
+  "r29s2": "runs/r29/s2/cache/final.py",
+  "r29s3": "runs/r29/s3/cache/final.py",
+  "r29s4": "runs/r29/s4/cache/final.py",
+  "r29s5": "runs/r29/s5/cache/final.py",
+  "r29s6": "runs/r29/s6/cache/final.py",
+  "r29s7": "runs/r29/s7/cache/final.py",
+  "r29s8": "runs/r29/s8/cache/final.py",
+  "r29u1": "runs/r29/u1/cache/final.py",
+  "r29u2": "runs/r29/u2/cache/final.py",
+  "r29u3": "runs/r29/u3/cache/final.py",
+  "r29u4": "runs/r29/u4/cache/final.py",
+  "r28pl1": "runs/r28/pl1/cache/final.py",
+  "r28pl2": "runs/r28/pl2/cache/final.py",
+  "r28pl3": "runs/r28/pl3/cache/final.py",
+  "r28pl4": "runs/r28/pl4/cache/final.py",
+  "r28pl5": "runs/r28/pl5/cache/final.py",
+  "r28pl6": "runs/r28/pl6/cache/final.py",
+  "r28pl7": "runs/r28/pl7/cache/final.py",
+  "r28pl8": "runs/r28/pl8/cache/final.py"
+ },
+ "results": {
+  "r29n1": {
+   "runs": [
+    0.548389
+   ],
+   "median": 0.548389,
+   "invalid": 0
+  },
+  "r29n2": {
+   "runs": [
+    0.558322
+   ],
+   "median": 0.558322,
+   "invalid": 0
+  },
+  "r29n3": {
+   "runs": [
+    0.54835
+   ],
+   "median": 0.54835,
+   "invalid": 0
+  },
+  "r29n4": {
+   "runs": [
+    0.538033
+   ],
+   "median": 0.538033,
+   "invalid": 0
+  },
+  "r29n5": {
+   "runs": [
+    0.5513
+   ],
+   "median": 0.5513,
+   "invalid": 0
+  },
+  "r29n6": {
+   "runs": [
+    0.562444
+   ],
+   "median": 0.562444,
+   "invalid": 0
+  },
+  "r29n7": {
+   "runs": [
+    0.548628
+   ],
+   "median": 0.548628,
+   "invalid": 0
+  },
+  "r29n8": {
+   "runs": [
+    0.556122
+   ],
+   "median": 0.556122,
+   "invalid": 0
+  },
+  "r29s1": {
+   "runs": [
+    0.559667
+   ],
+   "median": 0.559667,
+   "invalid": 0
+  },
+  "r29s2": {
+   "runs": [
+    0.543872
+   ],
+   "median": 0.543872,
+   "invalid": 0
+  },
+  "r29s3": {
+   "runs": [
+    0.563211
+   ],
+   "median": 0.563211,
+   "invalid": 0
+  },
+  "r29s4": {
+   "runs": [
+    0.563383
+   ],
+   "median": 0.563383,
+   "invalid": 0
+  },
+  "r29s5": {
+   "runs": [
+    0.554133
+   ],
+   "median": 0.554133,
+   "invalid": 0
+  },
+  "r29s6": {
+   "runs": [
+    0.544294
+   ],
+   "median": 0.544294,
+   "invalid": 0
+  },
+  "r29s7": {
+   "runs": [
+    0.561183
+   ],
+   "median": 0.561183,
+   "invalid": 0
+  },
+  "r29s8": {
+   "runs": [
+    0.562311
+   ],
+   "median": 0.562311,
+   "invalid": 0
+  },
+  "r29u1": {
+   "runs": [
+    0.559094
+   ],
+   "median": 0.559094,
+   "invalid": 0
+  },
+  "r29u2": {
+   "runs": [
+    0.554133
+   ],
+   "median": 0.554133,
+   "invalid": 0
+  },
+  "r29u3": {
+   "runs": [
+    0.546489
+   ],
+   "median": 0.546489,
+   "invalid": 0
+  },
+  "r29u4": {
+   "runs": [
+    0.541017
+   ],
+   "median": 0.541017,
+   "invalid": 0
+  },
+  "r28pl1": {
+   "runs": [
+    0.539283
+   ],
+   "median": 0.539283,
+   "invalid": 0
+  },
+  "r28pl2": {
+   "runs": [
+    0.553256
+   ],
+   "median": 0.553256,
+   "invalid": 0
+  },
+  "r28pl3": {
+   "runs": [
+    0.534983
+   ],
+   "median": 0.534983,
+   "invalid": 0
+  },
+  "r28pl4": {
+   "runs": [
+    0.543828
+   ],
+   "median": 0.543828,
+   "invalid": 0
+  },
+  "r28pl5": {
+   "runs": [
+    0.5437
+   ],
+   "median": 0.5437,
+   "invalid": 0
+  },
+  "r28pl6": {
+   "runs": [
+    0.5392
+   ],
+   "median": 0.5392,
+   "invalid": 0
+  },
+  "r28pl7": {
+   "runs": [
+    0.542183
+   ],
+   "median": 0.542183,
+   "invalid": 0
+  },
+  "r28pl8": {
+   "runs": [
+    0.55205
+   ],
+   "median": 0.55205,
+   "invalid": 0
+  }
+ }
+}

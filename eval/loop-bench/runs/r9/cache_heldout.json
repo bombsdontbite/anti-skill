@@ -1,0 +1,49 @@
+{
+ "task": "cache",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 1,
+ "finals": {
+  "v24c": "runs/r9/candidate3/cache/final.py",
+  "v24a": "runs/r9/candidate/cache/final.py",
+  "v2a": "runs/r2/evolve/cache/final.py",
+  "v2b": "runs/r8/shipped2/cache/final.py",
+  "plain": "runs/r2/iter/cache/final.py"
+ },
+ "results": {
+  "v24c": {
+   "runs": [
+    0.560689
+   ],
+   "median": 0.560689,
+   "invalid": 0
+  },
+  "v24a": {
+   "runs": [
+    0.560206
+   ],
+   "median": 0.560206,
+   "invalid": 0
+  },
+  "v2a": {
+   "runs": [
+    0.567983
+   ],
+   "median": 0.567983,
+   "invalid": 0
+  },
+  "v2b": {
+   "runs": [
+    0.567711
+   ],
+   "median": 0.567711,
+   "invalid": 0
+  },
+  "plain": {
+   "runs": [
+    0.561533
+   ],
+   "median": 0.561533,
+   "invalid": 0
+  }
+ }
+}

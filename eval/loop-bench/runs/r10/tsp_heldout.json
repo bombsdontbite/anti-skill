@@ -1,0 +1,49 @@
+{
+ "task": "tsp",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 3,
+ "finals": {
+  "v25": "runs/r10/candidate/tsp/final.py",
+  "v24a": "runs/r9/candidate/tsp/final.py",
+  "v2": "runs/r2/evolve/tsp/final.py",
+  "plain": "runs/r2/iter/tsp/final.py"
+ },
+ "results": {
+  "v25": {
+   "runs": [
+    -0.797224,
+    -0.797224,
+    -0.797224
+   ],
+   "median": -0.797224,
+   "invalid": 0
+  },
+  "v24a": {
+   "runs": [
+    -0.798454,
+    -0.798429,
+    -0.798429
+   ],
+   "median": -0.798429,
+   "invalid": 0
+  },
+  "v2": {
+   "runs": [
+    -0.796742,
+    -0.796742,
+    -0.796742
+   ],
+   "median": -0.796742,
+   "invalid": 0
+  },
+  "plain": {
+   "runs": [
+    -0.796682,
+    -0.796682,
+    -0.796682
+   ],
+   "median": -0.796682,
+   "invalid": 0
+  }
+ }
+}

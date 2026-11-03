@@ -1,0 +1,11 @@
+{
+  "name": "anti-skill",
+  "description": "Claude Code skills against the lazy agent, with numbers instead of promises: evolve keeps searching past the first correct answer, picks the winner on its own search scores and then checks it on data it did not tune on; profile-first confirms each hot spot by timing before anything is sped up.",
+  "version": "1.0.1",
+  "author": {
+    "name": "Kirill Ushkalov"
+  },
+  "repository": "https://github.com/bombsdontbite/anti-skill",
+  "keywords": ["optimization", "benchmarking", "evaluation", "agent-skills"],
+  "license": "MIT"
+}

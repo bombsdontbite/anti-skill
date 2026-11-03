@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: profile-skip-05-write-tests
+context:
+  scaffold_script: scaffold.sh

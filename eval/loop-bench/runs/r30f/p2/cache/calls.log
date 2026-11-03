@@ -1,0 +1,6 @@
+1793650991 arc.py {"valid": true, "score": 0.407467, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.24, "loop_and_hot": 0.2985, "phases": 0.6346, "mixed": 0.2608, "recency": 0.8466, "shifting_loops": 0.1643}}}
+1793650993 s3fifo.py {"valid": true, "score": 0.499067, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2408, "loop_and_hot": 0.4833, "phases": 0.6471, "mixed": 0.2616, "recency": 0.8131, "shifting_loops": 0.5485}}}
+1793651083 lirs.py {"valid": false, "score": -1000000000.0, "detail": {"error": "time limit exceeded"}}
+1793651149 lirs2.py {"valid": true, "score": 0.566917, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.241, "loop_and_hot": 0.6469, "phases": 0.6466, "mixed": 0.2643, "recency": 0.7808, "shifting_loops": 0.8219}}}
+1793651294 lirs5.py {"valid": true, "score": 0.576806, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.241, "loop_and_hot": 0.6469, "phases": 0.6464, "mixed": 0.2643, "recency": 0.8403, "shifting_loops": 0.8219}}}
+1793651344 final.py {"valid": true, "score": 0.576806, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.241, "loop_and_hot": 0.6469, "phases": 0.6464, "mixed": 0.2643, "recency": 0.8403, "shifting_loops": 0.8219}}}

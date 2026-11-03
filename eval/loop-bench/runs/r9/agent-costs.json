@@ -1,0 +1,57 @@
+{
+ "candidate/cache": {
+  "seconds": 511,
+  "usd": 1.17,
+  "calls": 9
+ },
+ "candidate/dedup": {
+  "seconds": 770,
+  "usd": 1.36,
+  "calls": 7
+ },
+ "candidate/speedup": {
+  "seconds": 241,
+  "usd": 0.68,
+  "calls": 3
+ },
+ "candidate/tsp": {
+  "seconds": 1258,
+  "usd": 2.24,
+  "calls": 3
+ },
+ "candidate2/dedup": {
+  "seconds": 1805,
+  "usd": 3.43,
+  "calls": 8
+ },
+ "candidate2/speedup": {
+  "seconds": 161,
+  "usd": 0.58,
+  "calls": 3
+ },
+ "candidate2/tsp": {
+  "seconds": 927,
+  "usd": 1.83,
+  "calls": 9
+ },
+ "sonnet/cache": {
+  "seconds": 310,
+  "usd": 0.85,
+  "calls": 4
+ },
+ "sonnet/dedup": {
+  "seconds": 146,
+  "usd": 0.61,
+  "calls": 4
+ },
+ "sonnet/speedup": {
+  "seconds": 149,
+  "usd": 0.38,
+  "calls": 2
+ },
+ "sonnet/tsp": {
+  "seconds": 848,
+  "usd": 1.56,
+  "calls": 5
+ }
+}

@@ -1,0 +1,1097 @@
+{
+  "report": {
+    "stage/plain": {
+      "total": {
+        "runs": 8,
+        "missing": 0,
+        "invalid": 0,
+        "top1_hit": 0.625,
+        "top1_by_sum_hit": 0.875,
+        "topk_hit": 0.875,
+        "top1_share_error_pp": 7.7,
+        "mean_share_error_pp": 15.9,
+        "decoy_named": 0.125,
+        "decoy_cleared": 0.875,
+        "unmatched_items": 12,
+        "modified_runs": 0
+      },
+      "by_task": {
+        "t11": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 0.5,
+          "top1_by_sum_hit": 0.5,
+          "topk_hit": 0.5,
+          "top1_share_error_pp": 0.7,
+          "mean_share_error_pp": 48.4,
+          "decoy_named": 0.5,
+          "decoy_cleared": 0.5,
+          "unmatched_items": 2,
+          "modified_runs": 0
+        },
+        "t16": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "top1_by_sum_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 2.4,
+          "mean_share_error_pp": 3.5,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 5,
+          "modified_runs": 0
+        },
+        "t17": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 0.0,
+          "top1_by_sum_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": null,
+          "mean_share_error_pp": 10.2,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 3,
+          "modified_runs": 0
+        },
+        "t18": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "top1_by_sum_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 16.5,
+          "mean_share_error_pp": 18.3,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 2,
+          "modified_runs": 0
+        }
+      }
+    },
+    "stage/skill": {
+      "total": {
+        "runs": 8,
+        "missing": 0,
+        "invalid": 0,
+        "top1_hit": 0.625,
+        "top1_by_sum_hit": 0.625,
+        "topk_hit": 0.625,
+        "top1_share_error_pp": 7.8,
+        "mean_share_error_pp": 25.2,
+        "decoy_named": 0.25,
+        "decoy_cleared": 0.75,
+        "unmatched_items": 8,
+        "modified_runs": 0
+      },
+      "by_task": {
+        "t11": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 0.0,
+          "top1_by_sum_hit": 0.0,
+          "topk_hit": 0.0,
+          "top1_share_error_pp": null,
+          "mean_share_error_pp": 95.4,
+          "decoy_named": 1.0,
+          "decoy_cleared": 0.0,
+          "unmatched_items": 0,
+          "modified_runs": 0
+        },
+        "t16": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "top1_by_sum_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 0.4,
+          "mean_share_error_pp": 0.4,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 4,
+          "modified_runs": 0
+        },
+        "t17": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 0.5,
+          "top1_by_sum_hit": 0.5,
+          "topk_hit": 0.5,
+          "top1_share_error_pp": 10.5,
+          "mean_share_error_pp": 3.8,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 2,
+          "modified_runs": 0
+        },
+        "t18": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "top1_by_sum_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 13.8,
+          "mean_share_error_pp": 16.5,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 2,
+          "modified_runs": 0
+        }
+      }
+    },
+    "ALL": {
+      "total": {
+        "runs": 16,
+        "missing": 0,
+        "invalid": 0,
+        "top1_hit": 0.625,
+        "top1_by_sum_hit": 0.75,
+        "topk_hit": 0.75,
+        "top1_share_error_pp": 7.7,
+        "mean_share_error_pp": 19.9,
+        "decoy_named": 0.188,
+        "decoy_cleared": 0.812,
+        "unmatched_items": 20,
+        "modified_runs": 0
+      }
+    }
+  },
+  "runs": [
+    {
+      "run": "stage/plain/r1-t11/t11",
+      "task": "t11",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "addresses": 96.0
+      },
+      "topk": true,
+      "top1_share_error": 0.7199999999999989,
+      "share_errors": [
+        0.7199999999999989
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:addresses (ADDRESS regex finditer scan, line 9/20, consumed inside domain_counts line 25)",
+          "share": 96.0,
+          "component": "addresses",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:domain_counts (Counter loop excluding the regex scan)",
+          "share": 1.0,
+          "component": "domain_counts"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:read_mailbox",
+          "share": 1.0,
+          "component": "read_mailbox"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:lookalikes",
+          "share": 0.0,
+          "component": "lookalikes"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r1-t16/t16",
+      "task": "t16",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "drop_resends": 90.0,
+        "load_rows": 6.0
+      },
+      "topk": true,
+      "top1_share_error": 1.8900000000000006,
+      "share_errors": [
+        1.8900000000000006,
+        4.55
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>",
+        "app.py:settle",
+        "app.py:main"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:drop_resends",
+          "share": 90.0,
+          "component": "drop_resends",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_rows",
+          "share": 6.0,
+          "component": "load_rows",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:settle",
+          "share": 1.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:settlement_day",
+          "share": 0.0,
+          "component": "settlement_day"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:main",
+          "share": 0.0,
+          "component": null
+        }
+      ],
+      "named_toy_top": false
+    },
+    {
+      "run": "stage/plain/r1-t17/t17",
+      "task": "t17",
+      "modified": [],
+      "status": "ok",
+      "top1": false,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "reading_stats": 26.0,
+        "markup": 44.0
+      },
+      "topk": true,
+      "top1_share_error": null,
+      "share_errors": [
+        0.6699999999999982,
+        18.490000000000002
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:reading_stats",
+          "share": 26.0,
+          "component": "reading_stats",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "markup.py:emphasis",
+          "share": 14.0,
+          "component": "markup",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "markup.py:typography",
+          "share": 11.0,
+          "component": "markup",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "markup.py:abbreviations",
+          "share": 10.0,
+          "component": "markup",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "markup.py:glossary",
+          "share": 9.0,
+          "component": "markup",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:slug_table",
+          "share": 0.0,
+          "component": "slug_table"
+        },
+        {
+          "kind": "cleared",
+          "where": "markup.py:links",
+          "share": 3.0,
+          "component": "markup"
+        },
+        {
+          "kind": "cleared",
+          "where": "markup.py:block_kind",
+          "share": 2.0,
+          "component": "markup"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r1-t18/t18",
+      "task": "t18",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "find_overlaps": 98.0
+      },
+      "topk": true,
+      "top1_share_error": 27.97,
+      "share_errors": [
+        27.97
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module> (interpreter start-up + imports)"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_overlaps line 26-32 (nested pairwise overlap loop, O(k^2) per person-day)",
+          "share": 46.0,
+          "component": "find_overlaps",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_overlaps line 21 (csv.reader row parsing, reader created in open_sheet line 13)",
+          "share": 30.0,
+          "component": "find_overlaps",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_overlaps line 22-24 (int() conversion, by_day grouping, hours sum)",
+          "share": 22.0,
+          "component": "find_overlaps",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:<module> (interpreter start-up + imports)",
+          "share": 2.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:rota_grid",
+          "share": 0.0,
+          "component": "rota_grid"
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t11/t11",
+      "task": "t11",
+      "modified": [],
+      "status": "ok",
+      "top1": false,
+      "top1_by_sum": false,
+      "stated_shares": {
+        "domain_counts": 98.0
+      },
+      "topk": false,
+      "top1_share_error": null,
+      "share_errors": [
+        96.17
+      ],
+      "decoy_named": true,
+      "decoy_cleared": false,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:domain_counts (line 25, iterating ADDRESS.finditer from line 9/20 - the lazy regex scan of the whole 19 MB text runs here)",
+          "share": 98.0,
+          "component": "domain_counts",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:lookalikes",
+          "share": 0.02,
+          "component": "lookalikes"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:read_mailbox",
+          "share": 0.6,
+          "component": "read_mailbox"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t16/t16",
+      "task": "t16",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "drop_resends": 91.0,
+        "load_rows": 6.0
+      },
+      "topk": true,
+      "top1_share_error": 2.8900000000000006,
+      "share_errors": [
+        2.8900000000000006,
+        4.55
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:settle",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:drop_resends",
+          "share": 91.0,
+          "component": "drop_resends",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_rows",
+          "share": 6.0,
+          "component": "load_rows",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:settle",
+          "share": 1.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:settlement_day",
+          "share": 0.0,
+          "component": "settlement_day"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        }
+      ],
+      "named_toy_top": false
+    },
+    {
+      "run": "stage/plain/r2-t17/t17",
+      "task": "t17",
+      "modified": [],
+      "status": "ok",
+      "top1": false,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "reading_stats": 28.0,
+        "markup": 43.5
+      },
+      "topk": true,
+      "top1_share_error": null,
+      "share_errors": [
+        2.669999999999998,
+        18.990000000000002
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>",
+        "app.py:main (file read + split)"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:reading_stats",
+          "share": 28.0,
+          "component": "reading_stats",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "markup.py:emphasis",
+          "share": 14.0,
+          "component": "markup",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "markup.py:glossary",
+          "share": 10.0,
+          "component": "markup",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "markup.py:typography",
+          "share": 10.0,
+          "component": "markup",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "markup.py:escape",
+          "share": 9.5,
+          "component": "markup",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:slug_table",
+          "share": 0.0,
+          "component": "slug_table"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:main (file read + split)",
+          "share": 7.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t18/t18",
+      "task": "t18",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "find_overlaps": 65.0,
+        "open_sheet": 28.0
+      },
+      "topk": true,
+      "top1_share_error": 5.030000000000001,
+      "share_errors": [
+        5.030000000000001,
+        21.76
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module> (interpreter start-up and imports)"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_overlaps (lines 26-32, all-pairs overlap loop per person/day)",
+          "share": 46.0,
+          "component": "find_overlaps",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:open_sheet (csv.reader parsing of timesheets.csv, consumed at line 21)",
+          "share": 28.0,
+          "component": "open_sheet",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_overlaps (lines 21-24, int() conversion and by_day/hours dict building)",
+          "share": 19.0,
+          "component": "find_overlaps",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:<module> (interpreter start-up and imports)",
+          "share": 2.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:rota_grid",
+          "share": 0.0,
+          "component": "rota_grid"
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t11/t11",
+      "task": "t11",
+      "modified": [],
+      "status": "ok",
+      "top1": false,
+      "top1_by_sum": false,
+      "stated_shares": {
+        "domain_counts": 97.6
+      },
+      "topk": false,
+      "top1_share_error": null,
+      "share_errors": [
+        95.77
+      ],
+      "decoy_named": true,
+      "decoy_cleared": false,
+      "unmatched": [],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:domain_counts",
+          "share": 97.6,
+          "component": "domain_counts",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:lookalikes",
+          "share": 0.0,
+          "component": "lookalikes"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:read_mailbox",
+          "share": 0.5,
+          "component": "read_mailbox"
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t16/t16",
+      "task": "t16",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "drop_resends": 88.6
+      },
+      "topk": true,
+      "top1_share_error": 0.4899999999999949,
+      "share_errors": [
+        0.4899999999999949
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:settle",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:drop_resends",
+          "share": 88.6,
+          "component": "drop_resends",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_rows",
+          "share": 5.3,
+          "component": "load_rows"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:settle",
+          "share": 1.1,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:settlement_day",
+          "share": 0.0,
+          "component": "settlement_day"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 0.1,
+          "component": null
+        }
+      ],
+      "named_toy_top": false
+    },
+    {
+      "run": "stage/skill/r1-t17/t17",
+      "task": "t17",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "markup": 52.0,
+        "reading_stats": 25.0
+      },
+      "topk": true,
+      "top1_share_error": 10.490000000000002,
+      "share_errors": [
+        10.490000000000002,
+        0.33000000000000185
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "markup.py:escape, typography, emphasis, links, tickets, abbreviations, glossary (the 7 per-word passes called from app.py:main lines 54-60)",
+          "share": 52.0,
+          "component": "markup",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:reading_stats",
+          "share": 25.0,
+          "component": "reading_stats",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "markup.py:emphasis",
+          "share": 11.0,
+          "component": "markup",
+          "repeat": true
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:slug_table",
+          "share": 0.0,
+          "component": "slug_table"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 0.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "markup.py:tickets",
+          "share": 4.0,
+          "component": "markup"
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t18/t18",
+      "task": "t18",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "find_overlaps": 69.5,
+        "open_sheet": 28.2
+      },
+      "topk": true,
+      "top1_share_error": 0.5300000000000011,
+      "share_errors": [
+        0.5300000000000011,
+        21.96
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module> (imports)"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_overlaps (lines 26-32, pairwise overlap loop)",
+          "share": 47.6,
+          "component": "find_overlaps",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:open_sheet (csv.reader parsing, consumed in find_overlaps line 21)",
+          "share": 28.2,
+          "component": "open_sheet",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_overlaps (lines 21-24, grouping loop: int(), setdefault, append, hours dict)",
+          "share": 21.9,
+          "component": "find_overlaps",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:rota_grid",
+          "share": 0.5,
+          "component": "rota_grid"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> (imports)",
+          "share": 0.1,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t11/t11",
+      "task": "t11",
+      "modified": [],
+      "status": "ok",
+      "top1": false,
+      "top1_by_sum": false,
+      "stated_shares": {
+        "domain_counts": 96.9
+      },
+      "topk": false,
+      "top1_share_error": null,
+      "share_errors": [
+        95.07000000000001
+      ],
+      "decoy_named": true,
+      "decoy_cleared": false,
+      "unmatched": [],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:domain_counts",
+          "share": 96.9,
+          "component": "domain_counts",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:lookalikes",
+          "share": 0.2,
+          "component": "lookalikes"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:read_mailbox",
+          "share": 0.5,
+          "component": "read_mailbox"
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t16/t16",
+      "task": "t16",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "drop_resends": 88.5
+      },
+      "topk": true,
+      "top1_share_error": 0.39000000000000057,
+      "share_errors": [
+        0.39000000000000057
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:settle",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:drop_resends",
+          "share": 88.5,
+          "component": "drop_resends",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_rows",
+          "share": 6.1,
+          "component": "load_rows"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:settle",
+          "share": 1.2,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:settlement_day",
+          "share": 0.0,
+          "component": "settlement_day"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 0.1,
+          "component": null
+        }
+      ],
+      "named_toy_top": false
+    },
+    {
+      "run": "stage/skill/r2-t17/t17",
+      "task": "t17",
+      "modified": [],
+      "status": "ok",
+      "top1": false,
+      "top1_by_sum": false,
+      "stated_shares": {
+        "reading_stats": 24.9
+      },
+      "topk": false,
+      "top1_share_error": null,
+      "share_errors": [
+        0.43000000000000327
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:reading_stats",
+          "share": 24.9,
+          "component": "reading_stats",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:slug_table",
+          "share": 0.0,
+          "component": "slug_table"
+        },
+        {
+          "kind": "cleared",
+          "where": "markup.py:block_kind",
+          "share": 0.2,
+          "component": "markup"
+        },
+        {
+          "kind": "cleared",
+          "where": "markup.py:links",
+          "share": 3.2,
+          "component": "markup"
+        },
+        {
+          "kind": "cleared",
+          "where": "markup.py:tickets",
+          "share": 3.3,
+          "component": "markup"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 0.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t18/t18",
+      "task": "t18",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "top1_by_sum": true,
+      "stated_shares": {
+        "find_overlaps": 97.0
+      },
+      "topk": true,
+      "top1_share_error": 26.97,
+      "share_errors": [
+        26.97
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_overlaps line 21 (CSV read + grouping loop, lines 21-24)",
+          "share": 50.0,
+          "component": "find_overlaps",
+          "repeat": false
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_overlaps line 26 (pairwise overlap loop, lines 26-32)",
+          "share": 47.0,
+          "component": "find_overlaps",
+          "repeat": false
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:rota_grid",
+          "share": 0.0,
+          "component": "rota_grid"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        }
+      ]
+    }
+  ]
+}

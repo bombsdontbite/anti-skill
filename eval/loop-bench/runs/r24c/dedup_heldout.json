@@ -1,0 +1,339 @@
+{
+ "task": "dedup",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 3,
+ "finals": {
+  "plain": "runs/r2/iter/dedup/final.py",
+  "v2r2": "runs/r2/evolve/dedup/final.py",
+  "r15plain1": "runs/r15/plain1/dedup/final.py",
+  "r15plain2": "runs/r15/plain2/dedup/final.py",
+  "r15nudge1": "runs/r15/nudge1/dedup/final.py",
+  "r15nudge2": "runs/r15/nudge2/dedup/final.py",
+  "r15v2a": "runs/r15/v2a/dedup/final.py",
+  "r15v2b": "runs/r15/v2b/dedup/final.py",
+  "r15e1": "runs/r15/e1/dedup/final.py",
+  "r15e2": "runs/r15/e2/dedup/final.py",
+  "r15f1": "runs/r15/f1/dedup/final.py",
+  "r15f2": "runs/r15/f2/dedup/final.py",
+  "r17f3": "runs/r17/f3/dedup/final.py",
+  "r17f4": "runs/r17/f4/dedup/final.py",
+  "r17v2c": "runs/r17/v2c/dedup/final.py",
+  "r17e3": "runs/r17/e3/dedup/final.py",
+  "r17plain3": "runs/r17/plain3/dedup/final.py",
+  "r18ch5": "runs/r18c/g5/dedup/final.py",
+  "r18ch6": "runs/r18c/g6/dedup/final.py",
+  "r20h7": "runs/r20/h7/dedup/final.py",
+  "r20h8": "runs/r20/h8/dedup/final.py",
+  "r22cj1": "runs/r22c/j1/dedup/final.py",
+  "r22cj2": "runs/r22c/j2/dedup/final.py",
+  "r22cj3": "runs/r22c/j3/dedup/final.py",
+  "r22cj4": "runs/r22c/j4/dedup/final.py",
+  "r23cl1": "runs/r23c/l1/dedup/final.py",
+  "r23cl2": "runs/r23c/l2/dedup/final.py",
+  "r23cl3": "runs/r23c/l3/dedup/final.py",
+  "r23cl4": "runs/r23c/l4/dedup/final.py",
+  "r24cm1": "runs/r24c/m1/dedup/final.py",
+  "r24cm2": "runs/r24c/m2/dedup/final.py",
+  "r24cm3": "runs/r24c/m3/dedup/final.py",
+  "r24cm4": "runs/r24c/m4/dedup/final.py"
+ },
+ "results": {
+  "plain": {
+   "runs": [
+    77.700156,
+    77.712342,
+    77.522947
+   ],
+   "median": 77.700156,
+   "invalid": 0
+  },
+  "v2r2": {
+   "runs": [
+    93.925237,
+    93.657714,
+    93.362319
+   ],
+   "median": 93.657714,
+   "invalid": 0
+  },
+  "r15plain1": {
+   "runs": [
+    69.911492,
+    67.987568,
+    68.890771
+   ],
+   "median": 68.890771,
+   "invalid": 0
+  },
+  "r15plain2": {
+   "runs": [
+    63.368935,
+    65.187056,
+    64.492878
+   ],
+   "median": 64.492878,
+   "invalid": 0
+  },
+  "r15nudge1": {
+   "runs": [
+    71.008829,
+    70.971152,
+    71.202644
+   ],
+   "median": 71.008829,
+   "invalid": 0
+  },
+  "r15nudge2": {
+   "runs": [
+    77.010901,
+    78.008752,
+    77.724387
+   ],
+   "median": 77.724387,
+   "invalid": 0
+  },
+  "r15v2a": {
+   "runs": [
+    76.473128,
+    76.385538,
+    77.883706
+   ],
+   "median": 76.473128,
+   "invalid": 0
+  },
+  "r15v2b": {
+   "runs": [
+    85.368056,
+    83.663357,
+    83.623452
+   ],
+   "median": 83.663357,
+   "invalid": 0
+  },
+  "r15e1": {
+   "runs": [
+    75.095211,
+    74.183597,
+    74.525887
+   ],
+   "median": 74.525887,
+   "invalid": 0
+  },
+  "r15e2": {
+   "runs": [
+    80.8766,
+    79.30935,
+    79.43403
+   ],
+   "median": 79.43403,
+   "invalid": 0
+  },
+  "r15f1": {
+   "runs": [
+    96.886367,
+    100.00322,
+    98.663287
+   ],
+   "median": 98.663287,
+   "invalid": 0
+  },
+  "r15f2": {
+   "runs": [
+    95.320474,
+    94.056516,
+    93.812131
+   ],
+   "median": 94.056516,
+   "invalid": 0
+  },
+  "r17f3": {
+   "runs": [
+    97.362924,
+    97.815323,
+    97.424335
+   ],
+   "median": 97.424335,
+   "invalid": 0
+  },
+  "r17f4": {
+   "runs": [
+    104.777041,
+    104.461159,
+    104.932594
+   ],
+   "median": 104.777041,
+   "invalid": 0
+  },
+  "r17v2c": {
+   "runs": [
+    83.518532,
+    83.863027,
+    84.190416
+   ],
+   "median": 83.863027,
+   "invalid": 0
+  },
+  "r17e3": {
+   "runs": [
+    105.749684,
+    105.911243,
+    109.345298
+   ],
+   "median": 105.911243,
+   "invalid": 0
+  },
+  "r17plain3": {
+   "runs": [
+    76.135553,
+    74.828677,
+    76.103922
+   ],
+   "median": 76.103922,
+   "invalid": 0
+  },
+  "r18ch5": {
+   "runs": [
+    85.228843,
+    85.624664,
+    84.70338
+   ],
+   "median": 85.228843,
+   "invalid": 0
+  },
+  "r18ch6": {
+   "runs": [
+    95.950011,
+    97.01512,
+    95.595453
+   ],
+   "median": 95.950011,
+   "invalid": 0
+  },
+  "r20h7": {
+   "runs": [
+    77.396452,
+    79.658408,
+    77.358417
+   ],
+   "median": 77.396452,
+   "invalid": 0
+  },
+  "r20h8": {
+   "runs": [
+    84.956671,
+    84.480953,
+    84.102128
+   ],
+   "median": 84.480953,
+   "invalid": 0
+  },
+  "r22cj1": {
+   "runs": [
+    96.909229,
+    98.464945,
+    96.296933
+   ],
+   "median": 96.909229,
+   "invalid": 0
+  },
+  "r22cj2": {
+   "runs": [
+    85.034186,
+    86.013565,
+    84.628439
+   ],
+   "median": 85.034186,
+   "invalid": 0
+  },
+  "r22cj3": {
+   "runs": [
+    95.265918,
+    94.750389,
+    90.390388
+   ],
+   "median": 94.750389,
+   "invalid": 0
+  },
+  "r22cj4": {
+   "runs": [
+    100.535025,
+    99.613695,
+    102.06402
+   ],
+   "median": 100.535025,
+   "invalid": 0
+  },
+  "r23cl1": {
+   "runs": [
+    95.038497,
+    92.884493,
+    94.586173
+   ],
+   "median": 94.586173,
+   "invalid": 0
+  },
+  "r23cl2": {
+   "runs": [
+    73.467347,
+    72.512768,
+    72.741016
+   ],
+   "median": 72.741016,
+   "invalid": 0
+  },
+  "r23cl3": {
+   "runs": [
+    85.975441,
+    84.193155,
+    83.253116
+   ],
+   "median": 84.193155,
+   "invalid": 0
+  },
+  "r23cl4": {
+   "runs": [
+    92.088811,
+    91.988297,
+    91.421704
+   ],
+   "median": 91.988297,
+   "invalid": 0
+  },
+  "r24cm1": {
+   "runs": [
+    85.63591,
+    82.971006,
+    83.645368
+   ],
+   "median": 83.645368,
+   "invalid": 0
+  },
+  "r24cm2": {
+   "runs": [
+    87.593134,
+    88.258489,
+    87.441253
+   ],
+   "median": 87.593134,
+   "invalid": 0
+  },
+  "r24cm3": {
+   "runs": [
+    73.440352,
+    74.028345,
+    75.593096
+   ],
+   "median": 74.028345,
+   "invalid": 0
+  },
+  "r24cm4": {
+   "runs": [
+    84.022664,
+    84.586246,
+    84.520949
+   ],
+   "median": 84.520949,
+   "invalid": 0
+  }
+ }
+}

@@ -1,0 +1,237 @@
+{
+ "task": "speedup",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 5,
+ "finals": {
+  "plain": "runs/r2/iter/speedup/final.py",
+  "v2r2": "runs/r2/evolve/speedup/final.py",
+  "r15plain1": "runs/r15/plain1/speedup/final.py",
+  "r15plain2": "runs/r15/plain2/speedup/final.py",
+  "r15nudge1": "runs/r15/nudge1/speedup/final.py",
+  "r15nudge2": "runs/r15/nudge2/speedup/final.py",
+  "r15v2a": "runs/r15/v2a/speedup/final.py",
+  "r15v2b": "runs/r15/v2b/speedup/final.py",
+  "r15e1": "runs/r15/e1/speedup/final.py",
+  "r15e2": "runs/r15/e2/speedup/final.py",
+  "r15f1": "runs/r15/f1/speedup/final.py",
+  "r15f2": "runs/r15/f2/speedup/final.py",
+  "r17f3": "runs/r17/f3/speedup/final.py",
+  "r17f4": "runs/r17/f4/speedup/final.py",
+  "r17v2c": "runs/r17/v2c/speedup/final.py",
+  "r17e3": "runs/r17/e3/speedup/final.py",
+  "r17plain3": "runs/r17/plain3/speedup/final.py",
+  "r18cg5": "runs/r18c/g5/speedup/final.py",
+  "r18cg6": "runs/r18c/g6/speedup/final.py"
+ },
+ "results": {
+  "plain": {
+   "runs": [
+    53.25204,
+    53.396327,
+    53.732119,
+    53.201441,
+    53.400261
+   ],
+   "median": 53.396327,
+   "invalid": 0
+  },
+  "v2r2": {
+   "runs": [
+    55.715408,
+    55.796338,
+    55.659666,
+    55.285907,
+    55.727587
+   ],
+   "median": 55.715408,
+   "invalid": 0
+  },
+  "r15plain1": {
+   "runs": [
+    29.856467,
+    30.258173,
+    30.157531,
+    30.227526,
+    30.243865
+   ],
+   "median": 30.227526,
+   "invalid": 0
+  },
+  "r15plain2": {
+   "runs": [
+    29.636251,
+    30.422015,
+    30.159388,
+    30.259017,
+    30.397609
+   ],
+   "median": 30.259017,
+   "invalid": 0
+  },
+  "r15nudge1": {
+   "runs": [
+    57.741434,
+    58.348446,
+    57.972301,
+    58.004374,
+    57.888575
+   ],
+   "median": 57.972301,
+   "invalid": 0
+  },
+  "r15nudge2": {
+   "runs": [
+    32.273636,
+    32.613485,
+    32.580629,
+    32.658819,
+    32.570281
+   ],
+   "median": 32.580629,
+   "invalid": 0
+  },
+  "r15v2a": {
+   "runs": [
+    58.938238,
+    59.159911,
+    59.316807,
+    59.294597,
+    58.981137
+   ],
+   "median": 59.159911,
+   "invalid": 0
+  },
+  "r15v2b": {
+   "runs": [
+    48.301223,
+    48.106328,
+    48.292082,
+    48.377213,
+    48.016222
+   ],
+   "median": 48.292082,
+   "invalid": 0
+  },
+  "r15e1": {
+   "runs": [
+    54.160932,
+    55.056044,
+    54.906033,
+    55.017007,
+    54.924655
+   ],
+   "median": 54.924655,
+   "invalid": 0
+  },
+  "r15e2": {
+   "runs": [
+    58.619435,
+    58.475484,
+    58.536141,
+    58.322501,
+    58.490069
+   ],
+   "median": 58.490069,
+   "invalid": 0
+  },
+  "r15f1": {
+   "runs": [
+    60.059104,
+    60.102578,
+    60.0315,
+    60.151539,
+    59.721956
+   ],
+   "median": 60.059104,
+   "invalid": 0
+  },
+  "r15f2": {
+   "runs": [
+    54.778716,
+    54.332327,
+    54.53465,
+    54.396548,
+    54.449128
+   ],
+   "median": 54.449128,
+   "invalid": 0
+  },
+  "r17f3": {
+   "runs": [
+    59.552876,
+    59.791357,
+    59.796648,
+    59.816185,
+    59.876862
+   ],
+   "median": 59.796648,
+   "invalid": 0
+  },
+  "r17f4": {
+   "runs": [
+    46.413512,
+    46.127498,
+    45.930029,
+    46.04471,
+    46.055743
+   ],
+   "median": 46.055743,
+   "invalid": 0
+  },
+  "r17v2c": {
+   "runs": [
+    49.325652,
+    50.581528,
+    50.562169,
+    50.292658,
+    50.094302
+   ],
+   "median": 50.292658,
+   "invalid": 0
+  },
+  "r17e3": {
+   "runs": [
+    59.592243,
+    59.178614,
+    59.130709,
+    59.623298,
+    59.374471
+   ],
+   "median": 59.374471,
+   "invalid": 0
+  },
+  "r17plain3": {
+   "runs": [
+    54.199571,
+    54.636166,
+    54.555057,
+    54.23101,
+    54.377858
+   ],
+   "median": 54.377858,
+   "invalid": 0
+  },
+  "r18cg5": {
+   "runs": [
+    53.287006,
+    53.235725,
+    52.950065,
+    52.991885,
+    52.935054
+   ],
+   "median": 52.991885,
+   "invalid": 0
+  },
+  "r18cg6": {
+   "runs": [
+    50.41855,
+    50.334303,
+    50.306106,
+    50.318136,
+    50.561104
+   ],
+   "median": 50.334303,
+   "invalid": 0
+  }
+ }
+}

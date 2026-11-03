@@ -1,0 +1,59 @@
+{
+ "task": "schedule",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 3,
+ "finals": {
+  "v23a": "runs/r8/candidate/schedule/final.py",
+  "v23b": "runs/r8/candidate2/schedule/final.py",
+  "v2a": "runs/r2/evolve/schedule/final.py",
+  "v2b": "runs/r8/shipped2/schedule/final.py",
+  "plain": "runs/r2/iter/schedule/final.py"
+ },
+ "results": {
+  "v23a": {
+   "runs": [
+    -0.257248,
+    -0.257455,
+    -0.257634
+   ],
+   "median": -0.257455,
+   "invalid": 0
+  },
+  "v23b": {
+   "runs": [
+    -0.256256,
+    -0.254897,
+    -0.256005
+   ],
+   "median": -0.256005,
+   "invalid": 0
+  },
+  "v2a": {
+   "runs": [
+    -0.26237,
+    -0.262496,
+    -0.262227
+   ],
+   "median": -0.26237,
+   "invalid": 0
+  },
+  "v2b": {
+   "runs": [
+    -0.258422,
+    -0.258422,
+    -0.258422
+   ],
+   "median": -0.258422,
+   "invalid": 0
+  },
+  "plain": {
+   "runs": [
+    -0.254099,
+    -0.254099,
+    -0.254099
+   ],
+   "median": -0.254099,
+   "invalid": 0
+  }
+ }
+}

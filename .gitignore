@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+# A run's scorer-call log is its evidence: final_scores.py and process_metrics.py count it
+!eval/loop-bench/runs/**/calls.log
+# The queue runner's start and end times: which agent ran when, and in what order
+!eval/loop-bench/runs/*/queue.log
+# A progress reader's empty marker beside a queue log
+queue.log.mark
+.env
+
+.venv/
+__pycache__/
+temp/
+# claude plugin eval writes each run here; eval/triggers/RESULTS.md records each run's counts
+eval/triggers/results/

@@ -1,0 +1,12 @@
+1793178707 c1_prefix.py {"valid": true, "score": 63.542196, "detail": {"split": "train", "reference_cpu_s": 1.3312, "candidate_cpu_s": 0.02095, "runs": 3, "pairs": [866, 545]}}
+1793178870 c6.py {"valid": true, "score": 81.000974, "detail": {"split": "train", "reference_cpu_s": 1.3305, "candidate_cpu_s": 0.016426, "runs": 3, "pairs": [866, 545]}}
+1793178874 c3_lexorder.py {"valid": true, "score": 25.78733, "detail": {"split": "train", "reference_cpu_s": 1.3267, "candidate_cpu_s": 0.051446, "runs": 3, "pairs": [866, 545]}}
+1793178931 r1c_listidx.py {"valid": true, "score": 81.182582, "detail": {"split": "train", "reference_cpu_s": 1.3339, "candidate_cpu_s": 0.016431, "runs": 3, "pairs": [866, 545]}}
+1793178960 r2b_nocoll.py {"valid": true, "score": 78.009889, "detail": {"split": "train", "reference_cpu_s": 1.3252, "candidate_cpu_s": 0.016988, "runs": 3, "pairs": [866, 545]}}
+1793178979 r2a.py {"valid": true, "score": 81.643992, "detail": {"split": "train", "reference_cpu_s": 1.331, "candidate_cpu_s": 0.016303, "runs": 3, "pairs": [866, 545]}}
+1793179048 r3b_hybrid8.py {"valid": true, "score": 89.060142, "detail": {"split": "train", "reference_cpu_s": 1.3313, "candidate_cpu_s": 0.014948, "runs": 3, "pairs": [866, 545]}}
+1793179108 r4i_inline.py {"valid": true, "score": 88.988405, "detail": {"split": "train", "reference_cpu_s": 1.3277, "candidate_cpu_s": 0.01492, "runs": 3, "pairs": [866, 545]}}
+1793179158 r5c_hashsum.py {"valid": true, "score": 94.034783, "detail": {"split": "train", "reference_cpu_s": 1.3301, "candidate_cpu_s": 0.014145, "runs": 3, "pairs": [866, 545]}}
+1793179310 r6t_comp.py {"valid": true, "score": 91.520243, "detail": {"split": "train", "reference_cpu_s": 6.0966, "candidate_cpu_s": 0.066615, "runs": 3, "pairs": [866, 545]}}
+1793179362 r5c_hashsum.py {"valid": true, "score": 93.714987, "detail": {"split": "train", "reference_cpu_s": 6.1487, "candidate_cpu_s": 0.065611, "runs": 3, "pairs": [866, 545]}}
+1793179382 r6t_comp.py {"valid": true, "score": 93.253853, "detail": {"split": "train", "reference_cpu_s": 6.1782, "candidate_cpu_s": 0.066251, "runs": 3, "pairs": [866, 545]}}

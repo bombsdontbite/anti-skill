@@ -1,0 +1,2341 @@
+{
+  "report": {
+    "stage/plain": {
+      "total": {
+        "runs": 20,
+        "missing": 0,
+        "invalid": 0,
+        "top1_hit": 1.0,
+        "topk_hit": 1.0,
+        "top1_share_error_pp": 6.4,
+        "mean_share_error_pp": 7.0,
+        "decoy_named": 0.0,
+        "decoy_cleared": 0.889,
+        "unmatched_items": 39,
+        "modified_runs": 0
+      },
+      "by_task": {
+        "t01": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 2.9,
+          "mean_share_error_pp": 2.6,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 1,
+          "modified_runs": 0
+        },
+        "t02": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 0.6,
+          "mean_share_error_pp": 5.8,
+          "decoy_named": 0.0,
+          "decoy_cleared": 0.5,
+          "unmatched_items": 9,
+          "modified_runs": 0
+        },
+        "t03": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 14.9,
+          "mean_share_error_pp": 12.9,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 4,
+          "modified_runs": 0
+        },
+        "t04": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 0.1,
+          "mean_share_error_pp": 1.8,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 6,
+          "modified_runs": 0
+        },
+        "t05": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 1.6,
+          "mean_share_error_pp": 5.1,
+          "decoy_named": 0.0,
+          "decoy_cleared": 0.5,
+          "unmatched_items": 4,
+          "modified_runs": 0
+        },
+        "t06": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 28.5,
+          "mean_share_error_pp": 28.5,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 4,
+          "modified_runs": 0
+        },
+        "t07": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 12.0,
+          "mean_share_error_pp": 12.0,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 1,
+          "modified_runs": 0
+        },
+        "t08": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 1.3,
+          "mean_share_error_pp": 1.3,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 2,
+          "modified_runs": 0
+        },
+        "t09": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 1.1,
+          "mean_share_error_pp": 1.1,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 4,
+          "modified_runs": 0
+        },
+        "t10": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 1.0,
+          "mean_share_error_pp": 1.0,
+          "decoy_named": null,
+          "decoy_cleared": null,
+          "unmatched_items": 4,
+          "modified_runs": 0
+        }
+      }
+    },
+    "stage/skill": {
+      "total": {
+        "runs": 20,
+        "missing": 0,
+        "invalid": 0,
+        "top1_hit": 1.0,
+        "topk_hit": 1.0,
+        "top1_share_error_pp": 1.4,
+        "mean_share_error_pp": 2.0,
+        "decoy_named": 0.0,
+        "decoy_cleared": 0.944,
+        "unmatched_items": 32,
+        "modified_runs": 0
+      },
+      "by_task": {
+        "t01": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 0.9,
+          "mean_share_error_pp": 0.9,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 1,
+          "modified_runs": 0
+        },
+        "t02": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 0.9,
+          "mean_share_error_pp": 4.9,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 3,
+          "modified_runs": 0
+        },
+        "t03": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 6.9,
+          "mean_share_error_pp": 6.9,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 5,
+          "modified_runs": 0
+        },
+        "t04": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 0.4,
+          "mean_share_error_pp": 0.4,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 3,
+          "modified_runs": 0
+        },
+        "t05": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 1.9,
+          "mean_share_error_pp": 1.9,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 4,
+          "modified_runs": 0
+        },
+        "t06": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 0.6,
+          "mean_share_error_pp": 0.6,
+          "decoy_named": 0.0,
+          "decoy_cleared": 0.5,
+          "unmatched_items": 4,
+          "modified_runs": 0
+        },
+        "t07": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 0.6,
+          "mean_share_error_pp": 0.6,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 2,
+          "modified_runs": 0
+        },
+        "t08": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 1.2,
+          "mean_share_error_pp": 1.2,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 2,
+          "modified_runs": 0
+        },
+        "t09": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 0.3,
+          "mean_share_error_pp": 0.3,
+          "decoy_named": 0.0,
+          "decoy_cleared": 1.0,
+          "unmatched_items": 4,
+          "modified_runs": 0
+        },
+        "t10": {
+          "runs": 2,
+          "missing": 0,
+          "invalid": 0,
+          "top1_hit": 1.0,
+          "topk_hit": 1.0,
+          "top1_share_error_pp": 0.5,
+          "mean_share_error_pp": 0.5,
+          "decoy_named": null,
+          "decoy_cleared": null,
+          "unmatched_items": 4,
+          "modified_runs": 0
+        }
+      }
+    },
+    "ALL": {
+      "total": {
+        "runs": 40,
+        "missing": 0,
+        "invalid": 0,
+        "top1_hit": 1.0,
+        "topk_hit": 1.0,
+        "top1_share_error_pp": 3.9,
+        "mean_share_error_pp": 4.9,
+        "decoy_named": 0.0,
+        "decoy_cleared": 0.917,
+        "unmatched_items": 71,
+        "modified_runs": 0
+      }
+    }
+  },
+  "runs": [
+    {
+      "run": "stage/plain/r1-t01/t01",
+      "task": "t01",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 1.4099999999999966,
+      "share_errors": [
+        1.4099999999999966
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "spelling.py:_build_variants (line 22, run at import via <module> line 33)",
+          "share": 95.0,
+          "component": "spelling_import"
+        },
+        {
+          "kind": "hotspot",
+          "where": "spelling.py:_edits1 (line 13, called 6000x from _build_variants)",
+          "share": 25.0,
+          "component": "spelling_import"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:correct_queries",
+          "share": 1.0,
+          "component": "correct_queries"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:confusion_cube",
+          "share": 0.5,
+          "component": "confusion_cube"
+        },
+        {
+          "kind": "cleared",
+          "where": "spelling.py:_load_vocab",
+          "share": 0.1,
+          "component": "spelling_import"
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r1-t02/t02",
+      "task": "t02",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 1.0600000000000023,
+      "share_errors": [
+        1.0600000000000023,
+        10.82
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:summarise",
+        "app.py:<module> (interpreter start-up + imports)",
+        "app.py:summarise line 44-45 (Decimal(price), datetime.fromisoformat)",
+        "app.py:summarise line 51 (per-customer sort)"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:write_report (line 67-69, json.dump)",
+          "share": 67.0,
+          "component": "write_report"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:summarise",
+          "share": 12.0,
+          "component": null
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_orders (csv.DictReader, line 34)",
+          "share": 10.0,
+          "component": "load_orders"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:<module> (interpreter start-up + imports)",
+          "share": 4.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_duration",
+          "share": 5.0,
+          "component": "parse_duration"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:summarise line 44-45 (Decimal(price), datetime.fromisoformat)",
+          "share": 2.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:summarise line 51 (per-customer sort)",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r1-t03/t03",
+      "task": "t03",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 14.439999999999998,
+      "share_errors": [
+        14.439999999999998,
+        11.39
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:apply",
+        "app.py:77",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:snapshot",
+          "share": 84.0,
+          "component": "snapshot"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_events",
+          "share": 5.0,
+          "component": "load_events"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:apply",
+          "share": 3.0,
+          "component": null
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:77",
+          "share": 3.0,
+          "component": null
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:classify",
+          "share": 1.0,
+          "component": "classify"
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r1-t04/t04",
+      "task": "t04",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.14000000000000057,
+      "share_errors": [
+        0.14000000000000057
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:main (tag loop, lines 46-50)",
+        "app.py:load_posts",
+        "app.py:main (Counter + top-50 sort, pairs sort)"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:unique_in_order",
+          "share": 92.0,
+          "component": "unique_in_order"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:main (tag loop, lines 46-50)",
+          "share": 3.0,
+          "component": null
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_posts",
+          "share": 2.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:similarity_matrix",
+          "share": 0.3,
+          "component": "similarity_matrix"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:main (Counter + top-50 sort, pairs sort)",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r1-t05/t05",
+      "task": "t05",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 2.1099999999999994,
+      "share_errors": [
+        2.1099999999999994
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:bill",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:match_deliveries",
+          "share": 89.0,
+          "component": "match_deliveries"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:match_deliveries line 39 (open_refs.index linear scan)",
+          "share": 78.0,
+          "component": "match_deliveries"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:match_deliveries lines 44-45 (del open_refs[i] / del open_rows[i] list shifting)",
+          "share": 9.0,
+          "component": "match_deliveries"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_rows",
+          "share": 4.0,
+          "component": "load_rows"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:build_rate_grid",
+          "share": 3.0,
+          "component": "build_rate_grid"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:bill",
+          "share": 1.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        }
+      ],
+      "named_toy_top": false
+    },
+    {
+      "run": "stage/plain/r1-t06/t06",
+      "task": "t06",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 56.22,
+      "share_errors": [
+        56.22
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:load_transactions",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:process line 65 (log.debug \"decision ... state=%r\")",
+          "share": 30.0,
+          "component": "logging"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:process line 54 (log.debug \"txn %s start key=... txn=%r\")",
+          "share": 29.0,
+          "component": "logging"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:process line 60 (log.debug \"txn %s rules=%r\")",
+          "share": 28.0,
+          "component": "logging"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_transactions",
+          "share": 4.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:apply_rules",
+          "share": 3.0,
+          "component": "apply_rules"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 1.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:make_key",
+          "share": 1.0,
+          "component": "make_key"
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r1-t07/t07",
+      "task": "t07",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 1.6700000000000017,
+      "share_errors": [
+        1.6700000000000017
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:mentions (line 24, re.search with an f-string pattern)",
+          "share": 96.0,
+          "component": "mentions"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:mentions, line 24 \u2014 regex recompiled on every call (about 1,600 distinct product patterns overflow re's 512-entry cache, so 44,610 of 70,951 calls recompile)",
+          "share": 73.0,
+          "component": "mentions"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:mentions, line 24 \u2014 the Pattern.search scans themselves (lookbehind + IGNORECASE over 70,951 product/ticket pairs)",
+          "share": 23.0,
+          "component": "mentions"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_ticket (line 18, re.compile inside the loop)",
+          "share": 0.0,
+          "component": "parse_ticket"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_customers",
+          "share": 1.0,
+          "component": "load_customers"
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r1-t08/t08",
+      "task": "t08",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 2.289999999999992,
+      "share_errors": [
+        2.289999999999992
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module> (interpreter start-up + csv/sqlite3 imports)"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:save_batch (line 43; commit per BATCH=5 rows, ~3,890 synchronous transactions)",
+          "share": 96.0,
+          "component": "save_batch"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:luhn_ok (line 14)",
+          "share": 1.4,
+          "component": "luhn_ok"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_rows (line 26)",
+          "share": 1.0,
+          "component": "parse_rows"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> (interpreter start-up + csv/sqlite3 imports)",
+          "share": 2.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r1-t09/t09",
+      "task": "t09",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.6400000000000006,
+      "share_errors": [
+        0.6400000000000006
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:load_capture",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:pack",
+          "share": 96.0,
+          "component": "pack"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:normalise_all",
+          "share": 1.0,
+          "component": "normalise_all"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:histogram",
+          "share": 0.4,
+          "component": "histogram"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_capture",
+          "share": 0.2,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r1-t10/t10",
+      "task": "t10",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 1.5699999999999932,
+      "share_errors": [
+        1.5699999999999932
+      ],
+      "decoy_named": null,
+      "decoy_cleared": null,
+      "unmatched": [
+        "app.py:clusters",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_duplicates",
+          "share": 97.0,
+          "component": "find_duplicates"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:shingle_all",
+          "share": 0.7,
+          "component": "shingle_all"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_listings",
+          "share": 0.3,
+          "component": "load_listings"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:clusters",
+          "share": 0.1,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t01/t01",
+      "task": "t01",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 4.409999999999997,
+      "share_errors": [
+        4.409999999999997,
+        1.9100000000000001
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:confidence"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "spelling.py:_build_variants",
+          "share": 92.0,
+          "component": "spelling_import"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:correct_queries",
+          "share": 1.5,
+          "component": "correct_queries"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:confusion_cube",
+          "share": 0.02,
+          "component": "confusion_cube"
+        },
+        {
+          "kind": "cleared",
+          "where": "spelling.py:_load_vocab",
+          "share": 0.1,
+          "component": "spelling_import"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:confidence",
+          "share": 0.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t02/t02",
+      "task": "t02",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.060000000000002274,
+      "share_errors": [
+        0.060000000000002274,
+        15.82,
+        1.15
+      ],
+      "decoy_named": false,
+      "decoy_cleared": false,
+      "unmatched": [
+        "app.py:summarise",
+        "app.py:<module>",
+        "app.py:summarise sort (line 51)",
+        "app.py:summarise datetime.fromisoformat (line 45)",
+        "app.py:<module> garbage collection / interpreter teardown"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:write_report (line 68, json.dump)",
+          "share": 66.0,
+          "component": "write_report"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_orders",
+          "share": 15.0,
+          "component": "load_orders"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:summarise",
+          "share": 12.0,
+          "component": null
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:parse_duration",
+          "share": 5.0,
+          "component": "parse_duration"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:summarise sort (line 51)",
+          "share": 2.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:summarise datetime.fromisoformat (line 45)",
+          "share": 1.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> garbage collection / interpreter teardown",
+          "share": 3.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t03/t03",
+      "task": "t03",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 15.439999999999998,
+      "share_errors": [
+        15.439999999999998,
+        10.39
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:snapshot",
+          "share": 85.0,
+          "component": "snapshot"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_events",
+          "share": 4.0,
+          "component": "load_events"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:classify",
+          "share": 1.0,
+          "component": "classify"
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t04/t04",
+      "task": "t04",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.14000000000000057,
+      "share_errors": [
+        0.14000000000000057,
+        5.05
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module> (interpreter start-up + imports)",
+        "app.py:load_posts (line 12)",
+        "app.py:main (lines 51-55, Counter + sorts)"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:unique_in_order (line 21)",
+          "share": 92.0,
+          "component": "unique_in_order"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:<module> (interpreter start-up + imports)",
+          "share": 2.5,
+          "component": null
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_posts (line 12)",
+          "share": 2.5,
+          "component": null
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:main (lines 45-49, normalise_tags + index loop)",
+          "share": 2.4,
+          "component": "normalise_tags"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:similarity_matrix (line 29)",
+          "share": 0.2,
+          "component": "similarity_matrix"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:main (lines 51-55, Counter + sorts)",
+          "share": 0.5,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t05/t05",
+      "task": "t05",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 1.1099999999999994,
+      "share_errors": [
+        1.1099999999999994,
+        14.67,
+        2.52
+      ],
+      "decoy_named": false,
+      "decoy_cleared": false,
+      "unmatched": [
+        "app.py:bill",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:match_deliveries",
+          "share": 88.0,
+          "component": "match_deliveries"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_rows",
+          "share": 4.0,
+          "component": "load_rows"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:build_rate_grid",
+          "share": 3.0,
+          "component": "build_rate_grid"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:bill",
+          "share": 1.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        }
+      ],
+      "named_toy_top": false
+    },
+    {
+      "run": "stage/plain/r2-t06/t06",
+      "task": "t06",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.7800000000000011,
+      "share_errors": [
+        0.7800000000000011
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:load_transactions",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:process (log.debug calls, lines 54/59/65, DEBUG level writing ~14 MB engine.log with a flush per record)",
+          "share": 87.0,
+          "component": "logging"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_transactions",
+          "share": 4.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:apply_rules",
+          "share": 2.5,
+          "component": "apply_rules"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:make_key",
+          "share": 1.0,
+          "component": "make_key"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.5,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t07/t07",
+      "task": "t07",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 22.33,
+      "share_errors": [
+        22.33
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module> (interpreter start-up + imports)"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:mentions (line 24, re.search rebuilding the pattern each call; ~1,600 distinct product patterns overflow re's 512-entry cache, so 44,610 of 70,951 calls recompile)",
+          "share": 72.0,
+          "component": "mentions"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:mentions (line 24, the remaining search work once patterns are cached)",
+          "share": 20.0,
+          "component": "mentions"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_ticket (line 18, re.compile per line hits re's cache)",
+          "share": 1.0,
+          "component": "parse_ticket"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> (interpreter start-up + imports)",
+          "share": 1.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_customers (line 11) and file reading/Counter",
+          "share": 6.0,
+          "component": "load_customers"
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t08/t08",
+      "task": "t08",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.28999999999999204,
+      "share_errors": [
+        0.28999999999999204
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:save_batch (line 43; BATCH = 5 at line 11 -> 3,888 separate transactions/commits)",
+          "share": 94.0,
+          "component": "save_batch"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:luhn_ok",
+          "share": 3.0,
+          "component": "luhn_ok"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_rows",
+          "share": 1.0,
+          "component": "parse_rows"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t09/t09",
+      "task": "t09",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 1.6400000000000006,
+      "share_errors": [
+        1.6400000000000006
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:load_capture",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:pack",
+          "share": 95.0,
+          "component": "pack"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:normalise_all",
+          "share": 1.0,
+          "component": "normalise_all"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:histogram",
+          "share": 0.4,
+          "component": "histogram"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_capture",
+          "share": 0.1,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/plain/r2-t10/t10",
+      "task": "t10",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.4300000000000068,
+      "share_errors": [
+        0.4300000000000068
+      ],
+      "decoy_named": null,
+      "decoy_cleared": null,
+      "unmatched": [
+        "app.py:clusters",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_duplicates",
+          "share": 95.0,
+          "component": "find_duplicates"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:shingle_all",
+          "share": 1.0,
+          "component": "shingle_all"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_listings",
+          "share": 0.3,
+          "component": "load_listings"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:clusters",
+          "share": 0.03,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 2.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t01/t01",
+      "task": "t01",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.8100000000000023,
+      "share_errors": [
+        0.8100000000000023
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "spelling.py:_build_variants",
+          "share": 95.6,
+          "component": "spelling_import"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:confusion_cube",
+          "share": 0.0,
+          "component": "confusion_cube"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:correct_queries",
+          "share": 1.6,
+          "component": "correct_queries"
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t02/t02",
+      "task": "t02",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.9399999999999977,
+      "share_errors": [
+        0.9399999999999977,
+        12.82
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:summarise",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:write_report",
+          "share": 65.0,
+          "component": "write_report"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:load_orders",
+          "share": 12.0,
+          "component": "load_orders"
+        },
+        {
+          "kind": "hotspot",
+          "where": "app.py:summarise",
+          "share": 6.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_duration",
+          "share": 3.0,
+          "component": "parse_duration"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:_encode",
+          "share": 5.0,
+          "component": "write_report"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t03/t03",
+      "task": "t03",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 6.439999999999998,
+      "share_errors": [
+        6.439999999999998
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:main.<locals>.<genexpr>@77",
+        "app.py:apply",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:snapshot",
+          "share": 76.0,
+          "component": "snapshot"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_events",
+          "share": 4.6,
+          "component": "load_events"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:main.<locals>.<genexpr>@77",
+          "share": 4.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:classify",
+          "share": 2.3,
+          "component": "classify"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:apply",
+          "share": 1.4,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 0.5,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t04/t04",
+      "task": "t04",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.1599999999999966,
+      "share_errors": [
+        0.1599999999999966
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:load_posts"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:unique_in_order",
+          "share": 92.3,
+          "component": "unique_in_order"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:similarity_matrix",
+          "share": 0.4,
+          "component": "similarity_matrix"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_posts",
+          "share": 2.1,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:normalise_tags",
+          "share": 0.3,
+          "component": "normalise_tags"
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t05/t05",
+      "task": "t05",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 1.8900000000000006,
+      "share_errors": [
+        1.8900000000000006
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:bill",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:match_deliveries",
+          "share": 85.0,
+          "component": "match_deliveries"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_rows",
+          "share": 5.0,
+          "component": "load_rows"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:build_rate_grid",
+          "share": 3.0,
+          "component": "build_rate_grid"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:bill",
+          "share": 1.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 3.0,
+          "component": null
+        }
+      ],
+      "named_toy_top": false
+    },
+    {
+      "run": "stage/skill/r1-t06/t06",
+      "task": "t06",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.480000000000004,
+      "share_errors": [
+        0.480000000000004
+      ],
+      "decoy_named": false,
+      "decoy_cleared": false,
+      "unmatched": [
+        "app.py:load_transactions",
+        "app.py:<module> imports"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:process (the three log.debug calls, lines 54/60/65, default ENGINE_LOG_LEVEL=DEBUG writing engine.log)",
+          "share": 86.7,
+          "component": "logging"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_transactions",
+          "share": 4.3,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:apply_rules",
+          "share": 2.3,
+          "component": "apply_rules"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> imports",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t07/t07",
+      "task": "t07",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.6700000000000017,
+      "share_errors": [
+        0.6700000000000017
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module> imports"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:mentions",
+          "share": 95.0,
+          "component": "mentions"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_ticket",
+          "share": 0.9,
+          "component": "parse_ticket"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> imports",
+          "share": 0.4,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_customers",
+          "share": 0.2,
+          "component": "load_customers"
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t08/t08",
+      "task": "t08",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 1.710000000000008,
+      "share_errors": [
+        1.710000000000008
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:save_batch",
+          "share": 92.0,
+          "component": "save_batch"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:luhn_ok",
+          "share": 1.5,
+          "component": "luhn_ok"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_rows",
+          "share": 0.8,
+          "component": "parse_rows"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t09/t09",
+      "task": "t09",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.14000000000000057,
+      "share_errors": [
+        0.14000000000000057
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:load_capture",
+        "app.py:<module> imports"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:pack",
+          "share": 96.5,
+          "component": "pack"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:normalise_all",
+          "share": 1.1,
+          "component": "normalise_all"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:histogram",
+          "share": 0.5,
+          "component": "histogram"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_capture",
+          "share": 0.2,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> imports",
+          "share": 0.2,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r1-t10/t10",
+      "task": "t10",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.3300000000000125,
+      "share_errors": [
+        0.3300000000000125
+      ],
+      "decoy_named": null,
+      "decoy_cleared": null,
+      "unmatched": [
+        "app.py:clusters",
+        "app.py:<module> imports"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_duplicates",
+          "share": 95.1,
+          "component": "find_duplicates"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:shingles",
+          "share": 0.7,
+          "component": "shingle_all"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:clusters",
+          "share": 0.4,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_listings",
+          "share": 0.1,
+          "component": "load_listings"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> imports",
+          "share": 0.7,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t01/t01",
+      "task": "t01",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.9099999999999966,
+      "share_errors": [
+        0.9099999999999966
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:main.<locals>.<lambda>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "spelling.py:_build_variants",
+          "share": 95.5,
+          "component": "spelling_import"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:confusion_cube",
+          "share": 0.0,
+          "component": "confusion_cube"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:correct_queries",
+          "share": 1.4,
+          "component": "correct_queries"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:main.<locals>.<lambda>",
+          "share": 1.2,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "spelling.py:correct",
+          "share": 0.3,
+          "component": "correct_queries"
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t02/t02",
+      "task": "t02",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.9399999999999977,
+      "share_errors": [
+        0.9399999999999977
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:write_report",
+          "share": 65.0,
+          "component": "write_report"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_duration",
+          "share": 3.0,
+          "component": "parse_duration"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:_encode",
+          "share": 7.0,
+          "component": "write_report"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t03/t03",
+      "task": "t03",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 7.439999999999998,
+      "share_errors": [
+        7.439999999999998
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:apply (line 32, FIFO lot picking loop)",
+        "app.py:<module> (imports)"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:snapshot (line 58, copy.deepcopy of the item per event)",
+          "share": 77.0,
+          "component": "snapshot"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_events (line 15, json parsing)",
+          "share": 4.5,
+          "component": "load_events"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:main genexpr line 77 (sum of lot qty per snapshot)",
+          "share": 2.9,
+          "component": "snapshot"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:apply (line 32, FIFO lot picking loop)",
+          "share": 1.1,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:classify (line 20, regex match)",
+          "share": 0.7,
+          "component": "classify"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> (imports)",
+          "share": 0.4,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t04/t04",
+      "task": "t04",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.6400000000000006,
+      "share_errors": [
+        0.6400000000000006
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:load_posts",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:unique_in_order",
+          "share": 91.5,
+          "component": "unique_in_order"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_posts",
+          "share": 1.6,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:normalise_tags",
+          "share": 1.0,
+          "component": "normalise_tags"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:similarity_matrix",
+          "share": 0.3,
+          "component": "similarity_matrix"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 1.0,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t05/t05",
+      "task": "t05",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 1.8900000000000006,
+      "share_errors": [
+        1.8900000000000006
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:bill",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:match_deliveries",
+          "share": 85.0,
+          "component": "match_deliveries"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_rows",
+          "share": 4.7,
+          "component": "load_rows"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:build_rate_grid",
+          "share": 3.2,
+          "component": "build_rate_grid"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:bill",
+          "share": 1.2,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 0.0,
+          "component": null
+        }
+      ],
+      "named_toy_top": false
+    },
+    {
+      "run": "stage/skill/r2-t06/t06",
+      "task": "t06",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.7800000000000011,
+      "share_errors": [
+        0.7800000000000011
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:load_transactions",
+        "app.py:<module> imports"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:process (log.debug calls, lines 54/60/65; DEBUG logging to engine.log)",
+          "share": 87.0,
+          "component": "logging"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_transactions",
+          "share": 4.7,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:apply_rules",
+          "share": 2.3,
+          "component": "apply_rules"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:36",
+          "share": 0.8,
+          "component": "apply_rules"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:make_key",
+          "share": 0.2,
+          "component": "make_key"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> imports",
+          "share": 1.1,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t07/t07",
+      "task": "t07",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.46999999999999886,
+      "share_errors": [
+        0.46999999999999886
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module> imports"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:mentions",
+          "share": 94.8,
+          "component": "mentions"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_ticket",
+          "share": 1.1,
+          "component": "parse_ticket"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_customers",
+          "share": 0.2,
+          "component": "load_customers"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module> imports",
+          "share": 0.3,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t08/t08",
+      "task": "t08",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.710000000000008,
+      "share_errors": [
+        0.710000000000008
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:save_batch",
+          "share": 93.0,
+          "component": "save_batch"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:luhn_ok",
+          "share": 3.0,
+          "component": "luhn_ok"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:parse_rows",
+          "share": 1.0,
+          "component": "parse_rows"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 0.5,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t09/t09",
+      "task": "t09",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.4399999999999977,
+      "share_errors": [
+        0.4399999999999977
+      ],
+      "decoy_named": false,
+      "decoy_cleared": true,
+      "unmatched": [
+        "app.py:load_capture",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:pack",
+          "share": 96.2,
+          "component": "pack"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:normalise_all",
+          "share": 1.2,
+          "component": "normalise_all"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:clamp",
+          "share": 0.1,
+          "component": "normalise_all"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:histogram",
+          "share": 0.4,
+          "component": "histogram"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_capture",
+          "share": 0.2,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 0.2,
+          "component": null
+        }
+      ]
+    },
+    {
+      "run": "stage/skill/r2-t10/t10",
+      "task": "t10",
+      "modified": [],
+      "status": "ok",
+      "top1": true,
+      "topk": true,
+      "top1_share_error": 0.6300000000000097,
+      "share_errors": [
+        0.6300000000000097
+      ],
+      "decoy_named": null,
+      "decoy_cleared": null,
+      "unmatched": [
+        "app.py:clusters",
+        "app.py:<module>"
+      ],
+      "items": [
+        {
+          "kind": "hotspot",
+          "where": "app.py:find_duplicates",
+          "share": 94.8,
+          "component": "find_duplicates"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:shingles",
+          "share": 0.7,
+          "component": "shingle_all"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:clusters",
+          "share": 0.0,
+          "component": null
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:load_listings",
+          "share": 0.0,
+          "component": "load_listings"
+        },
+        {
+          "kind": "cleared",
+          "where": "app.py:<module>",
+          "share": 4.0,
+          "component": null
+        }
+      ]
+    }
+  ]
+}
