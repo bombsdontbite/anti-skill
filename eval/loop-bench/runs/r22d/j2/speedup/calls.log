@@ -1,0 +1,6 @@
+1793266056 c1_prefix.py {"valid": true, "score": 52.535351, "detail": {"split": "train", "reference_cpu_s": 0.4495, "candidate_cpu_s": 0.008557, "runs": 3}}
+1793266059 candidate_baseline.py {"valid": true, "score": 0.999803, "detail": {"split": "train", "reference_cpu_s": 0.4508, "candidate_cpu_s": 0.450936, "runs": 3}}
+1793266146 c4_chain.py {"valid": true, "score": 59.0536, "detail": {"split": "train", "reference_cpu_s": 0.4495, "candidate_cpu_s": 0.007612, "runs": 3}}
+1793266218 c9_segsum.py {"valid": true, "score": 55.434783, "detail": {"split": "train", "reference_cpu_s": 0.4501, "candidate_cpu_s": 0.008119, "runs": 3}}
+1793266220 c6_lean.py {"valid": true, "score": 57.733299, "detail": {"split": "train", "reference_cpu_s": 0.4511, "candidate_cpu_s": 0.007814, "runs": 3}}
+1793266245 final.py {"valid": true, "score": 58.502922, "detail": {"split": "train", "reference_cpu_s": 0.4505, "candidate_cpu_s": 0.007701, "runs": 3}}

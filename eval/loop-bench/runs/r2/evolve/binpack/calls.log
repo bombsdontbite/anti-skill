@@ -1,0 +1,6 @@
+1793103838 c01_firstfit.py {"valid": true, "score": -1.040104, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.040104, "by_distribution": {"uniform": 1.049249, "weibull": 1.045673, "bimodal": 1.02539}}}
+1793103839 c02_worstfit.py {"valid": true, "score": -1.144403, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.144403, "by_distribution": {"uniform": 1.146503, "weibull": 1.131268, "bimodal": 1.155438}}}
+1793103932 c05_ss.py {"valid": true, "score": -1.019598, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.019598, "by_distribution": {"uniform": 1.024125, "weibull": 1.013977, "bimodal": 1.020692}}}
+1793104076 c17_ss_deadq.py {"valid": true, "score": -1.014557, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.014557, "by_distribution": {"uniform": 1.012689, "weibull": 1.01198, "bimodal": 1.019003}}}
+1793104166 c18_ss_deadq_bftie.py {"valid": true, "score": -1.014144, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.014144, "by_distribution": {"uniform": 1.012683, "weibull": 1.012478, "bimodal": 1.017272}}}
+1793104346 final.py {"valid": true, "score": -1.014144, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.014144, "by_distribution": {"uniform": 1.012683, "weibull": 1.012478, "bimodal": 1.017272}}}

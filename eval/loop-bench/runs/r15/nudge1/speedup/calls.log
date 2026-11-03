@@ -1,0 +1,4 @@
+1793237769 final.py {"valid": true, "score": 27.851121, "detail": {"split": "train", "reference_cpu_s": 0.4486, "candidate_cpu_s": 0.016107, "runs": 3}}
+1793237900 cand2.py {"valid": true, "score": 47.392057, "detail": {"split": "train", "reference_cpu_s": 0.4487, "candidate_cpu_s": 0.009468, "runs": 3}}
+1793237930 cand4.py {"valid": true, "score": 54.641216, "detail": {"split": "train", "reference_cpu_s": 0.4494, "candidate_cpu_s": 0.008225, "runs": 3}}
+1793237943 cand5.py {"valid": true, "score": 58.739778, "detail": {"split": "train", "reference_cpu_s": 0.4497, "candidate_cpu_s": 0.007655, "runs": 3}}

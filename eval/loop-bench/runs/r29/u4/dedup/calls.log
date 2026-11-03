@@ -1,0 +1,5 @@
+1793685479 cand1.py {"valid": true, "score": 70.708941, "detail": {"split": "train", "reference_cpu_s": 1.323, "candidate_cpu_s": 0.018711, "runs": 3, "pairs": [866, 545]}}
+1793685606 cand5_1.py {"valid": true, "score": 71.116309, "detail": {"split": "train", "reference_cpu_s": 1.3256, "candidate_cpu_s": 0.01864, "runs": 3, "pairs": [866, 545]}}
+1793685661 cand6.py {"valid": true, "score": 80.481337, "detail": {"split": "train", "reference_cpu_s": 1.3239, "candidate_cpu_s": 0.01645, "runs": 3, "pairs": [866, 545]}}
+1793685697 cand8_4.py {"valid": true, "score": 81.920927, "detail": {"split": "train", "reference_cpu_s": 1.3251, "candidate_cpu_s": 0.016175, "runs": 3, "pairs": [866, 545]}}
+1793685736 final.py {"valid": true, "score": 82.473034, "detail": {"split": "train", "reference_cpu_s": 1.3228, "candidate_cpu_s": 0.016039, "runs": 3, "pairs": [866, 545]}}

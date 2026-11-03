@@ -1,0 +1,6 @@
+1793180038 c1_rules.py {"valid": true, "score": -0.319425, "detail": {"split": "train", "mean_tardiness_over_edf": 0.319425, "ratios": [0.2698, 0.3395, 0.4023, 0.3048, 0.2601, 0.2931, 0.2806, 0.4053], "max_time_s": 0.0222}}
+1793180066 c2_ls.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 2: from c1_rules import is not allowed"]}}
+1793180090 c2_ls.py {"valid": true, "score": -0.299672, "detail": {"split": "train", "mean_tardiness_over_edf": 0.299672, "ratios": [0.2585, 0.3324, 0.3903, 0.2789, 0.2555, 0.2817, 0.2563, 0.3436], "max_time_s": 0.6069}}
+1793180310 r1b_moves.py {"valid": true, "score": -0.290986, "detail": {"split": "train", "mean_tardiness_over_edf": 0.290986, "ratios": [0.2592, 0.3323, 0.386, 0.2647, 0.2539, 0.2797, 0.2614, 0.2906], "max_time_s": 0.6809}}
+1793180404 r2b_fastreb.py {"valid": true, "score": -0.289741, "detail": {"split": "train", "mean_tardiness_over_edf": 0.289741, "ratios": [0.2616, 0.3296, 0.3854, 0.2629, 0.2538, 0.2796, 0.2525, 0.2925], "max_time_s": 0.6036}}
+1793180561 r3s_0.5.py {"valid": true, "score": -0.289609, "detail": {"split": "train", "mean_tardiness_over_edf": 0.289609, "ratios": [0.2595, 0.332, 0.3848, 0.2532, 0.2545, 0.2784, 0.2526, 0.3019], "max_time_s": 0.6024}}

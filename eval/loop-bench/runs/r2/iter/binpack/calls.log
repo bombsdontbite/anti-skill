@@ -1,0 +1,6 @@
+1793103872 cand_ss.py {"valid": true, "score": -1.01972, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.01972, "by_distribution": {"uniform": 1.023134, "weibull": 1.014477, "bimodal": 1.021549}}}
+1793104006 cand_d1.py {"valid": true, "score": -1.013581, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.013581, "by_distribution": {"uniform": 1.012938, "weibull": 1.011979, "bimodal": 1.015827}}}
+1793104200 cand_d2.py {"valid": true, "score": -1.013855, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.013855, "by_distribution": {"uniform": 1.013677, "weibull": 1.011233, "bimodal": 1.016657}}}
+1793104422 cand_c3.py {"valid": true, "score": -1.014036, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.014036, "by_distribution": {"uniform": 1.012191, "weibull": 1.012979, "bimodal": 1.016938}}}
+1793104521 cand_c4.py {"valid": true, "score": -1.012962, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.012962, "by_distribution": {"uniform": 1.011942, "weibull": 1.011979, "bimodal": 1.014964}}}
+1793104564 final.py {"valid": true, "score": -1.012962, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.012962, "by_distribution": {"uniform": 1.011942, "weibull": 1.011979, "bimodal": 1.014964}}}

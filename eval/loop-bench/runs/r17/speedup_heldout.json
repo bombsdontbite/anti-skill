@@ -1,0 +1,213 @@
+{
+ "task": "speedup",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 5,
+ "finals": {
+  "plain": "runs/r2/iter/speedup/final.py",
+  "v2r2": "runs/r2/evolve/speedup/final.py",
+  "r15plain1": "runs/r15/plain1/speedup/final.py",
+  "r15plain2": "runs/r15/plain2/speedup/final.py",
+  "r15nudge1": "runs/r15/nudge1/speedup/final.py",
+  "r15nudge2": "runs/r15/nudge2/speedup/final.py",
+  "r15v2a": "runs/r15/v2a/speedup/final.py",
+  "r15v2b": "runs/r15/v2b/speedup/final.py",
+  "r15e1": "runs/r15/e1/speedup/final.py",
+  "r15e2": "runs/r15/e2/speedup/final.py",
+  "r15f1": "runs/r15/f1/speedup/final.py",
+  "r15f2": "runs/r15/f2/speedup/final.py",
+  "r17f3": "runs/r17/f3/speedup/final.py",
+  "r17f4": "runs/r17/f4/speedup/final.py",
+  "r17v2c": "runs/r17/v2c/speedup/final.py",
+  "r17e3": "runs/r17/e3/speedup/final.py",
+  "r17plain3": "runs/r17/plain3/speedup/final.py"
+ },
+ "results": {
+  "plain": {
+   "runs": [
+    53.100921,
+    53.326376,
+    53.47421,
+    53.418089,
+    53.169187
+   ],
+   "median": 53.326376,
+   "invalid": 0
+  },
+  "v2r2": {
+   "runs": [
+    55.576847,
+    55.770516,
+    55.753281,
+    55.534181,
+    55.869452
+   ],
+   "median": 55.753281,
+   "invalid": 0
+  },
+  "r15plain1": {
+   "runs": [
+    30.344911,
+    30.285242,
+    30.316109,
+    30.218569,
+    30.478402
+   ],
+   "median": 30.316109,
+   "invalid": 0
+  },
+  "r15plain2": {
+   "runs": [
+    30.248607,
+    30.431212,
+    30.460815,
+    30.262186,
+    30.091857
+   ],
+   "median": 30.262186,
+   "invalid": 0
+  },
+  "r15nudge1": {
+   "runs": [
+    57.911572,
+    58.021554,
+    58.163226,
+    58.286028,
+    57.959228
+   ],
+   "median": 58.021554,
+   "invalid": 0
+  },
+  "r15nudge2": {
+   "runs": [
+    32.55049,
+    32.505088,
+    32.526646,
+    32.550919,
+    32.518219
+   ],
+   "median": 32.526646,
+   "invalid": 0
+  },
+  "r15v2a": {
+   "runs": [
+    59.441072,
+    59.705976,
+    59.342752,
+    58.9522,
+    59.364142
+   ],
+   "median": 59.364142,
+   "invalid": 0
+  },
+  "r15v2b": {
+   "runs": [
+    48.057906,
+    48.204684,
+    47.783503,
+    47.76813,
+    48.282711
+   ],
+   "median": 48.057906,
+   "invalid": 0
+  },
+  "r15e1": {
+   "runs": [
+    54.558339,
+    55.081445,
+    54.924174,
+    54.853659,
+    54.896863
+   ],
+   "median": 54.896863,
+   "invalid": 0
+  },
+  "r15e2": {
+   "runs": [
+    58.223773,
+    58.788986,
+    58.444286,
+    58.007484,
+    58.105209
+   ],
+   "median": 58.223773,
+   "invalid": 0
+  },
+  "r15f1": {
+   "runs": [
+    59.979189,
+    59.847311,
+    59.43124,
+    60.226932,
+    59.96243
+   ],
+   "median": 59.96243,
+   "invalid": 0
+  },
+  "r15f2": {
+   "runs": [
+    54.32578,
+    54.420817,
+    54.211191,
+    54.32423,
+    54.263805
+   ],
+   "median": 54.32423,
+   "invalid": 0
+  },
+  "r17f3": {
+   "runs": [
+    59.636977,
+    59.93336,
+    59.856042,
+    60.078377,
+    59.795005
+   ],
+   "median": 59.856042,
+   "invalid": 0
+  },
+  "r17f4": {
+   "runs": [
+    46.283159,
+    46.200123,
+    45.951038,
+    46.008812,
+    46.011251
+   ],
+   "median": 46.011251,
+   "invalid": 0
+  },
+  "r17v2c": {
+   "runs": [
+    50.220413,
+    50.277896,
+    50.219969,
+    50.393966,
+    50.332812
+   ],
+   "median": 50.277896,
+   "invalid": 0
+  },
+  "r17e3": {
+   "runs": [
+    59.059961,
+    59.212372,
+    59.273074,
+    58.918926,
+    59.251543
+   ],
+   "median": 59.212372,
+   "invalid": 0
+  },
+  "r17plain3": {
+   "runs": [
+    54.220976,
+    54.401667,
+    54.445332,
+    54.466578,
+    54.451808
+   ],
+   "median": 54.445332,
+   "invalid": 0
+  }
+ }
+}

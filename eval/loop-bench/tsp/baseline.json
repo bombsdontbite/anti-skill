@@ -1,0 +1,47 @@
+{
+  "train": {
+    "valid": true,
+    "score": -1.0,
+    "repeat_score": -1.0,
+    "agree": true,
+    "wall_s": 0.1,
+    "detail": {
+      "split": "train",
+      "mean_length_over_nearest_neighbour": 1.0,
+      "ratios": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max_time_s": 0.0023
+    }
+  },
+  "test": {
+    "valid": true,
+    "score": -1.0,
+    "repeat_score": -1.0,
+    "agree": true,
+    "wall_s": 0.1,
+    "detail": {
+      "split": "test",
+      "mean_length_over_nearest_neighbour": 1.0,
+      "ratios": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max_time_s": 0.0024
+    }
+  },
+  "note": "deterministic: repeat runs are identical"
+}

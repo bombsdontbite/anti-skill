@@ -1,0 +1,41 @@
+{
+ "task": "knapsack",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 1,
+ "finals": {
+  "v23": "runs/r8/candidate/knapsack/final.py",
+  "v2": "runs/r2/evolve/knapsack/final.py",
+  "v3": "runs/r3/evolve3/knapsack/final.py",
+  "plain": "runs/r2/iter/knapsack/final.py"
+ },
+ "results": {
+  "v23": {
+   "runs": [
+    1.027039
+   ],
+   "median": 1.027039,
+   "invalid": 0
+  },
+  "v2": {
+   "runs": [
+    1.027037
+   ],
+   "median": 1.027037,
+   "invalid": 0
+  },
+  "v3": {
+   "runs": [
+    1.026913
+   ],
+   "median": 1.026913,
+   "invalid": 0
+  },
+  "plain": {
+   "runs": [
+    1.026948
+   ],
+   "median": 1.026948,
+   "invalid": 0
+  }
+ }
+}

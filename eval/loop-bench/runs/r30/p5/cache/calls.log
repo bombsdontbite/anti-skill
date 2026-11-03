@@ -1,0 +1,8 @@
+1793647895 final.py {"valid": true, "score": 0.407467, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.24, "loop_and_hot": 0.2985, "phases": 0.6346, "mixed": 0.2608, "recency": 0.8466, "shifting_loops": 0.1643}}}
+1793647906 cand2.py {"valid": false, "score": -1000000000.0, "detail": {"error": "KeyError: 1001001"}}
+1793647915 cand2.py {"valid": true, "score": 0.409506, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.224, "loop_and_hot": 0.2464, "phases": 0.6406, "mixed": 0.2299, "recency": 0.7012, "shifting_loops": 0.415}}}
+1793647925 cand3.py {"valid": true, "score": 0.426717, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2223, "loop_and_hot": 0.2486, "phases": 0.639, "mixed": 0.2293, "recency": 0.8071, "shifting_loops": 0.414}}}
+1793647936 cand4.py {"valid": true, "score": 0.42585, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.1853, "loop_and_hot": 0.237, "phases": 0.6339, "mixed": 0.1788, "recency": 0.8469, "shifting_loops": 0.4733}}}
+1793647946 cand5.py {"valid": true, "score": 0.4178, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2041, "loop_and_hot": 0.2425, "phases": 0.6492, "mixed": 0.2129, "recency": 0.8328, "shifting_loops": 0.3652}}}
+1793647953 cand6.py {"valid": true, "score": 0.406344, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2374, "loop_and_hot": 0.2518, "phases": 0.5924, "mixed": 0.2429, "recency": 0.7801, "shifting_loops": 0.3335}}}
+1793647963 final.py {"valid": true, "score": 0.426717, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2223, "loop_and_hot": 0.2486, "phases": 0.639, "mixed": 0.2293, "recency": 0.8071, "shifting_loops": 0.414}}}

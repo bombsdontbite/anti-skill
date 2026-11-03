@@ -1,0 +1,105 @@
+{
+ "task": "cache",
+ "seed": "secret:94f4ba725d15",
+ "reps": 1,
+ "finals": {
+  "r30fe1": "runs/r30f/e1/cache/final.py",
+  "r30fe2": "runs/r30f/e2/cache/final.py",
+  "r30fe3": "runs/r30f/e3/cache/final.py",
+  "r30fe4": "runs/r30f/e4/cache/final.py",
+  "r30fe5": "runs/r30f/e5/cache/final.py",
+  "r30fe6": "runs/r30f/e6/cache/final.py",
+  "r30fp1": "runs/r30f/p1/cache/final.py",
+  "r30fp2": "runs/r30f/p2/cache/final.py",
+  "r30fp3": "runs/r30f/p3/cache/final.py",
+  "r30fp4": "runs/r30f/p4/cache/final.py",
+  "r30fp5": "runs/r30f/p5/cache/final.py",
+  "r30fp6": "runs/r30f/p6/cache/final.py"
+ },
+ "results": {
+  "r30fe1": {
+   "runs": [
+    0.55185
+   ],
+   "median": 0.55185,
+   "invalid": 0
+  },
+  "r30fe2": {
+   "runs": [
+    0.543
+   ],
+   "median": 0.543,
+   "invalid": 0
+  },
+  "r30fe3": {
+   "runs": [
+    0.5442
+   ],
+   "median": 0.5442,
+   "invalid": 0
+  },
+  "r30fe4": {
+   "runs": [
+    0.521494
+   ],
+   "median": 0.521494,
+   "invalid": 0
+  },
+  "r30fe5": {
+   "runs": [
+    0.548278
+   ],
+   "median": 0.548278,
+   "invalid": 0
+  },
+  "r30fe6": {
+   "runs": [
+    0.552306
+   ],
+   "median": 0.552306,
+   "invalid": 0
+  },
+  "r30fp1": {
+   "runs": [
+    0.532922
+   ],
+   "median": 0.532922,
+   "invalid": 0
+  },
+  "r30fp2": {
+   "runs": [
+    0.530506
+   ],
+   "median": 0.530506,
+   "invalid": 0
+  },
+  "r30fp3": {
+   "runs": [
+    0.526622
+   ],
+   "median": 0.526622,
+   "invalid": 0
+  },
+  "r30fp4": {
+   "runs": [
+    0.4751
+   ],
+   "median": 0.4751,
+   "invalid": 0
+  },
+  "r30fp5": {
+   "runs": [
+    0.555556
+   ],
+   "median": 0.555556,
+   "invalid": 0
+  },
+  "r30fp6": {
+   "runs": [
+    0.534606
+   ],
+   "median": 0.534606,
+   "invalid": 0
+  }
+ }
+}

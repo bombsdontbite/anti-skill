@@ -1,0 +1,3 @@
+1793175920 cand_prefix.py {"valid": true, "score": 31.807062, "detail": {"split": "train", "reference_cpu_s": 2.0978, "candidate_cpu_s": 0.065954, "runs": 3}}
+1793176028 cand_v2.py {"valid": true, "score": 52.954833, "detail": {"split": "train", "reference_cpu_s": 2.2921, "candidate_cpu_s": 0.043284, "runs": 3}}
+1793176103 final.py {"valid": true, "score": 54.709299, "detail": {"split": "train", "reference_cpu_s": 1.8775, "candidate_cpu_s": 0.034317, "runs": 3}}

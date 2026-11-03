@@ -1,0 +1,10 @@
+20:49:05 start m1/speedup on claude-opus-5-5 ({ 1.64 1.79 1.87 })
+20:54:22 done m1/speedup exit=0 final=yes
+20:54:22 start m2/speedup on claude-opus-5-5 ({ 1.74 1.78 1.83 })
+21:00:50 done m2/speedup exit=0 final=yes
+21:00:50 queue finished
+21:00:50 audit: 2 flags in 10 agent sessions over 4 run folders
+21:51:14 skip m1/speedup (final.py exists)
+21:51:14 skip m2/speedup (final.py exists)
+21:51:14 queue finished
+21:51:14 audit: 2 flags in 10 agent sessions over 4 run folders

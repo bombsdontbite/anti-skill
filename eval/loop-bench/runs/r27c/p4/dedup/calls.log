@@ -1,0 +1,19 @@
+1793320541 c1.py {"valid": true, "score": 68.239207, "detail": {"split": "train", "reference_cpu_s": 1.3151, "candidate_cpu_s": 0.019272, "runs": 3, "pairs": [866, 545]}}
+1793320668 c5.py {"valid": true, "score": 74.774073, "detail": {"split": "train", "reference_cpu_s": 1.3232, "candidate_cpu_s": 0.017696, "runs": 3, "pairs": [866, 545]}}
+1793320704 c8.py {"valid": true, "score": 78.438894, "detail": {"split": "train", "reference_cpu_s": 1.3254, "candidate_cpu_s": 0.016897, "runs": 3, "pairs": [866, 545]}}
+1793320715 c9.py {"valid": true, "score": 77.672965, "detail": {"split": "train", "reference_cpu_s": 1.3236, "candidate_cpu_s": 0.017041, "runs": 3, "pairs": [866, 545]}}
+1793320768 c10.py {"valid": true, "score": 81.296394, "detail": {"split": "train", "reference_cpu_s": 1.3212, "candidate_cpu_s": 0.016252, "runs": 3, "pairs": [866, 545]}}
+1793320772 c8.py {"valid": true, "score": 78.458575, "detail": {"split": "train", "reference_cpu_s": 1.3239, "candidate_cpu_s": 0.016874, "runs": 3, "pairs": [866, 545]}}
+1793320792 c11.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from _collections import is not allowed", "line 1: importing _count_elements is not allowed"]}}
+1793320813 c12.py {"valid": true, "score": 78.329982, "detail": {"split": "train", "reference_cpu_s": 1.3165, "candidate_cpu_s": 0.016807, "runs": 3, "pairs": [866, 545]}}
+1793320940 c13.py {"valid": true, "score": 79.77714, "detail": {"split": "train", "reference_cpu_s": 1.3213, "candidate_cpu_s": 0.016562, "runs": 3, "pairs": [866, 545]}}
+1793320945 c15.py {"valid": true, "score": 81.625857, "detail": {"split": "train", "reference_cpu_s": 1.3214, "candidate_cpu_s": 0.016189, "runs": 3, "pairs": [866, 545]}}
+1793320974 c16.py {"valid": true, "score": 80.134992, "detail": {"split": "train", "reference_cpu_s": 1.3202, "candidate_cpu_s": 0.016475, "runs": 3, "pairs": [866, 545]}}
+1793321042 c17.py {"valid": true, "score": 86.449217, "detail": {"split": "train", "reference_cpu_s": 1.3202, "candidate_cpu_s": 0.015271, "runs": 3, "pairs": [866, 545]}}
+1793321049 c18.py {"valid": true, "score": 88.035881, "detail": {"split": "train", "reference_cpu_s": 1.32, "candidate_cpu_s": 0.014994, "runs": 3, "pairs": [866, 545]}}
+1793321099 c23.py {"valid": true, "score": 92.224603, "detail": {"split": "train", "reference_cpu_s": 1.3082, "candidate_cpu_s": 0.014185, "runs": 3, "pairs": [866, 545]}}
+1793321137 final.py {"valid": true, "score": 92.643425, "detail": {"split": "train", "reference_cpu_s": 1.3167, "candidate_cpu_s": 0.014213, "runs": 3, "pairs": [866, 545]}}
+1793321154 c24.py {"valid": true, "score": 95.797675, "detail": {"split": "train", "reference_cpu_s": 1.3187, "candidate_cpu_s": 0.013765, "runs": 3, "pairs": [866, 545]}}
+1793321177 c29.py {"valid": true, "score": 92.68736, "detail": {"split": "train", "reference_cpu_s": 1.3214, "candidate_cpu_s": 0.014256, "runs": 3, "pairs": [866, 545]}}
+1793321189 final.py {"valid": true, "score": 95.324125, "detail": {"split": "train", "reference_cpu_s": 1.3217, "candidate_cpu_s": 0.013865, "runs": 3, "pairs": [866, 545]}}
+1793321201 c30.py {"valid": true, "score": 96.020256, "detail": {"split": "train", "reference_cpu_s": 1.3226, "candidate_cpu_s": 0.013774, "runs": 3, "pairs": [866, 545]}}

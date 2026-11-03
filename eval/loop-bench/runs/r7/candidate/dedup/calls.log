@@ -1,0 +1,6 @@
+1793141229 c1_allpairs.py {"valid": true, "score": 67.824146, "detail": {"split": "train", "reference_cpu_s": 1.3264, "candidate_cpu_s": 0.019556, "runs": 3, "pairs": [866, 545]}}
+1793141234 c1_allpairs.py {"valid": true, "score": 67.564071, "detail": {"split": "train", "reference_cpu_s": 1.3171, "candidate_cpu_s": 0.019494, "runs": 3, "pairs": [866, 545]}}
+1793141551 c7_freqties.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from _collections import is not allowed", "line 1: importing _count_elements is not allowed"]}}
+1793141658 c10_split.py {"valid": true, "score": 85.433391, "detail": {"split": "train", "reference_cpu_s": 1.3243, "candidate_cpu_s": 0.015501, "runs": 3, "pairs": [866, 545]}}
+1793141928 c18_combo.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: import gc is not allowed"]}}
+1793142000 c19_combo.py {"valid": true, "score": 87.562558, "detail": {"split": "train", "reference_cpu_s": 1.3227, "candidate_cpu_s": 0.015106, "runs": 3, "pairs": [866, 545]}}

@@ -1,0 +1,5 @@
+1793181600 c1_ils.py {"valid": true, "score": -0.801481, "detail": {"split": "train", "mean_length_over_nearest_neighbour": 0.801481, "ratios": [0.8135, 0.7711, 0.7694, 0.8074, 0.833, 0.7379, 0.8366, 0.8428], "max_time_s": 0.7019}}
+1793182010 c7_fast.py {"valid": true, "score": -0.782343, "detail": {"split": "train", "mean_length_over_nearest_neighbour": 0.782343, "ratios": [0.8126, 0.7711, 0.7695, 0.8026, 0.7914, 0.7392, 0.815, 0.7574], "max_time_s": 0.7022}}
+1793182075 c3_quadnb.py {"valid": true, "score": -0.780007, "detail": {"split": "train", "mean_length_over_nearest_neighbour": 0.780007, "ratios": [0.8157, 0.7711, 0.7716, 0.7961, 0.7847, 0.7379, 0.8083, 0.7544], "max_time_s": 0.7025}}
+1793182421 c10_multistart.py {"valid": true, "score": -0.782755, "detail": {"split": "train", "mean_length_over_nearest_neighbour": 0.782755, "ratios": [0.8126, 0.7711, 0.772, 0.8069, 0.7903, 0.737, 0.817, 0.7552], "max_time_s": 0.7017}}
+1793182613 c12_diffkick.py {"valid": true, "score": -0.780329, "detail": {"split": "train", "mean_length_over_nearest_neighbour": 0.780329, "ratios": [0.8135, 0.7765, 0.7652, 0.8039, 0.7894, 0.7318, 0.808, 0.7544], "max_time_s": 0.703}}

@@ -1,0 +1,4 @@
+1793187740 c2_tlfu.py {"valid": true, "score": 0.505622, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2462, "loop_and_hot": 0.6507, "phases": 0.6044, "mixed": 0.2705, "recency": 0.6187, "shifting_loops": 0.6432}}}
+1793187749 c2_tlfu.py {"valid": true, "score": 0.52725, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2253, "loop_and_hot": 0.6408, "phases": 0.6419, "mixed": 0.2401, "recency": 0.7553, "shifting_loops": 0.66}}}
+1793187805 c3_lirs.py {"valid": true, "score": 0.566628, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2412, "loop_and_hot": 0.6473, "phases": 0.6469, "mixed": 0.2648, "recency": 0.7721, "shifting_loops": 0.8275}}}
+1793187940 final.py {"valid": true, "score": 0.564683, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2408, "loop_and_hot": 0.6473, "phases": 0.6469, "mixed": 0.2535, "recency": 0.7721, "shifting_loops": 0.8275}}}

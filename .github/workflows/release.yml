@@ -1,0 +1,54 @@
+# A pushed tag vX.Y.Z becomes a GitHub Release whose notes are that version's CHANGELOG section.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions: {}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Create the release from the CHANGELOG
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          [[ "$TAG" =~ ^v([0-9]+\.[0-9]+\.[0-9]+)$ ]] || { echo "::error::tag is not vX.Y.Z"; exit 1; }
+          v="${BASH_REMATCH[1]}"
+          # A re-run after a release was made (by this job or by hand) leaves it as it is.
+          if gh release view "$TAG" > /dev/null 2>&1; then echo "::notice::release $TAG exists; left unchanged"; exit 0; fi
+          # Only a commit already on main is released.
+          on_main=$(gh api "repos/$GH_REPO/compare/main...$GITHUB_SHA" --jq .status)
+          [[ "$on_main" == identical || "$on_main" == behind ]] || { echo "::error::$GITHUB_SHA is not on main ($on_main)"; exit 1; }
+          # Only the tagged commit's files are read, through the API; nothing is checked out or run.
+          raw() { gh api "repos/$GH_REPO/contents/$1?ref=$GITHUB_SHA" -H 'Accept: application/vnd.github.raw'; }
+          # The tag names the version both manifests carry, or the installed plugin and the release disagree.
+          plugin_v=$(raw plugins/anti-skill/.claude-plugin/plugin.json | jq -r '.version // "none"')
+          market_v=$(raw .claude-plugin/marketplace.json \
+            | jq -r '[.plugins[]? | select(.name == "anti-skill")] | if length == 1 then .[0].version // "none" else "none" end')
+          [[ "$plugin_v" == "$v" && "$market_v" == "$v" ]] \
+            || { echo "::error::tag $TAG but plugin.json says $plugin_v and marketplace.json says $market_v"; exit 1; }
+          raw CHANGELOG.md > "$RUNNER_TEMP/CHANGELOG.md"
+          awk -v v="$v" '
+            function real_date(d,  p, m, n) {
+              if (d !~ /^[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$/) return 0
+              split(d, p, "-"); m = p[2] + 0; n = split("31 28 31 30 31 30 31 31 30 31 30 31", days, " ")
+              if (m < 1 || m > 12) return 0
+              if (m == 2 && (p[1] % 4 == 0 && (p[1] % 100 != 0 || p[1] % 400 == 0))) days[2] = 29
+              return p[3] + 0 >= 1 && p[3] + 0 <= days[m]
+            }
+            { sub(/\r$/, "") }
+            index($0, "## [" v "] - ") == 1 { if (NF != 4 || !real_date($4)) exit; on = 1; next }
+            on && (/^## / || /^\[[^]]+\]: /) { exit }
+            on { print }' "$RUNNER_TEMP/CHANGELOG.md" > "$RUNNER_TEMP/notes.md"
+          grep -q '[^[:space:]]' "$RUNNER_TEMP/notes.md" \
+            || { echo "::error::CHANGELOG.md has no dated, non-empty section ## [$v] - YYYY-MM-DD"; exit 1; }
+          gh release create "$TAG" --verify-tag --title "anti-skill $v" --notes-file "$RUNNER_TEMP/notes.md"

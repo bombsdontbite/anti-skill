@@ -1,0 +1,27 @@
+{
+ "candidate/cache": {
+  "seconds": 361,
+  "usd": 1.2,
+  "calls": 5
+ },
+ "candidate/dedup": {
+  "seconds": 335,
+  "usd": 1.0,
+  "calls": 2
+ },
+ "candidate/speedup": {
+  "seconds": 324,
+  "usd": 0.96,
+  "calls": 7
+ },
+ "candidate/tsp": {
+  "seconds": 1036,
+  "usd": 1.59,
+  "calls": 9
+ },
+ "candidate2/dedup": {
+  "seconds": 690,
+  "usd": 1.46,
+  "calls": 7
+ }
+}

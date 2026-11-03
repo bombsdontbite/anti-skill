@@ -1,0 +1,12 @@
+1793260300 c1.py {"valid": true, "score": 68.791432, "detail": {"split": "train", "reference_cpu_s": 1.3312, "candidate_cpu_s": 0.019351, "runs": 3, "pairs": [866, 545]}}
+1793260576 c6.py {"valid": true, "score": 77.843719, "detail": {"split": "train", "reference_cpu_s": 1.3354, "candidate_cpu_s": 0.017155, "runs": 3, "pairs": [866, 545]}}
+1793260709 c7.py {"valid": true, "score": 81.071271, "detail": {"split": "train", "reference_cpu_s": 1.3252, "candidate_cpu_s": 0.016346, "runs": 3, "pairs": [866, 545]}}
+1793260815 c11.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 4: from _collections import is not allowed", "line 4: importing _count_elements is not allowed"]}}
+1793260838 c12.py {"valid": true, "score": 84.023409, "detail": {"split": "train", "reference_cpu_s": 1.3245, "candidate_cpu_s": 0.015763, "runs": 3, "pairs": [866, 545]}}
+1793260941 c14.py {"valid": true, "score": 87.053235, "detail": {"split": "train", "reference_cpu_s": 1.3213, "candidate_cpu_s": 0.015178, "runs": 3, "pairs": [866, 545]}}
+1793261461 c19.py {"valid": true, "score": 92.395707, "detail": {"split": "train", "reference_cpu_s": 1.3258, "candidate_cpu_s": 0.014349, "runs": 3, "pairs": [866, 545]}}
+1793261646 c21.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: import gc is not allowed"]}}
+1793261665 c22.py {"valid": true, "score": 92.035729, "detail": {"split": "train", "reference_cpu_s": 1.3292, "candidate_cpu_s": 0.014442, "runs": 3, "pairs": [866, 545]}}
+1793261804 c23.py {"valid": true, "score": 94.936078, "detail": {"split": "train", "reference_cpu_s": 1.3307, "candidate_cpu_s": 0.014017, "runs": 3, "pairs": [866, 545]}}
+1793261999 c26.py {"valid": true, "score": 100.520049, "detail": {"split": "train", "reference_cpu_s": 1.3262, "candidate_cpu_s": 0.013193, "runs": 3, "pairs": [866, 545]}}
+1793262224 final.py {"valid": true, "score": 100.75311, "detail": {"split": "train", "reference_cpu_s": 1.3283, "candidate_cpu_s": 0.013184, "runs": 3, "pairs": [866, 545]}}

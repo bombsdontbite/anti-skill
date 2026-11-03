@@ -1,0 +1,4 @@
+1793650077 tlfu.py {"valid": true, "score": 0.510289, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2455, "loop_and_hot": 0.641, "phases": 0.606, "mixed": 0.2679, "recency": 0.6715, "shifting_loops": 0.6298}}}
+1793650121 c2.py {"valid": true, "score": 0.535617, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2274, "loop_and_hot": 0.5992, "phases": 0.6459, "mixed": 0.2449, "recency": 0.7981, "shifting_loops": 0.6982}}}
+1793650134 c3.py {"valid": true, "score": 0.539561, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2336, "loop_and_hot": 0.6412, "phases": 0.6424, "mixed": 0.2539, "recency": 0.7652, "shifting_loops": 0.7011}}}
+1793650157 c4.py {"valid": true, "score": 0.542989, "detail": {"split": "train", "hit_rate_by_trace": {"hot_with_scans": 0.2338, "loop_and_hot": 0.6189, "phases": 0.6477, "mixed": 0.255, "recency": 0.7734, "shifting_loops": 0.7291}}}

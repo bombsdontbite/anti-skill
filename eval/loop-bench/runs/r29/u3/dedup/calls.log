@@ -1,0 +1,4 @@
+1793678599 cand1.py {"valid": true, "score": 69.025044, "detail": {"split": "train", "reference_cpu_s": 1.3202, "candidate_cpu_s": 0.019126, "runs": 3, "pairs": [866, 545]}}
+1793678643 cand2.py {"valid": true, "score": 76.854961, "detail": {"split": "train", "reference_cpu_s": 1.3231, "candidate_cpu_s": 0.017216, "runs": 3, "pairs": [866, 545]}}
+1793678707 cand4.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from _collections import is not allowed", "line 1: importing _count_elements is not allowed", "line 2: from _functools import is not allowed"]}}
+1793678788 final.py {"valid": true, "score": 76.739703, "detail": {"split": "train", "reference_cpu_s": 1.3228, "candidate_cpu_s": 0.017238, "runs": 3, "pairs": [866, 545]}}

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: profile-fire-12-ru-why-slow
+context:
+  scaffold_script: scaffold.sh

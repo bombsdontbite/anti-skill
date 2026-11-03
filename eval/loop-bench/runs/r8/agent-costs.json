@@ -1,0 +1,93 @@
+{
+ "candidate/cache": {
+  "seconds": 441,
+  "usd": 1.12,
+  "calls": 8,
+  "output_tokens": 26630,
+  "cache_read": 1072022
+ },
+ "candidate/dedup": {
+  "seconds": 725,
+  "usd": 1.68,
+  "calls": 6,
+  "output_tokens": 40554,
+  "cache_read": 1904719
+ },
+ "candidate/knapsack": {
+  "seconds": 283,
+  "usd": 0.59,
+  "calls": 3,
+  "output_tokens": 13943,
+  "cache_read": 463700
+ },
+ "candidate/schedule": {
+  "seconds": 630,
+  "usd": 1.25,
+  "calls": 5,
+  "output_tokens": 29096,
+  "cache_read": 1521848
+ },
+ "candidate/speedup": {
+  "seconds": 1239,
+  "usd": 1.82,
+  "calls": 8,
+  "output_tokens": 45199,
+  "cache_read": 2129225
+ },
+ "candidate/tsp": {
+  "seconds": 1418,
+  "usd": 2.25,
+  "calls": 5,
+  "output_tokens": 47635,
+  "cache_read": 3492051
+ },
+ "candidate2/cache": {
+  "seconds": 537,
+  "usd": 1.36,
+  "calls": 7,
+  "output_tokens": 31998,
+  "cache_read": 1495728
+ },
+ "candidate2/dedup": {
+  "seconds": 847,
+  "usd": 1.99,
+  "calls": 12,
+  "output_tokens": 46408,
+  "cache_read": 2672445
+ },
+ "candidate2/schedule": {
+  "seconds": 772,
+  "usd": 1.37,
+  "calls": 6,
+  "output_tokens": 32511,
+  "cache_read": 1691896
+ },
+ "candidate2/speedup": {
+  "seconds": 525,
+  "usd": 1.3,
+  "calls": 7,
+  "output_tokens": 32595,
+  "cache_read": 1291683
+ },
+ "shipped2/cache": {
+  "seconds": 494,
+  "usd": 1.36,
+  "calls": 13,
+  "output_tokens": 31544,
+  "cache_read": 1572471
+ },
+ "shipped2/schedule": {
+  "seconds": 901,
+  "usd": 1.71,
+  "calls": 5,
+  "output_tokens": 39492,
+  "cache_read": 2284478
+ },
+ "shipped2/speedup": {
+  "seconds": 242,
+  "usd": 0.6,
+  "calls": 3,
+  "output_tokens": 13897,
+  "cache_read": 492757
+ }
+}

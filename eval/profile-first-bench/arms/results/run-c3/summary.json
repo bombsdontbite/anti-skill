@@ -1,0 +1,727 @@
+{
+ "stick": "profile-first",
+ "run": "run-c3",
+ "report": {
+  "plain": {
+   "total": {
+    "runs": 8,
+    "missing": 0,
+    "invalid": 0,
+    "top1_hit": 0.625,
+    "top1_by_sum_hit": 0.875,
+    "topk_hit": 0.875,
+    "top1_share_error_pp": 7.7,
+    "mean_share_error_pp": 15.9,
+    "decoy_named": 0.125,
+    "decoy_cleared": 0.875,
+    "unmatched_items": 12,
+    "modified_runs": 0
+   },
+   "by_task": {
+    "t11": {
+     "runs": 2,
+     "missing": 0,
+     "invalid": 0,
+     "top1_hit": 0.5,
+     "top1_by_sum_hit": 0.5,
+     "topk_hit": 0.5,
+     "top1_share_error_pp": 0.7,
+     "mean_share_error_pp": 48.4,
+     "decoy_named": 0.5,
+     "decoy_cleared": 0.5,
+     "unmatched_items": 2,
+     "modified_runs": 0
+    },
+    "t16": {
+     "runs": 2,
+     "missing": 0,
+     "invalid": 0,
+     "top1_hit": 1.0,
+     "top1_by_sum_hit": 1.0,
+     "topk_hit": 1.0,
+     "top1_share_error_pp": 2.4,
+     "mean_share_error_pp": 3.5,
+     "decoy_named": 0.0,
+     "decoy_cleared": 1.0,
+     "unmatched_items": 5,
+     "modified_runs": 0
+    },
+    "t17": {
+     "runs": 2,
+     "missing": 0,
+     "invalid": 0,
+     "top1_hit": 0.0,
+     "top1_by_sum_hit": 1.0,
+     "topk_hit": 1.0,
+     "top1_share_error_pp": null,
+     "mean_share_error_pp": 10.2,
+     "decoy_named": 0.0,
+     "decoy_cleared": 1.0,
+     "unmatched_items": 3,
+     "modified_runs": 0
+    },
+    "t18": {
+     "runs": 2,
+     "missing": 0,
+     "invalid": 0,
+     "top1_hit": 1.0,
+     "top1_by_sum_hit": 1.0,
+     "topk_hit": 1.0,
+     "top1_share_error_pp": 16.5,
+     "mean_share_error_pp": 18.3,
+     "decoy_named": 0.0,
+     "decoy_cleared": 1.0,
+     "unmatched_items": 2,
+     "modified_runs": 0
+    }
+   }
+  },
+  "skill": {
+   "total": {
+    "runs": 8,
+    "missing": 0,
+    "invalid": 0,
+    "top1_hit": 0.625,
+    "top1_by_sum_hit": 0.625,
+    "topk_hit": 0.625,
+    "top1_share_error_pp": 7.8,
+    "mean_share_error_pp": 25.2,
+    "decoy_named": 0.25,
+    "decoy_cleared": 0.75,
+    "unmatched_items": 8,
+    "modified_runs": 0
+   },
+   "by_task": {
+    "t11": {
+     "runs": 2,
+     "missing": 0,
+     "invalid": 0,
+     "top1_hit": 0.0,
+     "top1_by_sum_hit": 0.0,
+     "topk_hit": 0.0,
+     "top1_share_error_pp": null,
+     "mean_share_error_pp": 95.4,
+     "decoy_named": 1.0,
+     "decoy_cleared": 0.0,
+     "unmatched_items": 0,
+     "modified_runs": 0
+    },
+    "t16": {
+     "runs": 2,
+     "missing": 0,
+     "invalid": 0,
+     "top1_hit": 1.0,
+     "top1_by_sum_hit": 1.0,
+     "topk_hit": 1.0,
+     "top1_share_error_pp": 0.4,
+     "mean_share_error_pp": 0.4,
+     "decoy_named": 0.0,
+     "decoy_cleared": 1.0,
+     "unmatched_items": 4,
+     "modified_runs": 0
+    },
+    "t17": {
+     "runs": 2,
+     "missing": 0,
+     "invalid": 0,
+     "top1_hit": 0.5,
+     "top1_by_sum_hit": 0.5,
+     "topk_hit": 0.5,
+     "top1_share_error_pp": 10.5,
+     "mean_share_error_pp": 3.8,
+     "decoy_named": 0.0,
+     "decoy_cleared": 1.0,
+     "unmatched_items": 2,
+     "modified_runs": 0
+    },
+    "t18": {
+     "runs": 2,
+     "missing": 0,
+     "invalid": 0,
+     "top1_hit": 1.0,
+     "top1_by_sum_hit": 1.0,
+     "topk_hit": 1.0,
+     "top1_share_error_pp": 13.8,
+     "mean_share_error_pp": 16.5,
+     "decoy_named": 0.0,
+     "decoy_cleared": 1.0,
+     "unmatched_items": 2,
+     "modified_runs": 0
+    }
+   }
+  },
+  "ALL": {
+   "total": {
+    "runs": 16,
+    "missing": 0,
+    "invalid": 0,
+    "top1_hit": 0.625,
+    "top1_by_sum_hit": 0.75,
+    "topk_hit": 0.75,
+    "top1_share_error_pp": 7.7,
+    "mean_share_error_pp": 19.9,
+    "decoy_named": 0.188,
+    "decoy_cleared": 0.812,
+    "unmatched_items": 20,
+    "modified_runs": 0
+   }
+  }
+ },
+ "paired_top1": {
+  "both_top1": 4,
+  "only_plain": 1,
+  "only_skill": 1,
+  "neither": 2
+ },
+ "audit_by_arm": {
+  "plain": {
+   "agents": 8,
+   "ran": 8,
+   "usd": 1.82,
+   "cap_hits": 0,
+   "errors_set_aside": 0,
+   "leak_flagged": 8
+  },
+  "skill": {
+   "agents": 8,
+   "ran": 8,
+   "usd": 3.82,
+   "cap_hits": 0,
+   "errors_set_aside": 0,
+   "leak_flagged": 7
+  }
+ },
+ "shares_env": {
+  "t01": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:39:17",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t02": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:39:35",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t03": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:40:12",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t04": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:40:40",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t05": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:41:00",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t06": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:41:34",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t07": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:42:10",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t08": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:42:44",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t09": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:43:32",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t10": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:43:51",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t11": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:44:42",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t12": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:45:25",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t13": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:45:59",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t14": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:46:42",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t15": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:47:24",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t16": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:47:52",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t17": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:48:22",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  },
+  "t18": {
+   "cpu_count": 8,
+   "harness_flags": "-P -s -S",
+   "machine": "arm64",
+   "measured": "2026-11-02T08:48:50",
+   "perf_cores": 4,
+   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+   "python": "3.15.2"
+  }
+ },
+ "judge_env": {
+  "python": "3.15.2",
+  "machine": "arm64"
+ },
+ "excluded": [],
+ "leak_flagged": [
+  "plain/r1-t11",
+  "plain/r1-t16",
+  "plain/r1-t17",
+  "plain/r1-t18",
+  "plain/r2-t11",
+  "plain/r2-t16",
+  "plain/r2-t17",
+  "plain/r2-t18",
+  "skill/r1-t11",
+  "skill/r1-t16",
+  "skill/r1-t17",
+  "skill/r1-t18",
+  "skill/r2-t11",
+  "skill/r2-t16",
+  "skill/r2-t17"
+ ],
+ "agents": [
+  {
+   "agent": "plain/r1-t11",
+   "task": "t11",
+   "status": "ok",
+   "top1": true,
+   "topk": true,
+   "top1_share_error": 0.7199999999999989,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:<module>"
+   ],
+   "modified": [],
+   "id": "450350f3",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.21149779999999999,
+   "minutes": 0.9,
+   "turns": 7
+  },
+  {
+   "agent": "skill/r1-t11",
+   "task": "t11",
+   "status": "ok",
+   "top1": false,
+   "topk": false,
+   "top1_share_error": null,
+   "decoy_named": true,
+   "decoy_cleared": false,
+   "unmatched": [],
+   "modified": [],
+   "id": "936309bc",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.36346140000000005,
+   "minutes": 1.3,
+   "turns": 10
+  },
+  {
+   "agent": "skill/r1-t16",
+   "task": "t16",
+   "status": "ok",
+   "top1": true,
+   "topk": true,
+   "top1_share_error": 0.4899999999999949,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:settle",
+    "app.py:<module>"
+   ],
+   "modified": [],
+   "id": "dcc5c8a2",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.3623054,
+   "minutes": 1.6,
+   "turns": 10
+  },
+  {
+   "agent": "plain/r1-t16",
+   "task": "t16",
+   "status": "ok",
+   "top1": true,
+   "topk": true,
+   "top1_share_error": 1.8900000000000006,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:<module>",
+    "app.py:settle",
+    "app.py:main"
+   ],
+   "modified": [],
+   "id": "2308d2d9",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.2488844,
+   "minutes": 1.1,
+   "turns": 9
+  },
+  {
+   "agent": "plain/r1-t17",
+   "task": "t17",
+   "status": "ok",
+   "top1": false,
+   "topk": true,
+   "top1_share_error": null,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:<module>"
+   ],
+   "modified": [],
+   "id": "3d1d9af2",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.269221,
+   "minutes": 2.3,
+   "turns": 8
+  },
+  {
+   "agent": "skill/r1-t17",
+   "task": "t17",
+   "status": "ok",
+   "top1": true,
+   "topk": true,
+   "top1_share_error": 10.490000000000002,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:<module>"
+   ],
+   "modified": [],
+   "id": "4551d603",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.8339189999999999,
+   "minutes": 11.9,
+   "turns": 19
+  },
+  {
+   "agent": "skill/r1-t18",
+   "task": "t18",
+   "status": "ok",
+   "top1": true,
+   "topk": true,
+   "top1_share_error": 0.5300000000000011,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:<module> (imports)"
+   ],
+   "modified": [],
+   "id": "965a52c2",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.48211700000000013,
+   "minutes": 4.5,
+   "turns": 15
+  },
+  {
+   "agent": "plain/r1-t18",
+   "task": "t18",
+   "status": "ok",
+   "top1": true,
+   "topk": true,
+   "top1_share_error": 27.97,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:<module> (interpreter start-up + imports)"
+   ],
+   "modified": [],
+   "id": "ef358250",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.23730740000000003,
+   "minutes": 1.0,
+   "turns": 7
+  },
+  {
+   "agent": "skill/r2-t11",
+   "task": "t11",
+   "status": "ok",
+   "top1": false,
+   "topk": false,
+   "top1_share_error": null,
+   "decoy_named": true,
+   "decoy_cleared": false,
+   "unmatched": [],
+   "modified": [],
+   "id": "4cf19a25",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.37800500000000004,
+   "minutes": 1.8,
+   "turns": 11
+  },
+  {
+   "agent": "plain/r2-t11",
+   "task": "t11",
+   "status": "ok",
+   "top1": false,
+   "topk": false,
+   "top1_share_error": null,
+   "decoy_named": true,
+   "decoy_cleared": false,
+   "unmatched": [
+    "app.py:<module>"
+   ],
+   "modified": [],
+   "id": "34210208",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.20016620000000002,
+   "minutes": 0.6,
+   "turns": 6
+  },
+  {
+   "agent": "plain/r2-t16",
+   "task": "t16",
+   "status": "ok",
+   "top1": true,
+   "topk": true,
+   "top1_share_error": 2.8900000000000006,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:settle",
+    "app.py:<module>"
+   ],
+   "modified": [],
+   "id": "875ac9f2",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.2163044,
+   "minutes": 0.6,
+   "turns": 7
+  },
+  {
+   "agent": "skill/r2-t16",
+   "task": "t16",
+   "status": "ok",
+   "top1": true,
+   "topk": true,
+   "top1_share_error": 0.39000000000000057,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:settle",
+    "app.py:<module>"
+   ],
+   "modified": [],
+   "id": "9e4cf8ee",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.4305334000000001,
+   "minutes": 3.9,
+   "turns": 14
+  },
+  {
+   "agent": "skill/r2-t17",
+   "task": "t17",
+   "status": "ok",
+   "top1": false,
+   "topk": false,
+   "top1_share_error": null,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:<module>"
+   ],
+   "modified": [],
+   "id": "8afae367",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.45576020000000006,
+   "minutes": 2.3,
+   "turns": 10
+  },
+  {
+   "agent": "plain/r2-t17",
+   "task": "t17",
+   "status": "ok",
+   "top1": false,
+   "topk": true,
+   "top1_share_error": null,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:<module>",
+    "app.py:main (file read + split)"
+   ],
+   "modified": [],
+   "id": "cf387245",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.2392142,
+   "minutes": 1.4,
+   "turns": 7
+  },
+  {
+   "agent": "plain/r2-t18",
+   "task": "t18",
+   "status": "ok",
+   "top1": true,
+   "topk": true,
+   "top1_share_error": 5.030000000000001,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:<module> (interpreter start-up and imports)"
+   ],
+   "modified": [],
+   "id": "91f0143f",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.1937748,
+   "minutes": 0.6,
+   "turns": 6
+  },
+  {
+   "agent": "skill/r2-t18",
+   "task": "t18",
+   "status": "ok",
+   "top1": true,
+   "topk": true,
+   "top1_share_error": 26.97,
+   "decoy_named": false,
+   "decoy_cleared": true,
+   "unmatched": [
+    "app.py:<module>"
+   ],
+   "modified": [],
+   "id": "0fad7cd5",
+   "ran": true,
+   "is_error": false,
+   "subtype": "success",
+   "usd": 0.5178064000000001,
+   "minutes": 2.7,
+   "turns": 15
+  }
+ ],
+ "notes": [
+  "report: score_answers.py per arm root and ALL",
+  "audit_by_arm: cost, cap hits (error_max_budget_usd) and set-aside failures per arm",
+  "unmatched items score as misses: read them before trusting a low score (stick README)",
+  "shares_env should match judge_env and the machine the agents ran on",
+  "leak_flagged: read judge/audit.json before trusting those runs"
+ ]
+}

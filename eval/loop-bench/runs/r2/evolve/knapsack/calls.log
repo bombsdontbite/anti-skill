@@ -1,0 +1,6 @@
+1793100946 c1_greedy_ls.py {"valid": true, "score": 1.008155, "detail": {"split": "train", "mean_value_over_greedy": 1.008155, "ratios": [1.0001, 1.0019, 1.0003, 1.003, 1.0104, 1.0046, 1.0214, 1.0235], "max_time_s": 0.0303}}
+1793101457 f_lagr.py {"valid": true, "score": 1.009428, "detail": {"split": "train", "mean_value_over_greedy": 1.009428, "ratios": [1.0001, 1.0046, 1.0014, 1.0033, 1.0105, 1.0054, 1.0222, 1.028], "max_time_s": 0.1083}}
+1793101459 h1_lagr_core_ls.py {"valid": true, "score": 1.009655, "detail": {"split": "train", "mean_value_over_greedy": 1.009655, "ratios": [1.0001, 1.0046, 1.0019, 1.0036, 1.0105, 1.0052, 1.0224, 1.0289], "max_time_s": 0.4646}}
+1793102510 r2d_ils.py {"valid": true, "score": 1.009655, "detail": {"split": "train", "mean_value_over_greedy": 1.009655, "ratios": [1.0001, 1.0046, 1.0019, 1.0036, 1.0105, 1.0052, 1.0224, 1.0289], "max_time_s": 0.7048}}
+1793102511 r2a_fast.py {"valid": true, "score": 1.009655, "detail": {"split": "train", "mean_value_over_greedy": 1.009655, "ratios": [1.0001, 1.0046, 1.0019, 1.0036, 1.0105, 1.0052, 1.0224, 1.0289], "max_time_s": 0.322}}
+1793102616 r3a_safe.py {"valid": true, "score": 1.009655, "detail": {"split": "train", "mean_value_over_greedy": 1.009655, "ratios": [1.0001, 1.0046, 1.0019, 1.0036, 1.0105, 1.0052, 1.0224, 1.0289], "max_time_s": 0.5018}}

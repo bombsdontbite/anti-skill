@@ -1,0 +1,6 @@
+1793103698 c1_bisect.py {"valid": true, "score": 31.932997, "detail": {"split": "train", "reference_cpu_s": 0.4685, "candidate_cpu_s": 0.014671, "runs": 3}}
+1793103797 c2_keysort.py {"valid": true, "score": 46.421794, "detail": {"split": "train", "reference_cpu_s": 0.4677, "candidate_cpu_s": 0.010076, "runs": 3}}
+1793103906 c7_loop.py {"valid": true, "score": 46.792824, "detail": {"split": "train", "reference_cpu_s": 0.4682, "candidate_cpu_s": 0.010006, "runs": 3}}
+1793103956 c9_maps.py {"valid": true, "score": 51.881104, "detail": {"split": "train", "reference_cpu_s": 0.4791, "candidate_cpu_s": 0.009235, "runs": 3}}
+1793104011 c12_check.py {"valid": true, "score": 52.865821, "detail": {"split": "train", "reference_cpu_s": 0.4752, "candidate_cpu_s": 0.008988, "runs": 3}}
+1793104031 c15_presorted.py {"valid": true, "score": 57.521012, "detail": {"split": "train", "reference_cpu_s": 0.475, "candidate_cpu_s": 0.008257, "runs": 3}}

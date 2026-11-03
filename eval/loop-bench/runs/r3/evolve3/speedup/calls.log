@@ -1,0 +1,4 @@
+1793120937 c1_bisect.py {"valid": true, "score": 51.074809, "detail": {"split": "train", "reference_cpu_s": 0.4554, "candidate_cpu_s": 0.008916, "runs": 3}}
+1793120939 c4_qbucket.py {"valid": true, "score": 39.053266, "detail": {"split": "train", "reference_cpu_s": 0.4538, "candidate_cpu_s": 0.011621, "runs": 3}}
+1793121048 c8_presorted.py {"valid": true, "score": 54.911486, "detail": {"split": "train", "reference_cpu_s": 0.4523, "candidate_cpu_s": 0.008236, "runs": 3}}
+1793121093 c12_twobis.py {"valid": true, "score": 56.900051, "detail": {"split": "train", "reference_cpu_s": 0.4497, "candidate_cpu_s": 0.007904, "runs": 3}}

@@ -1,0 +1,261 @@
+{
+ "task": "speedup",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 5,
+ "finals": {
+  "plain": "runs/r2/iter/speedup/final.py",
+  "v2r2": "runs/r2/evolve/speedup/final.py",
+  "r15plain1": "runs/r15/plain1/speedup/final.py",
+  "r15plain2": "runs/r15/plain2/speedup/final.py",
+  "r15nudge1": "runs/r15/nudge1/speedup/final.py",
+  "r15nudge2": "runs/r15/nudge2/speedup/final.py",
+  "r15v2a": "runs/r15/v2a/speedup/final.py",
+  "r15v2b": "runs/r15/v2b/speedup/final.py",
+  "r15e1": "runs/r15/e1/speedup/final.py",
+  "r15e2": "runs/r15/e2/speedup/final.py",
+  "r15f1": "runs/r15/f1/speedup/final.py",
+  "r15f2": "runs/r15/f2/speedup/final.py",
+  "r17f3": "runs/r17/f3/speedup/final.py",
+  "r17f4": "runs/r17/f4/speedup/final.py",
+  "r17v2c": "runs/r17/v2c/speedup/final.py",
+  "r17e3": "runs/r17/e3/speedup/final.py",
+  "r17plain3": "runs/r17/plain3/speedup/final.py",
+  "r18ch5": "runs/r18c/g5/speedup/final.py",
+  "r18ch6": "runs/r18c/g6/speedup/final.py",
+  "r22dj1": "runs/r22d/j1/speedup/final.py",
+  "r22dj2": "runs/r22d/j2/speedup/final.py"
+ },
+ "results": {
+  "plain": {
+   "runs": [
+    54.614769,
+    53.345622,
+    53.312885,
+    52.995306,
+    53.29178
+   ],
+   "median": 53.312885,
+   "invalid": 0
+  },
+  "v2r2": {
+   "runs": [
+    56.151954,
+    55.918717,
+    55.499383,
+    55.17235,
+    56.12894
+   ],
+   "median": 55.918717,
+   "invalid": 0
+  },
+  "r15plain1": {
+   "runs": [
+    30.56127,
+    30.317711,
+    30.22833,
+    30.489767,
+    30.163733
+   ],
+   "median": 30.317711,
+   "invalid": 0
+  },
+  "r15plain2": {
+   "runs": [
+    30.332796,
+    30.385335,
+    30.339071,
+    30.271159,
+    30.364249
+   ],
+   "median": 30.339071,
+   "invalid": 0
+  },
+  "r15nudge1": {
+   "runs": [
+    57.771128,
+    58.018027,
+    57.997044,
+    58.098919,
+    58.078103
+   ],
+   "median": 58.018027,
+   "invalid": 0
+  },
+  "r15nudge2": {
+   "runs": [
+    32.735322,
+    32.481808,
+    32.52022,
+    32.68688,
+    32.445285
+   ],
+   "median": 32.52022,
+   "invalid": 0
+  },
+  "r15v2a": {
+   "runs": [
+    59.542019,
+    59.003657,
+    59.254112,
+    58.812655,
+    59.350836
+   ],
+   "median": 59.254112,
+   "invalid": 0
+  },
+  "r15v2b": {
+   "runs": [
+    48.077169,
+    48.2156,
+    47.988165,
+    48.168835,
+    48.282439
+   ],
+   "median": 48.168835,
+   "invalid": 0
+  },
+  "r15e1": {
+   "runs": [
+    54.950536,
+    54.441852,
+    54.775441,
+    54.934342,
+    55.029996
+   ],
+   "median": 54.934342,
+   "invalid": 0
+  },
+  "r15e2": {
+   "runs": [
+    58.069486,
+    58.229199,
+    58.370957,
+    58.473452,
+    58.334241
+   ],
+   "median": 58.334241,
+   "invalid": 0
+  },
+  "r15f1": {
+   "runs": [
+    59.817253,
+    59.682089,
+    60.335654,
+    60.067084,
+    59.890498
+   ],
+   "median": 59.890498,
+   "invalid": 0
+  },
+  "r15f2": {
+   "runs": [
+    54.500846,
+    54.481155,
+    54.183205,
+    54.226753,
+    54.629867
+   ],
+   "median": 54.481155,
+   "invalid": 0
+  },
+  "r17f3": {
+   "runs": [
+    60.138593,
+    59.726562,
+    59.639249,
+    59.644227,
+    59.267228
+   ],
+   "median": 59.644227,
+   "invalid": 0
+  },
+  "r17f4": {
+   "runs": [
+    46.208713,
+    46.128669,
+    46.393023,
+    46.091216,
+    46.237042
+   ],
+   "median": 46.208713,
+   "invalid": 0
+  },
+  "r17v2c": {
+   "runs": [
+    50.539279,
+    50.312779,
+    50.040262,
+    50.436527,
+    50.496303
+   ],
+   "median": 50.436527,
+   "invalid": 0
+  },
+  "r17e3": {
+   "runs": [
+    58.953826,
+    59.548153,
+    59.326442,
+    58.963439,
+    59.208011
+   ],
+   "median": 59.208011,
+   "invalid": 0
+  },
+  "r17plain3": {
+   "runs": [
+    54.315898,
+    54.392138,
+    54.29715,
+    54.290894,
+    54.063986
+   ],
+   "median": 54.29715,
+   "invalid": 0
+  },
+  "r18ch5": {
+   "runs": [
+    53.04333,
+    52.799179,
+    52.96825,
+    53.064155,
+    52.937434
+   ],
+   "median": 52.96825,
+   "invalid": 0
+  },
+  "r18ch6": {
+   "runs": [
+    50.12672,
+    50.521212,
+    50.663454,
+    50.155536,
+    50.149137
+   ],
+   "median": 50.155536,
+   "invalid": 0
+  },
+  "r22dj1": {
+   "runs": [
+    59.536714,
+    59.592436,
+    58.989398,
+    59.786084,
+    59.58612
+   ],
+   "median": 59.58612,
+   "invalid": 0
+  },
+  "r22dj2": {
+   "runs": [
+    58.244502,
+    58.263063,
+    58.441192,
+    57.921435,
+    58.138545
+   ],
+   "median": 58.244502,
+   "invalid": 0
+  }
+ }
+}

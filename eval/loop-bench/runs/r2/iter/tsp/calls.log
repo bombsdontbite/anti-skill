@@ -1,0 +1,2 @@
+1793102385 cand_v5.py {"valid": true, "score": -0.777476, "detail": {"split": "train", "mean_length_over_nearest_neighbour": 0.777476, "ratios": [0.8126, 0.7705, 0.7635, 0.7961, 0.7838, 0.7309, 0.808, 0.7544], "max_time_s": 0.6011}}
+1793102487 final.py {"valid": true, "score": -0.777476, "detail": {"split": "train", "mean_length_over_nearest_neighbour": 0.777476, "ratios": [0.8126, 0.7705, 0.7635, 0.7961, 0.7838, 0.7309, 0.808, 0.7544], "max_time_s": 0.7213}}

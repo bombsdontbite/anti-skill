@@ -1,0 +1,4 @@
+1793100991 cand1.py {"valid": true, "score": -0.299779, "detail": {"split": "train", "mean_tardiness_over_edf": 0.299779, "ratios": [0.2631, 0.3348, 0.3939, 0.2777, 0.2574, 0.2887, 0.2697, 0.3131], "max_time_s": 0.7599}}
+1793101518 cand5.py {"valid": true, "score": -0.292191, "detail": {"split": "train", "mean_tardiness_over_edf": 0.292191, "ratios": [0.2601, 0.3306, 0.3875, 0.2532, 0.2534, 0.2768, 0.2606, 0.3154], "max_time_s": 0.7533}}
+1793101772 probe0.py {"valid": true, "score": -0.314596, "detail": {"split": "train", "mean_tardiness_over_edf": 0.314596, "ratios": [0.2693, 0.3392, 0.4007, 0.2894, 0.2594, 0.2924, 0.2792, 0.3872], "max_time_s": 0.0662}}
+1793102548 final.py {"valid": true, "score": -0.285999, "detail": {"split": "train", "mean_tardiness_over_edf": 0.285999, "ratios": [0.2551, 0.3243, 0.3826, 0.2517, 0.2529, 0.2794, 0.2559, 0.2861], "max_time_s": 0.8509}}

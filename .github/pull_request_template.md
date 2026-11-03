@@ -1,0 +1,3 @@
+- [ ] One change, described in a sentence or two (and the issue it fixes, if any)
+- [ ] What I ran to check it, and what it showed
+- [ ] A skill change: runs against plain Claude Code are included (see CONTRIBUTING.md)

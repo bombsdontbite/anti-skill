@@ -1,0 +1,1 @@
+Do not stop at the first answer that works; keep improving it while the scorer budget lasts.

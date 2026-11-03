@@ -1,0 +1,3 @@
+1793101011 cand1.py {"valid": true, "score": 1.009305, "detail": {"split": "train", "mean_value_over_greedy": 1.009305, "ratios": [1.0, 1.0046, 1.0017, 1.0033, 1.0097, 1.0052, 1.0223, 1.0276], "max_time_s": 0.5759}}
+1793101248 cand2.py {"valid": true, "score": 1.009383, "detail": {"split": "train", "mean_value_over_greedy": 1.009383, "ratios": [1.0001, 1.0046, 1.0015, 1.0034, 1.0105, 1.0054, 1.0223, 1.0274], "max_time_s": 0.5564}}
+1793101361 final.py {"valid": true, "score": 1.009563, "detail": {"split": "train", "mean_value_over_greedy": 1.009563, "ratios": [1.0001, 1.0046, 1.0018, 1.0034, 1.0105, 1.0054, 1.0224, 1.0284], "max_time_s": 0.6026}}

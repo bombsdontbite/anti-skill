@@ -1,0 +1,24 @@
+name: Bug report
+description: A skill, a script or a benchmark does something wrong
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: What happened
+      description: What you ran or asked, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How to reproduce
+      description: The smallest steps, prompt or input that shows it.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Versions
+      description: The plugin version (`claude plugin list`), Claude Code version, model, and OS.
+  - type: textarea
+    attributes:
+      label: Anything else
+      description: Logs or output. Remove paths, keys and anything private first.

@@ -1,0 +1,3 @@
+1793238260 cand_a.py {"valid": true, "score": 32.117664, "detail": {"split": "train", "reference_cpu_s": 0.4498, "candidate_cpu_s": 0.014006, "runs": 3}}
+1793238395 cand_h.py {"valid": true, "score": 55.537129, "detail": {"split": "train", "reference_cpu_s": 0.4457, "candidate_cpu_s": 0.008026, "runs": 3}}
+1793238438 final.py {"valid": true, "score": 56.120566, "detail": {"split": "train", "reference_cpu_s": 0.4478, "candidate_cpu_s": 0.007979, "runs": 3}}

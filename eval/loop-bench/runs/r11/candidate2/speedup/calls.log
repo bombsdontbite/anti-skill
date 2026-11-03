@@ -1,0 +1,13 @@
+1793205147 candidate_baseline.py {"valid": true, "score": 0.997423, "detail": {"split": "train", "reference_cpu_s": 0.4517, "candidate_cpu_s": 0.452853, "runs": 3}}
+1793205148 c1_prefix.py {"valid": true, "score": 31.71595, "detail": {"split": "train", "reference_cpu_s": 0.452, "candidate_cpu_s": 0.014251, "runs": 3}}
+1793205200 v1.py {"valid": true, "score": 32.558603, "detail": {"split": "train", "reference_cpu_s": 0.4511, "candidate_cpu_s": 0.013856, "runs": 3}}
+1793205466 v7b.py {"valid": true, "score": 40.090402, "detail": {"split": "train", "reference_cpu_s": 0.4603, "candidate_cpu_s": 0.011482, "runs": 3}}
+1793205626 r2k.py {"valid": true, "score": 48.078471, "detail": {"split": "train", "reference_cpu_s": 0.454, "candidate_cpu_s": 0.009443, "runs": 3}}
+1793205734 v1.py {"valid": true, "score": 41.429365, "detail": {"split": "train", "reference_cpu_s": 0.4549, "candidate_cpu_s": 0.010979, "runs": 3}}
+1793205928 v4.py {"valid": true, "score": 58.28169, "detail": {"split": "train", "reference_cpu_s": 0.4552, "candidate_cpu_s": 0.00781, "runs": 3}}
+1793206016 v15.py {"valid": true, "score": 63.481895, "detail": {"split": "train", "reference_cpu_s": 0.4488, "candidate_cpu_s": 0.00707, "runs": 3}}
+1793206083 v17.py {"valid": true, "score": 67.687313, "detail": {"split": "train", "reference_cpu_s": 0.4513, "candidate_cpu_s": 0.006668, "runs": 3}}
+1793206163 pick.py {"valid": true, "score": 47.678715, "detail": {"split": "train", "reference_cpu_s": 0.4498, "candidate_cpu_s": 0.009434, "runs": 3}}
+1793206165 pick.py {"valid": true, "score": 66.441854, "detail": {"split": "train", "reference_cpu_s": 0.4502, "candidate_cpu_s": 0.006776, "runs": 3}}
+1793206167 pick.py {"valid": true, "score": 47.470347, "detail": {"split": "train", "reference_cpu_s": 0.4506, "candidate_cpu_s": 0.009493, "runs": 3}}
+1793206168 pick.py {"valid": true, "score": 66.560295, "detail": {"split": "train", "reference_cpu_s": 0.4509, "candidate_cpu_s": 0.006775, "runs": 3}}

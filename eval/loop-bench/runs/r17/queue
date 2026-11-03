@@ -1,0 +1,10 @@
+f3/dedup eval/loop-bench/runs/r17/arm-f/SKILL.md
+v2c/dedup eval/loop-bench/runs/r17/arm-v2/SKILL.md
+plain3/dedup -
+e3/dedup eval/loop-bench/runs/r17/arm-e/SKILL.md
+f4/dedup eval/loop-bench/runs/r17/arm-f/SKILL.md
+f3/speedup eval/loop-bench/runs/r17/arm-f/SKILL.md
+v2c/speedup eval/loop-bench/runs/r17/arm-v2/SKILL.md
+plain3/speedup -
+e3/speedup eval/loop-bench/runs/r17/arm-e/SKILL.md
+f4/speedup eval/loop-bench/runs/r17/arm-f/SKILL.md

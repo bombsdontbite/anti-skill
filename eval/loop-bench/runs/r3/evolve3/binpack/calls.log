@@ -1,0 +1,4 @@
+1793123365 c1_ss.py {"valid": true, "score": -1.019532, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.019532, "by_distribution": {"uniform": 1.023134, "weibull": 1.014477, "bimodal": 1.020984}}}
+1793123442 c0_bestfit.py {"valid": true, "score": -1.036581, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.036581, "by_distribution": {"uniform": 1.04676, "weibull": 1.042183, "bimodal": 1.020799}}}
+1793123543 t_ss2_DEADW2.py {"valid": true, "score": -1.013917, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.013917, "by_distribution": {"uniform": 1.013926, "weibull": 1.011726, "bimodal": 1.0161}}}
+1793123715 final.py {"valid": true, "score": -1.013316, "detail": {"split": "train", "mean_bins_over_lower_bound": 1.013316, "by_distribution": {"uniform": 1.012439, "weibull": 1.011978, "bimodal": 1.01553}}}

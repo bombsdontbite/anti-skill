@@ -1,0 +1,5 @@
+candidate/dedup eval/loop-bench/runs/r10/candidate/SKILL.md
+candidate/tsp eval/loop-bench/runs/r10/candidate/SKILL.md
+candidate2/dedup eval/loop-bench/runs/r10/candidate/SKILL.md
+candidate/speedup eval/loop-bench/runs/r10/candidate/SKILL.md
+candidate/cache eval/loop-bench/runs/r10/candidate/SKILL.md

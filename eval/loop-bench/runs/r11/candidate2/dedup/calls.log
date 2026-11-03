@@ -1,0 +1,16 @@
+1793202892 cand_simple.py {"valid": true, "score": 2.881962, "detail": {"split": "train", "reference_cpu_s": 1.3254, "candidate_cpu_s": 0.459879, "runs": 3, "pairs": [866, 545]}}
+1793202964 c1.py {"valid": true, "score": 73.186348, "detail": {"split": "train", "reference_cpu_s": 1.3424, "candidate_cpu_s": 0.018342, "runs": 3, "pairs": [866, 545]}}
+1793203595 c9.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from _collections import is not allowed", "line 1: importing _count_elements is not allowed"]}}
+1793203709 c12.py {"valid": true, "score": 86.489727, "detail": {"split": "train", "reference_cpu_s": 1.3345, "candidate_cpu_s": 0.015429, "runs": 3, "pairs": [866, 545]}}
+1793203868 c15.py {"valid": true, "score": 90.779437, "detail": {"split": "train", "reference_cpu_s": 1.3191, "candidate_cpu_s": 0.014531, "runs": 3, "pairs": [866, 545]}}
+1793204125 c1.py {"valid": true, "score": 68.344847, "detail": {"split": "train", "reference_cpu_s": 1.3277, "candidate_cpu_s": 0.019426, "runs": 3, "pairs": [866, 545]}}
+1793204400 c6.py {"valid": true, "score": 82.277832, "detail": {"split": "train", "reference_cpu_s": 1.3451, "candidate_cpu_s": 0.016348, "runs": 3, "pairs": [866, 545]}}
+1793204508 c10.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 3: import gc is not allowed"]}}
+1793204532 c10b.py {"valid": true, "score": 83.016577, "detail": {"split": "train", "reference_cpu_s": 1.3621, "candidate_cpu_s": 0.016408, "runs": 3, "pairs": [866, 545]}}
+1793204819 c14.py {"valid": true, "score": 87.987496, "detail": {"split": "train", "reference_cpu_s": 1.351, "candidate_cpu_s": 0.015355, "runs": 3, "pairs": [866, 545]}}
+1793204880 c15.py {"valid": true, "score": 90.807068, "detail": {"split": "train", "reference_cpu_s": 1.3362, "candidate_cpu_s": 0.014715, "runs": 3, "pairs": [866, 545]}}
+1793205024 c17.py {"valid": true, "score": 84.245495, "detail": {"split": "train", "reference_cpu_s": 1.3651, "candidate_cpu_s": 0.016204, "runs": 3, "pairs": [866, 545]}}
+1793205052 final.py {"valid": true, "score": 90.497676, "detail": {"split": "train", "reference_cpu_s": 1.324, "candidate_cpu_s": 0.01463, "runs": 3, "pairs": [866, 545]}}
+1793205057 final.py {"valid": true, "score": 92.004629, "detail": {"split": "train", "reference_cpu_s": 1.3316, "candidate_cpu_s": 0.014473, "runs": 3, "pairs": [866, 545]}}
+1793205061 final.py {"valid": true, "score": 91.192946, "detail": {"split": "train", "reference_cpu_s": 1.329, "candidate_cpu_s": 0.014574, "runs": 3, "pairs": [866, 545]}}
+1793205065 final.py {"valid": true, "score": 91.864215, "detail": {"split": "train", "reference_cpu_s": 1.3287, "candidate_cpu_s": 0.014464, "runs": 3, "pairs": [866, 545]}}

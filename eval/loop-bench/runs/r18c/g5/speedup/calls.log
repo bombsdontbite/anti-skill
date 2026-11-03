@@ -1,0 +1,3 @@
+1793250467 c1.py {"valid": true, "score": 31.211195, "detail": {"split": "train", "reference_cpu_s": 0.4472, "candidate_cpu_s": 0.014328, "runs": 3}}
+1793250552 c4.py {"valid": true, "score": 52.226653, "detail": {"split": "train", "reference_cpu_s": 0.4479, "candidate_cpu_s": 0.008577, "runs": 3}}
+1793250633 c6.py {"valid": true, "score": 54.175725, "detail": {"split": "train", "reference_cpu_s": 0.4486, "candidate_cpu_s": 0.00828, "runs": 3}}

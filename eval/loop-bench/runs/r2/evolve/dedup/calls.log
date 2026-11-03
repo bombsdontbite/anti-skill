@@ -1,0 +1,9 @@
+1793104688 c1_prefix.py {"valid": true, "score": 56.746679, "detail": {"split": "train", "reference_cpu_s": 1.3414, "candidate_cpu_s": 0.023638, "runs": 3, "pairs": [866, 545]}}
+1793104906 c4_dupgroup.py {"valid": true, "score": 68.650875, "detail": {"split": "train", "reference_cpu_s": 1.3375, "candidate_cpu_s": 0.019483, "runs": 3, "pairs": [866, 545]}}
+1793105132 c8_pipeline.py {"valid": true, "score": 72.821406, "detail": {"split": "train", "reference_cpu_s": 1.3594, "candidate_cpu_s": 0.018668, "runs": 3, "pairs": [866, 545]}}
+1793105429 c13_small.py {"valid": true, "score": 82.313131, "detail": {"split": "train", "reference_cpu_s": 1.3283, "candidate_cpu_s": 0.016137, "runs": 3, "pairs": [866, 545]}}
+1793105599 c19_smallsub.py {"valid": true, "score": 91.027631, "detail": {"split": "train", "reference_cpu_s": 1.3276, "candidate_cpu_s": 0.014585, "runs": 3, "pairs": [866, 545]}}
+1793105801 c22_compact.py {"valid": true, "score": 95.326755, "detail": {"split": "train", "reference_cpu_s": 1.3283, "candidate_cpu_s": 0.013934, "runs": 3, "pairs": [866, 545]}}
+1793105951 c24_inline.py {"valid": true, "score": 94.747607, "detail": {"split": "train", "reference_cpu_s": 1.3267, "candidate_cpu_s": 0.014002, "runs": 3, "pairs": [866, 545]}}
+1793106058 c22_compact.py {"valid": true, "score": 94.024482, "detail": {"split": "train", "reference_cpu_s": 1.3288, "candidate_cpu_s": 0.014133, "runs": 3, "pairs": [866, 545]}}
+1793106062 c24_inline.py {"valid": true, "score": 95.082816, "detail": {"split": "train", "reference_cpu_s": 1.333, "candidate_cpu_s": 0.014019, "runs": 3, "pairs": [866, 545]}}

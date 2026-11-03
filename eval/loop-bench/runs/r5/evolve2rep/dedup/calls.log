@@ -1,0 +1,17 @@
+1793131437 c1_allpairs.py {"valid": true, "score": 67.834184, "detail": {"split": "train", "reference_cpu_s": 6.4318, "candidate_cpu_s": 0.094816, "runs": 3, "pairs": [866, 545]}}
+1793132235 c9_pos.py {"valid": true, "score": 65.435543, "detail": {"split": "train", "reference_cpu_s": 6.1053, "candidate_cpu_s": 0.093302, "runs": 3, "pairs": [866, 545]}}
+1793132327 c13_noimp.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from _collections import is not allowed", "line 1: importing _count_elements is not allowed"]}}
+1793132422 c14_pycount.py {"valid": true, "score": 63.407322, "detail": {"split": "train", "reference_cpu_s": 6.1555, "candidate_cpu_s": 0.097078, "runs": 3, "pairs": [866, 545]}}
+1793132758 c15_sample.py {"valid": true, "score": 70.549098, "detail": {"split": "train", "reference_cpu_s": 6.6435, "candidate_cpu_s": 0.094169, "runs": 3, "pairs": [866, 545]}}
+1793133014 final.py {"valid": true, "score": 68.823602, "detail": {"split": "train", "reference_cpu_s": 6.3464, "candidate_cpu_s": 0.092212, "runs": 3, "pairs": [866, 545]}}
+1793133027 c1_allpairs.py {"valid": true, "score": 68.227112, "detail": {"split": "train", "reference_cpu_s": 1.372, "candidate_cpu_s": 0.020109, "runs": 3, "pairs": [866, 545]}}
+1793133032 final.py {"valid": true, "score": 68.449685, "detail": {"split": "train", "reference_cpu_s": 1.3468, "candidate_cpu_s": 0.019676, "runs": 3, "pairs": [866, 545]}}
+1793133166 c20_compact.py {"valid": true, "score": 77.100814, "detail": {"split": "train", "reference_cpu_s": 1.3445, "candidate_cpu_s": 0.017438, "runs": 3, "pairs": [866, 545]}}
+1793133288 c21_deletion.py {"valid": true, "score": 90.478479, "detail": {"split": "train", "reference_cpu_s": 5.6905, "candidate_cpu_s": 0.062893, "runs": 3, "pairs": [866, 545]}}
+1793133474 c23_del3.py {"valid": true, "score": 74.158461, "detail": {"split": "train", "reference_cpu_s": 6.3099, "candidate_cpu_s": 0.085087, "runs": 3, "pairs": [866, 545]}}
+1793133537 c21_deletion.py {"valid": true, "score": 96.106048, "detail": {"split": "train", "reference_cpu_s": 6.3583, "candidate_cpu_s": 0.066159, "runs": 3, "pairs": [866, 545]}}
+1793133771 c26_minidx.py {"valid": true, "score": 82.778448, "detail": {"split": "train", "reference_cpu_s": 6.2475, "candidate_cpu_s": 0.075472, "runs": 3, "pairs": [866, 545]}}
+1793133879 c25_min8.py {"valid": true, "score": 91.180392, "detail": {"split": "train", "reference_cpu_s": 1.3364, "candidate_cpu_s": 0.014657, "runs": 3, "pairs": [866, 545]}}
+1793134031 final.py {"valid": true, "score": 85.557912, "detail": {"split": "train", "reference_cpu_s": 5.6074, "candidate_cpu_s": 0.065539, "runs": 3, "pairs": [866, 545]}}
+1793134066 c21_deletion.py {"valid": true, "score": 93.815449, "detail": {"split": "train", "reference_cpu_s": 6.0752, "candidate_cpu_s": 0.064757, "runs": 3, "pairs": [866, 545]}}
+1793134087 final.py {"valid": true, "score": 93.278533, "detail": {"split": "train", "reference_cpu_s": 6.092, "candidate_cpu_s": 0.06531, "runs": 3, "pairs": [866, 545]}}

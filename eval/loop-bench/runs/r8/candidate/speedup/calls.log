@@ -1,0 +1,8 @@
+1793174688 c1_prefix.py {"valid": true, "score": 29.739145, "detail": {"split": "train", "reference_cpu_s": 0.4507, "candidate_cpu_s": 0.015154, "runs": 3}}
+1793174884 c6_dictkey_vec.py {"valid": true, "score": 36.523219, "detail": {"split": "train", "reference_cpu_s": 0.4507, "candidate_cpu_s": 0.012339, "runs": 3}}
+1793175025 c9_partial_loop.py {"valid": true, "score": 41.168178, "detail": {"split": "train", "reference_cpu_s": 2.1649, "candidate_cpu_s": 0.052587, "runs": 3}}
+1793175122 c11_hints.py {"valid": true, "score": 42.831112, "detail": {"split": "train", "reference_cpu_s": 2.1468, "candidate_cpu_s": 0.050122, "runs": 3}}
+1793175333 c15_keysessions.py {"valid": true, "score": 47.864243, "detail": {"split": "train", "reference_cpu_s": 1.9684, "candidate_cpu_s": 0.041125, "runs": 3}}
+1793175629 c18_mapcols.py {"valid": true, "score": 159.792172, "detail": {"split": "train", "reference_cpu_s": 1.976, "candidate_cpu_s": 0.012366, "runs": 3}}
+1793175713 c15_keysessions.py {"valid": true, "score": 47.967103, "detail": {"split": "train", "reference_cpu_s": 2.2528, "candidate_cpu_s": 0.046965, "runs": 3}}
+1793175722 c18_mapcols.py {"valid": true, "score": 48.2865, "detail": {"split": "train", "reference_cpu_s": 2.2308, "candidate_cpu_s": 0.046199, "runs": 3}}

@@ -1,0 +1,3 @@
+1793186519 c1_bisect.py {"valid": true, "score": 28.382659, "detail": {"split": "train", "reference_cpu_s": 2.1317, "candidate_cpu_s": 0.075106, "runs": 3}}
+1793186607 c6_tight.py {"valid": true, "score": 58.162376, "detail": {"split": "train", "reference_cpu_s": 2.0897, "candidate_cpu_s": 0.035929, "runs": 3}}
+1793186700 final.py {"valid": true, "score": 75.907179, "detail": {"split": "train", "reference_cpu_s": 2.1581, "candidate_cpu_s": 0.028431, "runs": 3}}

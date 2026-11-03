@@ -1,0 +1,2 @@
+1793237709 final.py {"valid": true, "score": 30.418173, "detail": {"split": "train", "reference_cpu_s": 0.4492, "candidate_cpu_s": 0.014769, "runs": 3}}
+1793237719 final2.py {"valid": true, "score": 27.736545, "detail": {"split": "train", "reference_cpu_s": 0.4514, "candidate_cpu_s": 0.016276, "runs": 3}}

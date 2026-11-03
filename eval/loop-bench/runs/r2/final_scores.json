@@ -1,0 +1,83 @@
+{
+ "tsp": {
+  "baseline_test": -1.0,
+  "iter_train": -0.777389,
+  "iter_test": -0.796682,
+  "iter_calls": 2,
+  "evolve_train": -0.77773,
+  "evolve_test": -0.796742,
+  "evolve_calls": 6
+ },
+ "schedule": {
+  "baseline_test": -1.0,
+  "iter_train": -0.285774,
+  "iter_test": -0.254099,
+  "iter_calls": 4,
+  "evolve_train": -0.294932,
+  "evolve_test": -0.261998,
+  "evolve_calls": 6
+ },
+ "coloring": {
+  "baseline_test": -1.0,
+  "iter_train": -0.669331,
+  "iter_test": -0.716888,
+  "iter_calls": 4,
+  "evolve_train": -0.673429,
+  "evolve_test": -0.719007,
+  "evolve_calls": 5
+ },
+ "knapsack": {
+  "baseline_test": 1.0,
+  "iter_train": 1.00961,
+  "iter_test": 1.026948,
+  "iter_calls": 3,
+  "evolve_train": 1.009655,
+  "evolve_test": 1.027037,
+  "evolve_calls": 6
+ },
+ "binpack": {
+  "baseline_test": -1.03554,
+  "iter_train": -1.012962,
+  "iter_test": -1.010495,
+  "iter_calls": 6,
+  "evolve_train": -1.014144,
+  "evolve_test": -1.011234,
+  "evolve_calls": 6
+ },
+ "cache": {
+  "baseline_test": 0.363728,
+  "iter_train": 0.577439,
+  "iter_test": 0.561533,
+  "iter_calls": 12,
+  "evolve_train": 0.581794,
+  "evolve_test": 0.567983,
+  "evolve_calls": 16
+ },
+ "speedup": {
+  "baseline_test": 1.001885,
+  "iter_train": 53.82201,
+  "iter_test": 53.794144,
+  "iter_calls": 2,
+  "evolve_train": 57.203724,
+  "evolve_test": 56.697104,
+  "evolve_calls": 6
+ },
+ "regex": {
+  "baseline_test": 0.6505,
+  "iter_train": 0.918,
+  "iter_test": 0.918,
+  "iter_calls": 1,
+  "evolve_train": 0.936,
+  "evolve_test": 0.9285,
+  "evolve_calls": 3
+ },
+ "dedup": {
+  "baseline_test": 0.999205,
+  "iter_train": 76.95077,
+  "iter_test": 77.631355,
+  "iter_calls": 3,
+  "evolve_train": 92.226471,
+  "evolve_test": 93.183833,
+  "evolve_calls": 9
+ }
+}

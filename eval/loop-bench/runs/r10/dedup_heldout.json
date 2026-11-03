@@ -1,0 +1,81 @@
+{
+ "task": "dedup",
+ "seed": "anti-skill-heldout-r2",
+ "reps": 5,
+ "finals": {
+  "v25a": "runs/r10/candidate/dedup/final.py",
+  "v25b": "runs/r10/candidate2/dedup/final.py",
+  "v24a": "runs/r9/candidate/dedup/final.py",
+  "v2a": "runs/r2/evolve/dedup/final.py",
+  "v2b": "runs/r5/evolve2rep/dedup/final.py",
+  "plain": "runs/r2/iter/dedup/final.py"
+ },
+ "results": {
+  "v25a": {
+   "runs": [
+    81.98663,
+    88.231763,
+    87.621965,
+    85.275053,
+    87.506812
+   ],
+   "median": 87.506812,
+   "invalid": 0
+  },
+  "v25b": {
+   "runs": [
+    69.342035,
+    71.114451,
+    70.256116,
+    70.531749,
+    68.466592
+   ],
+   "median": 70.256116,
+   "invalid": 0
+  },
+  "v24a": {
+   "runs": [
+    88.733117,
+    86.617528,
+    85.344083,
+    86.668481,
+    88.707085
+   ],
+   "median": 86.668481,
+   "invalid": 0
+  },
+  "v2a": {
+   "runs": [
+    94.139352,
+    93.56203,
+    94.967638,
+    89.867619,
+    91.636235
+   ],
+   "median": 93.56203,
+   "invalid": 0
+  },
+  "v2b": {
+   "runs": [
+    95.67011,
+    87.229578,
+    95.924261,
+    96.09134,
+    92.062792
+   ],
+   "median": 95.67011,
+   "invalid": 0
+  },
+  "plain": {
+   "runs": [
+    78.681496,
+    78.212295,
+    78.431206,
+    79.328928,
+    78.630169
+   ],
+   "median": 78.630169,
+   "invalid": 0
+  }
+ }
+}

@@ -1,0 +1,6 @@
+{"note": "Wall time and subagent tokens of the run-2 agents, from the harness completion notices. The laptop was overloaded early in run 2, so the first-wave times are inflated.",
+ "evolve": {"tsp": [1770, 125935], "schedule": [1862, 137415], "coloring": [2630, 135997], "knapsack": [1739, 123096],
+            "speedup": [461, 103218], "regex": [418, 107891], "binpack": [596, 123670], "cache": [1134, 154084], "dedup": [1516, 200949]},
+ "iter":   {"tsp": [1598, 107755], "schedule": [1658, 129078], "coloring": [1704, 159093], "knapsack": [470, 81545],
+            "speedup": [111, 70955], "regex": [66, 70404], "binpack": [805, 118803], "cache": [604, 115658], "dedup": [336, 91355]},
+ "units": "[seconds, tokens]"}

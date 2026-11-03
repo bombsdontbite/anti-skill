@@ -1,0 +1,7 @@
+1793129098 c1_prefix.py {"valid": true, "score": 65.659968, "detail": {"split": "train", "reference_cpu_s": 6.2475, "candidate_cpu_s": 0.09515, "runs": 3, "pairs": [866, 545]}}
+1793129811 c2_prefix_opt.py {"valid": true, "score": 81.233278, "detail": {"split": "train", "reference_cpu_s": 6.1987, "candidate_cpu_s": 0.076308, "runs": 3, "pairs": [866, 545]}}
+1793129857 c7_prefix_uniq2.py {"valid": true, "score": 73.700069, "detail": {"split": "train", "reference_cpu_s": 5.5374, "candidate_cpu_s": 0.075134, "runs": 3, "pairs": [866, 545]}}
+1793130329 c11_nogc.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 3: import gc is not allowed"]}}
+1793130522 c14_uniq_rank.py {"valid": true, "score": 73.889098, "detail": {"split": "train", "reference_cpu_s": 6.3681, "candidate_cpu_s": 0.086184, "runs": 3, "pairs": [866, 545]}}
+1793130549 c2_prefix_opt.py {"valid": true, "score": 88.903217, "detail": {"split": "train", "reference_cpu_s": 5.822, "candidate_cpu_s": 0.065487, "runs": 3, "pairs": [866, 545]}}
+1793130724 final.py {"valid": true, "score": 78.387793, "detail": {"split": "train", "reference_cpu_s": 6.2546, "candidate_cpu_s": 0.07979, "runs": 3, "pairs": [866, 545]}}

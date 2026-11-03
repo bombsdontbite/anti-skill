@@ -1,0 +1,37 @@
+{
+  "train": {
+    "valid": true,
+    "score": 0.998062,
+    "repeat_score": 0.978709,
+    "agree": true,
+    "wall_s": 39.72,
+    "detail": {
+      "split": "train",
+      "reference_cpu_s": 6.043,
+      "candidate_cpu_s": 6.054727,
+      "runs": 3,
+      "pairs": [
+        866,
+        545
+      ]
+    }
+  },
+  "test": {
+    "valid": true,
+    "score": 1.000371,
+    "repeat_score": 1.028205,
+    "agree": true,
+    "wall_s": 40.9,
+    "detail": {
+      "split": "test",
+      "reference_cpu_s": 5.9409,
+      "candidate_cpu_s": 5.938725,
+      "runs": 3,
+      "pairs": [
+        864,
+        525
+      ]
+    }
+  },
+  "note": "score is a CPU-time ratio; repeats agree within 0.05"
+}

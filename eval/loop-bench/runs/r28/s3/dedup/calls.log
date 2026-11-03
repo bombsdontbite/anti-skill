@@ -1,0 +1,10 @@
+1793590646 c1.py {"valid": true, "score": 69.032403, "detail": {"split": "train", "reference_cpu_s": 1.323, "candidate_cpu_s": 0.019165, "runs": 3, "pairs": [866, 545]}}
+1793590725 c3.py {"valid": true, "score": 83.577981, "detail": {"split": "train", "reference_cpu_s": 1.3247, "candidate_cpu_s": 0.01585, "runs": 3, "pairs": [866, 545]}}
+1793590729 c1.py {"valid": true, "score": 69.854758, "detail": {"split": "train", "reference_cpu_s": 1.3265, "candidate_cpu_s": 0.018989, "runs": 3, "pairs": [866, 545]}}
+1793590801 c5.py {"valid": true, "score": 82.655205, "detail": {"split": "train", "reference_cpu_s": 1.3245, "candidate_cpu_s": 0.016024, "runs": 3, "pairs": [866, 545]}}
+1793590806 c7.py {"valid": true, "score": 80.83806, "detail": {"split": "train", "reference_cpu_s": 1.3483, "candidate_cpu_s": 0.016679, "runs": 3, "pairs": [866, 545]}}
+1793590832 c8.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from _collections import is not allowed", "line 1: importing _count_elements is not allowed"]}}
+1793590836 c9.py {"valid": true, "score": 80.721119, "detail": {"split": "train", "reference_cpu_s": 1.3248, "candidate_cpu_s": 0.016412, "runs": 3, "pairs": [866, 545]}}
+1793590886 c10.py {"valid": true, "score": 86.345665, "detail": {"split": "train", "reference_cpu_s": 1.3257, "candidate_cpu_s": 0.015353, "runs": 3, "pairs": [866, 545]}}
+1793590937 c11.py {"valid": true, "score": 87.179879, "detail": {"split": "train", "reference_cpu_s": 1.3241, "candidate_cpu_s": 0.015188, "runs": 3, "pairs": [866, 545]}}
+1793590985 final.py {"valid": true, "score": 86.622868, "detail": {"split": "train", "reference_cpu_s": 1.3258, "candidate_cpu_s": 0.015305, "runs": 3, "pairs": [866, 545]}}

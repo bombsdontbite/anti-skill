@@ -1,0 +1,10 @@
+1793583258 c1.py {"valid": true, "score": 70.823925, "detail": {"split": "train", "reference_cpu_s": 1.3073, "candidate_cpu_s": 0.018458, "runs": 3, "pairs": [866, 545]}}
+1793583267 candidate_baseline.py {"valid": true, "score": 0.995267, "detail": {"split": "train", "reference_cpu_s": 1.3234, "candidate_cpu_s": 1.329658, "runs": 3, "pairs": [866, 545]}}
+1793583363 c6.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: from _collections import is not allowed", "line 1: importing _count_elements is not allowed"]}}
+1793583370 c7.py {"valid": true, "score": 78.355281, "detail": {"split": "train", "reference_cpu_s": 1.3138, "candidate_cpu_s": 0.016767, "runs": 3, "pairs": [866, 545]}}
+1793583467 c10.py {"valid": true, "score": 80.995759, "detail": {"split": "train", "reference_cpu_s": 1.3177, "candidate_cpu_s": 0.016269, "runs": 3, "pairs": [866, 545]}}
+1793583519 final.py {"valid": true, "score": 81.556185, "detail": {"split": "train", "reference_cpu_s": 1.31, "candidate_cpu_s": 0.016063, "runs": 3, "pairs": [866, 545]}}
+1793583570 c13.py {"valid": true, "score": 83.842268, "detail": {"split": "train", "reference_cpu_s": 1.3246, "candidate_cpu_s": 0.015799, "runs": 3, "pairs": [866, 545]}}
+1793583640 c15.py {"valid": true, "score": 82.087863, "detail": {"split": "train", "reference_cpu_s": 1.3108, "candidate_cpu_s": 0.015968, "runs": 3, "pairs": [866, 545]}}
+1793583649 c13.py {"valid": true, "score": 83.588578, "detail": {"split": "train", "reference_cpu_s": 1.3188, "candidate_cpu_s": 0.015777, "runs": 3, "pairs": [866, 545]}}
+1793583653 c15.py {"valid": true, "score": 83.90239, "detail": {"split": "train", "reference_cpu_s": 1.3272, "candidate_cpu_s": 0.015818, "runs": 3, "pairs": [866, 545]}}

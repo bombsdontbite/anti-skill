@@ -1,0 +1,31 @@
+{
+  "train": {
+    "valid": true,
+    "score": 0.6405,
+    "repeat_score": 0.6405,
+    "agree": true,
+    "wall_s": 0.07,
+    "detail": {
+      "split": "train",
+      "accuracy": 0.6575,
+      "pattern_length": 17,
+      "positives_matched": "100/200",
+      "negatives_rejected": "163/200"
+    }
+  },
+  "test": {
+    "valid": true,
+    "score": 0.6375,
+    "repeat_score": 0.6375,
+    "agree": true,
+    "wall_s": 0.07,
+    "detail": {
+      "split": "test",
+      "accuracy": 0.6545,
+      "pattern_length": 17,
+      "positives_matched": "493/1000",
+      "negatives_rejected": "816/1000"
+    }
+  },
+  "note": "deterministic: repeat runs are identical"
+}

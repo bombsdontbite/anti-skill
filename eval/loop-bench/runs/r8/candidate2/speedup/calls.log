@@ -1,0 +1,7 @@
+1793179502 c1_bisect.py {"valid": true, "score": 40.034914, "detail": {"split": "train", "reference_cpu_s": 2.1523, "candidate_cpu_s": 0.053761, "runs": 3}}
+1793179658 c4_cmaps.py {"valid": true, "score": 51.297475, "detail": {"split": "train", "reference_cpu_s": 2.0967, "candidate_cpu_s": 0.040874, "runs": 3}}
+1793179666 c3_bucket.py {"valid": true, "score": 40.512339, "detail": {"split": "train", "reference_cpu_s": 2.1604, "candidate_cpu_s": 0.053328, "runs": 3}}
+1793179752 c7_getters.py {"valid": true, "score": 52.329712, "detail": {"split": "train", "reference_cpu_s": 2.1483, "candidate_cpu_s": 0.041054, "runs": 3}}
+1793179816 c10_lc.py {"valid": true, "score": 52.284244, "detail": {"split": "train", "reference_cpu_s": 2.078, "candidate_cpu_s": 0.039744, "runs": 3}}
+1793179858 c13_resort.py {"valid": true, "score": 56.744932, "detail": {"split": "train", "reference_cpu_s": 2.0854, "candidate_cpu_s": 0.036751, "runs": 3}}
+1793179910 c15_bsort.py {"valid": true, "score": 55.918593, "detail": {"split": "train", "reference_cpu_s": 2.1383, "candidate_cpu_s": 0.03824, "runs": 3}}

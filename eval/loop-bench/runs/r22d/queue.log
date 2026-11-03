@@ -1,0 +1,5 @@
+10:21:52 start j1/speedup on claude-opus-5-5 ({ 2.43 2.26 2.23 })
+10:27:00 done j1/speedup exit=0 final=yes
+10:27:00 start j2/speedup on claude-opus-5-5 ({ 2.08 2.00 2.10 })
+10:31:07 done j2/speedup exit=0 final=yes
+10:31:07 queue finished

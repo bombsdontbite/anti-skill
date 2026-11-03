@@ -1,0 +1,50 @@
+# Checks that need no model: skills, profile-first's scripts and secrets, and the loop-bench scorers.
+# Agent evaluations (a skill against plain Claude Code) cost tokens and hours and stay manual.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  skills-and-secrets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # gitleaks scans history
+      - name: Skills have valid frontmatter and links
+        run: python3 scripts/check_skills.py
+      - name: profile-first's scripts keep their guarantees
+        run: python3 scripts/test_profile_first.py
+      - name: Scan for secrets (gitleaks)
+        run: ./scripts/ci-secret-scan.sh
+
+  scorers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: loop-bench scorers fail closed
+        run: python3 eval/loop-bench/test_scorers.py
+      - name: profile-first scorer and scripted profilers
+        run: |
+          python3 -B eval/profile-first-bench/test_score_answers.py
+          python3 -B eval/profile-first-bench/test_measurers.py
+      - name: profile-first stubs print what the programs print (tiny inputs)
+        run: python3 -B eval/profile-first-bench/smoke.py
+      - name: The arms queue's progress reader parses its logs
+        run: python3 eval/arms/test_progress.py
+      - name: The loop-bench queue runner starts each entry once, JOBS at a time (fake claude)
+        run: |
+          command -v zsh >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq zsh; }
+          python3 eval/loop-bench/test_run_queue.py

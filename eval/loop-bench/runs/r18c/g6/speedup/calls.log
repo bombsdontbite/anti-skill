@@ -1,0 +1,6 @@
+1793250720 c1.py {"valid": true, "score": 36.59499, "detail": {"split": "train", "reference_cpu_s": 0.4455, "candidate_cpu_s": 0.012175, "runs": 3}}
+1793250888 c4.py {"valid": true, "score": 41.545702, "detail": {"split": "train", "reference_cpu_s": 0.4418, "candidate_cpu_s": 0.010634, "runs": 3}}
+1793250890 c3.py {"valid": true, "score": 45.360949, "detail": {"split": "train", "reference_cpu_s": 0.4495, "candidate_cpu_s": 0.00991, "runs": 3}}
+1793250948 c9.py {"valid": true, "score": 47.952463, "detail": {"split": "train", "reference_cpu_s": 0.4479, "candidate_cpu_s": 0.00934, "runs": 3}}
+1793250988 c10.py {"valid": true, "score": 51.289528, "detail": {"split": "train", "reference_cpu_s": 0.4477, "candidate_cpu_s": 0.008728, "runs": 3}}
+1793250989 c9.py {"valid": true, "score": 48.254936, "detail": {"split": "train", "reference_cpu_s": 0.4497, "candidate_cpu_s": 0.00932, "runs": 3}}

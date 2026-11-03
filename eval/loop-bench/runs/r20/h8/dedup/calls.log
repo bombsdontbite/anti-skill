@@ -1,0 +1,9 @@
+1793255680 cand1.py {"valid": true, "score": 70.205373, "detail": {"split": "train", "reference_cpu_s": 1.3171, "candidate_cpu_s": 0.018761, "runs": 3, "pairs": [866, 545]}}
+1793255818 cand3.py {"valid": true, "score": 72.151639, "detail": {"split": "train", "reference_cpu_s": 1.3228, "candidate_cpu_s": 0.018333, "runs": 3, "pairs": [866, 545]}}
+1793255992 cand8.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 2: from _collections import is not allowed", "line 2: importing _count_elements is not allowed", "line 3: from _operator import is not allowed"]}}
+1793256055 cand9.py {"valid": true, "score": 84.062436, "detail": {"split": "train", "reference_cpu_s": 1.3235, "candidate_cpu_s": 0.015744, "runs": 3, "pairs": [866, 545]}}
+1793256167 cand11.py {"valid": true, "score": 84.485452, "detail": {"split": "train", "reference_cpu_s": 1.3241, "candidate_cpu_s": 0.015672, "runs": 3, "pairs": [866, 545]}}
+1793256172 cand12.py {"valid": true, "score": 86.538165, "detail": {"split": "train", "reference_cpu_s": 1.3253, "candidate_cpu_s": 0.015315, "runs": 3, "pairs": [866, 545]}}
+1793256263 cand12.py {"valid": true, "score": 87.925607, "detail": {"split": "train", "reference_cpu_s": 1.3155, "candidate_cpu_s": 0.014961, "runs": 3, "pairs": [866, 545]}}
+1793256288 cand14.py {"valid": false, "score": -1000000000.0, "detail": {"error": "static check failed", "problems": ["line 1: import gc is not allowed"]}}
+1793256335 cand15.py {"valid": true, "score": 87.856251, "detail": {"split": "train", "reference_cpu_s": 1.3226, "candidate_cpu_s": 0.015054, "runs": 3, "pairs": [866, 545]}}

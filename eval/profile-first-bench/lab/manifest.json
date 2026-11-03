@@ -1,0 +1,309 @@
+{
+  "design": {"hot_min": 0.5, "decoy_max": 0.05, "run_secs": [0.5, 3.0], "clock_gap_max": 0.05,
+             "busy_load_per_core": 1.0},
+  "tasks": {
+    "t01": {
+      "kind": "import-time",
+      "entry": "app.py", "args": ["queries.txt"],
+      "gen": [], "gen_tiny": ["--queries", "200"],
+      "components": {
+        "spelling_import": {"role": "hot",
+          "where": [{"file": "spelling.py"}, {"file": "app.py", "text": "import spelling"}],
+          "keywords": ["spelling.py", "import spelling", "_build_variants", "_edits1", "variants", "import time", "import-time", "startup", "start-up", "module load", "vocab"]},
+        "confusion_cube": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "confusion_cube"}],
+          "keywords": ["confusion_cube", "cube", "triple"]},
+        "correct_queries": {"role": "other",
+          "where": [{"file": "app.py", "func": "correct_queries"}, {"file": "spelling.py", "func": "correct"}],
+          "keywords": ["correct_queries", "spelling.correct"]}
+      }
+    },
+    "t02": {
+      "kind": "serialisation",
+      "entry": "app.py", "args": ["orders.csv"],
+      "gen": [], "gen_tiny": ["--orders", "300"],
+      "components": {
+        "write_report": {"role": "hot",
+          "where": [{"file": "app.py", "func": "write_report"}, {"file": "app.py", "func": "_encode"}],
+          "keywords": ["write_report", "json.dump", "json", "serialis", "serializ", "_encode", "encod", "indent"]},
+        "parse_duration": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "parse_duration"}],
+          "keywords": ["parse_duration", "duration"]},
+        "load_orders": {"role": "other",
+          "where": [{"file": "app.py", "func": "load_orders"}],
+          "keywords": ["load_orders", "dictreader", "csv"]}
+      }
+    },
+    "t03": {
+      "kind": "allocation",
+      "entry": "app.py", "args": ["events.jsonl"],
+      "gen": [], "gen_tiny": ["--events", "400"],
+      "components": {
+        "snapshot": {"role": "hot",
+          "where": [{"file": "app.py", "func": "snapshot"}],
+          "keywords": ["snapshot", "deepcopy", "deep copy", "copy.deepcopy", "audit trail"]},
+        "classify": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "classify"}, {"file": "app.py", "text": "EVENT_TYPE = re.compile"}],
+          "keywords": ["classify", "event_type", "regex", "re.match", ".match"]},
+        "load_events": {"role": "other",
+          "where": [{"file": "app.py", "func": "load_events"}],
+          "keywords": ["load_events", "json.loads", "json"]}
+      }
+    },
+    "t04": {
+      "kind": "hidden-quadratic",
+      "entry": "app.py", "args": ["posts.jsonl"],
+      "gen": [], "gen_tiny": ["--posts", "300"],
+      "components": {
+        "unique_in_order": {"role": "hot",
+          "where": [{"file": "app.py", "func": "unique_in_order"}],
+          "keywords": ["unique_in_order", "not in seen", "seen list", "list membership"]},
+        "similarity_matrix": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "similarity_matrix"}],
+          "keywords": ["similarity_matrix", "similarity", "jaccard", "matrix", "nested loop"]},
+        "normalise_tags": {"role": "other",
+          "where": [{"file": "app.py", "func": "normalise_tags"}],
+          "keywords": ["normalise_tags", "normalize"]}
+      }
+    },
+    "t05": {
+      "kind": "input-size-trap",
+      "entry": "app.py", "args": ["shipments.csv"],
+      "gen": ["--rows", "40000"], "gen_tiny": ["--rows", "200"],
+      "toy": {"args": ["fixtures/sample.csv"]},
+      "components": {
+        "match_deliveries": {"role": "hot",
+          "where": [{"file": "app.py", "func": "match_deliveries"}],
+          "keywords": ["match_deliveries", "open_refs", ".index", "index(", "del open"]},
+        "build_rate_grid": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "build_rate_grid"}],
+          "keywords": ["build_rate_grid", "rate grid", "rate_grid", "grid"]},
+        "load_rows": {"role": "other",
+          "where": [{"file": "app.py", "func": "load_rows"}],
+          "keywords": ["load_rows", "csv"]}
+      }
+    },
+    "t06": {
+      "kind": "logging",
+      "entry": "app.py", "args": ["transactions.csv"],
+      "gen": [], "gen_tiny": ["--txns", "300"],
+      "components": {
+        "logging": {"role": "hot",
+          "where": [{"file": "app.py", "func": "setup_logging"}, {"file": "app.py", "text": "log.debug("}],
+          "keywords": ["logging", "log.debug", "debug log", "engine.log", "basicconfig", "filehandler", "streamhandler", "log_level", "logger"]},
+        "make_key": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "make_key"}],
+          "keywords": ["make_key", "f-string", "fstring", "key format"]},
+        "apply_rules": {"role": "other",
+          "where": [{"file": "app.py", "func": "apply_rules"}, {"file": "app.py", "text": "lambda t, h"}],
+          "keywords": ["apply_rules", "rules", "lambda"]}
+      }
+    },
+    "t07": {
+      "kind": "regex-dynamic-compile",
+      "entry": "app.py", "args": ["customers.csv", "tickets.txt"],
+      "gen": [], "gen_tiny": ["--customers", "100", "--tickets", "200"],
+      "components": {
+        "mentions": {"role": "hot",
+          "where": [{"file": "app.py", "func": "mentions"}],
+          "keywords": ["mentions", "re.search", "re.escape", "dynamic pattern", "regex cache", "re cache", "_compile", "sre_compile", "_compiler"]},
+        "parse_ticket": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "parse_ticket"}],
+          "keywords": ["parse_ticket", "re.compile"]},
+        "load_customers": {"role": "other",
+          "where": [{"file": "app.py", "func": "load_customers"}],
+          "keywords": ["load_customers", "customers.csv"]}
+      }
+    },
+    "t08": {
+      "kind": "io-wait", "clock": "wall",
+      "entry": "app.py", "args": ["readings.csv"],
+      "gen": [], "gen_tiny": ["--rows", "300"],
+      "components": {
+        "save_batch": {"role": "hot",
+          "where": [{"file": "app.py", "func": "save_batch"}],
+          "keywords": ["save_batch", "commit", "fsync", "sqlite", "batch", "journal", "disk", "i/o", "executemany"]},
+        "luhn_ok": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "luhn_ok"}],
+          "keywords": ["luhn", "checksum", "check digit"]},
+        "parse_rows": {"role": "other",
+          "where": [{"file": "app.py", "func": "parse_rows"}],
+          "keywords": ["parse_rows", "csv"]}
+      }
+    },
+    "t09": {
+      "kind": "profiler-distortion",
+      "entry": "app.py", "args": ["capture.bin"],
+      "gen": [], "gen_tiny": ["--samples", "20000"],
+      "components": {
+        "pack": {"role": "hot",
+          "where": [{"file": "app.py", "func": "pack"}],
+          "keywords": ["pack", "lzma", "compress", "xz", "preset"]},
+        "normalise_all": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "normalise_all"}, {"file": "app.py", "func": "clamp"}],
+          "keywords": ["normalise_all", "normalize_all", "clamp"]},
+        "histogram": {"role": "other",
+          "where": [{"file": "app.py", "func": "histogram"}],
+          "keywords": ["histogram", "counter"]}
+      }
+    },
+    "t10": {
+      "kind": "control",
+      "entry": "app.py", "args": ["listings.jsonl"],
+      "gen": [], "gen_tiny": ["--listings", "150"],
+      "components": {
+        "find_duplicates": {"role": "hot",
+          "where": [{"file": "app.py", "func": "find_duplicates"}],
+          "keywords": ["find_duplicates", "pairwise", "all pairs", "nested loop", "o(n^2)", "o(n²)", "jaccard"]},
+        "shingle_all": {"role": "other",
+          "where": [{"file": "app.py", "func": "shingle_all"}, {"file": "app.py", "func": "shingles"}],
+          "keywords": ["shingle"]},
+        "load_listings": {"role": "other",
+          "where": [{"file": "app.py", "func": "load_listings"}],
+          "keywords": ["load_listings", "json.loads"]}
+      }
+    },
+    "t11": {
+      "kind": "lazy-iterator", "tier": "hard",
+      "entry": "app.py", "args": ["mailbox.txt"],
+      "gen": [], "gen_tiny": ["--messages", "300"],
+      "components": {
+        "addresses": {"role": "hot",
+          "where": [{"file": "app.py", "func": "addresses"}, {"file": "app.py", "text": "ADDRESS = re.compile"}],
+          "keywords": ["addresses", "finditer", "address regex", "address pattern", "regex scan", "backtrack"]},
+        "domain_counts": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "domain_counts"}],
+          "keywords": ["domain_counts", "counter"]},
+        "lookalikes": {"role": "other",
+          "where": [{"file": "app.py", "func": "lookalikes"}],
+          "keywords": ["lookalike", "confusable"]},
+        "read_mailbox": {"role": "other",
+          "where": [{"file": "app.py", "func": "read_mailbox"}],
+          "keywords": ["read_mailbox"]}
+      }
+    },
+    "t12": {
+      "kind": "gc-retention", "tier": "hard",
+      "entry": "app.py", "args": ["events.tsv"],
+      "gen": [], "gen_tiny": ["--sessions", "60"],
+      "components": {
+        "audit_trail": {"role": "hot",
+          "where": [{"file": "app.py", "func": "add"}, {"file": "app.py", "func": "__init__"}],
+          "keywords": ["audittrail", "audit trail", "audit", "trail", "retain", "retention", "garbage", "gc", "collector", "entries"]},
+        "price_basket": {"role": "other",
+          "where": [{"file": "app.py", "func": "price_basket"}],
+          "keywords": ["price_basket"]},
+        "tier_names": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "tier_names"}],
+          "keywords": ["tier_names"]},
+        "load_events": {"role": "other",
+          "where": [{"file": "app.py", "func": "load_events"}],
+          "keywords": ["load_events"]}
+      }
+    },
+    "t13": {
+      "kind": "exit-handler", "tier": "hard",
+      "entry": "app.py", "args": ["addresses.txt"],
+      "gen": [], "gen_tiny": ["--addresses", "300", "--cached", "2000"],
+      "components": {
+        "save_cache": {"role": "hot",
+          "where": [{"file": "app.py", "func": "save_cache"}, {"file": "app.py", "func": "encode_cache"},
+                    {"file": "app.py", "text": "atexit.register"}],
+          "keywords": ["save_cache", "encode_cache", "atexit", "at exit", "json.dumps", "geocache.next", "indent"]},
+        "street_hash": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "street_hash"}],
+          "keywords": ["street_hash", "fnv"]},
+        "load_cache": {"role": "other",
+          "where": [{"file": "app.py", "func": "load_cache"}],
+          "keywords": ["load_cache", "json.load", "raw_decode", "decoder"]}
+      }
+    },
+    "t14": {
+      "kind": "child-process", "tier": "hard",
+      "entry": "app.py", "args": ["articles.txt"],
+      "gen": [], "gen_tiny": ["--articles", "100"],
+      "components": {
+        "start_indexer": {"role": "hot",
+          "where": [{"file": "app.py", "func": "start_indexer"}, {"file": "indexer.py"}],
+          "keywords": ["start_indexer", "indexer", "popen", "subprocess", "child process", "tokens", "tokeniz"]},
+        "read_postings": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "read_postings"}],
+          "keywords": ["read_postings", "communicate", "postings"]},
+        "edit_pairs": {"role": "other",
+          "where": [{"file": "app.py", "func": "edit_pairs"}],
+          "keywords": ["edit_pairs", "synonym"]},
+        "load_titles": {"role": "other",
+          "where": [{"file": "app.py", "func": "load_titles"}],
+          "keywords": ["load_titles", "titles"]}
+      }
+    },
+    "t15": {
+      "kind": "profiler-overhead", "tier": "hard",
+      "entry": "app.py", "args": ["page.raw"],
+      "gen": [], "gen_tiny": ["--width", "200", "--height", "200"],
+      "components": {
+        "pack": {"role": "hot",
+          "where": [{"file": "app.py", "func": "pack"}],
+          "keywords": ["pack", "bz2", "bzip", "compress"]},
+        "coverage": {"role": "other",
+          "where": [{"file": "app.py", "func": "coverage"}, {"file": "app.py", "func": "ink"}],
+          "keywords": ["coverage", "ink"]},
+        "contrast_table": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "contrast_table"}],
+          "keywords": ["contrast_table", "gamma"]},
+        "load_scan": {"role": "other",
+          "where": [{"file": "app.py", "func": "load_scan"}],
+          "keywords": ["load_scan"]}
+      }
+    },
+    "t16": {
+      "kind": "input-shape-trap", "tier": "hard",
+      "entry": "app.py", "args": ["payments.csv"],
+      "gen": ["--merchants", "20"], "gen_tiny": ["--rows", "300", "--merchants", "100"],
+      "toy": {"gen": [], "args": ["payments.csv"], "top": "load_rows"},
+      "components": {
+        "drop_resends": {"role": "hot",
+          "where": [{"file": "app.py", "func": "drop_resends"}],
+          "keywords": ["drop_resends", "resend", "duplicate", "dedup", "in ids", "seen list", "list membership"]},
+        "settlement_day": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "settlement_day"}],
+          "keywords": ["settlement_day", "holiday", "business day"]},
+        "load_rows": {"role": "other",
+          "where": [{"file": "app.py", "func": "load_rows"}],
+          "keywords": ["load_rows", "csv", "fromisoformat"]}
+      }
+    },
+    "t17": {
+      "kind": "spread-cost", "tier": "hard",
+      "entry": "app.py", "args": ["articles.md"],
+      "gen": [], "gen_tiny": ["--articles", "60"],
+      "components": {
+        "markup": {"role": "hot",
+          "where": [{"file": "markup.py"}, {"file": "app.py", "text": "markup."}],
+          "keywords": ["markup", "render", "html", "escape", "typography", "emphasis", "links", "tickets", "abbreviations", "glossary", "wrap", "block_kind"]},
+        "reading_stats": {"role": "other",
+          "where": [{"file": "app.py", "func": "reading_stats"}],
+          "keywords": ["reading_stats", "word count", "reading time"]},
+        "slug_table": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "slug_table"}],
+          "keywords": ["slug_table", "slug"]}
+      }
+    },
+    "t18": {
+      "kind": "control-hard", "tier": "hard",
+      "entry": "app.py", "args": ["timesheets.csv"],
+      "gen": [], "gen_tiny": ["--people", "4"],
+      "components": {
+        "find_overlaps": {"role": "hot",
+          "where": [{"file": "app.py", "func": "find_overlaps"}],
+          "keywords": ["find_overlaps", "overlap", "pairwise", "nested loop", "all pairs"]},
+        "open_sheet": {"role": "other",
+          "where": [{"file": "app.py", "func": "open_sheet"}],
+          "keywords": ["open_sheet", "csv"]},
+        "rota_grid": {"role": "decoy",
+          "where": [{"file": "app.py", "func": "rota_grid"}],
+          "keywords": ["rota_grid", "rota", "grid"]}
+      }
+    }
+  }
+}
